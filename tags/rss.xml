@@ -26,7 +26,7 @@
 
 
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         
             
@@ -36,7 +36,17 @@
             
 
             
-                <link href="https://mikemg-pl.github.io/tags/" rel="self" type="text/html"/>
+                <link href="http://localhost:1313/tags/atom.xml" rel="self" type="application/atom+xml"/>
+            
+        
+            
+
+            
+                
+            
+
+            
+                <link href="http://localhost:1313/tags/" rel="alternate" type="text/html"/>
             
         
             
@@ -44,28 +54,34 @@
             
 
             
-                <link href="https://mikemg-pl.github.io/tags/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:1313/tags/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
         
 
         
-
-        <description>Recent content</description>
-
-        
-            <language>en-us</language>
+            <copyright>© Michał Galiński, Will Faught (Paige Blog Theme)</copyright>
         
 
-        
+        <description>Browse by tag.</description>
 
-        <link>https://mikemg-pl.github.io/tags/</link>
+        
+            <language>en</language>
+        
 
         
 
-        <title>Tags · Mike Galinski Gamedev Blog</title>
+        <link>http://localhost:1313/tags/</link>
 
+        
+            <managingEditor>example@example.com (John Doe)</managingEditor>
+        
+
+        <title>Tags · Paige</title>
+
+        
+            <webMaster>example@example.com (John Doe)</webMaster>
         
 
         
