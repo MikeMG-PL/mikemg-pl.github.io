@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:1313/authors/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/authors/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -46,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/authors/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/authors/" rel="alternate" type="text/html"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/authors/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/authors/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,13 +72,13 @@
 
         
 
-        <link>http://localhost:1313/authors/</link>
+        <link>https://mikemg-pl.github.io/authors/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Authors · Paige</title>
+        <title>Authors · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>

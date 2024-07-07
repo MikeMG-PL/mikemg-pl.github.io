@@ -46,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/code/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/code/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -56,7 +56,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/code/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/tags/code/" rel="alternate" type="text/html"/>
             
         
             
@@ -64,7 +64,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/code/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/code/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -84,13 +84,13 @@
             <lastBuildDate>2023-09-18 21:34:51 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/code/</link>
+        <link>https://mikemg-pl.github.io/tags/code/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Code · Tags · Paige</title>
+        <title>Code · Tags · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>
@@ -362,10 +362,10 @@
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/shortcodes/code/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</guid>
 
                 
-                    <link>http://localhost:1313/shortcodes/code/</link>
+                    <link>https://mikemg-pl.github.io/shortcodes/code/</link>
                 
 
                 

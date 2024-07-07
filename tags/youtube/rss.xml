@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/youtube/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/youtube/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/youtube/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/tags/youtube/" rel="alternate" type="text/html"/>
             
         
             
@@ -62,7 +62,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/youtube/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/youtube/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -82,13 +82,13 @@
             <lastBuildDate>2023-09-18 21:35:40 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/youtube/</link>
+        <link>https://mikemg-pl.github.io/tags/youtube/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Youtube · Tags · Paige</title>
+        <title>Youtube · Tags · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>

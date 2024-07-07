@@ -51,21 +51,11 @@
     
 
     
-        <icon>http://localhost:1313/</icon>
+        <icon>https://mikemg-pl.github.io/</icon>
     
 
-    <id>tag:localhost:1313,2023-09-18:/tags/css/atom.xml</id>
+    <id>tag:mikemg-pl.github.io,2023-09-18:/tags/css/atom.xml</id>
 
-    
-        
-
-        
-            
-        
-
-        
-            <link href="http://localhost:1313/tags/css/atom.xml" rel="self" type="application/atom+xml"/>
-        
     
         
 
@@ -74,7 +64,17 @@
         
 
         
-            <link href="http://localhost:1313/tags/css/" rel="alternate" type="text/html"/>
+            <link href="https://mikemg-pl.github.io/tags/css/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://mikemg-pl.github.io/tags/css/" rel="alternate" type="text/html"/>
         
     
         
@@ -82,14 +82,14 @@
         
 
         
-            <link href="http://localhost:1313/tags/css/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://mikemg-pl.github.io/tags/css/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
     
 
     
-        <logo>http://localhost:1313/</logo>
+        <logo>https://mikemg-pl.github.io/</logo>
     
 
     
@@ -98,7 +98,7 @@
 
     
 
-    <title type="html"><![CDATA[Css · Tags · Paige]]></title>
+    <title type="html"><![CDATA[Css · Tags · Mike Galinski Blog]]></title>
     <updated>2024-06-03T21:21:05-07:00</updated>
 
     
@@ -299,7 +299,7 @@ SOFTWARE.
 </div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/content/markdown-syntax/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/content/markdown-syntax/</id>
 
             
                 
@@ -307,7 +307,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="http://localhost:1313/content/markdown-syntax/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/content/markdown-syntax/" rel="alternate" type="text/html"/>
                 
             
 

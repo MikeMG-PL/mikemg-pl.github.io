@@ -44,7 +44,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/email/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/email/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/email/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/tags/email/" rel="alternate" type="text/html"/>
             
         
             
@@ -62,7 +62,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/email/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/email/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -82,13 +82,13 @@
             <lastBuildDate>2023-09-18 21:34:58 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/email/</link>
+        <link>https://mikemg-pl.github.io/tags/email/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Email · Tags · Paige</title>
+        <title>Email · Tags · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>

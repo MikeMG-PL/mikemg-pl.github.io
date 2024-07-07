@@ -46,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/quotations/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/quotations/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -56,7 +56,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/quotations/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/tags/quotations/" rel="alternate" type="text/html"/>
             
         
             
@@ -64,7 +64,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/quotations/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/quotations/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -84,13 +84,13 @@
             <lastBuildDate>2023-09-18 21:35:28 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/quotations/</link>
+        <link>https://mikemg-pl.github.io/tags/quotations/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Quotations · Tags · Paige</title>
+        <title>Quotations · Tags · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>
@@ -248,10 +248,10 @@ Hickory dickory dock.</blockquote>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/shortcodes/quote/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</guid>
 
                 
-                    <link>http://localhost:1313/shortcodes/quote/</link>
+                    <link>https://mikemg-pl.github.io/shortcodes/quote/</link>
                 
 
                 

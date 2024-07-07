@@ -50,7 +50,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/markdown/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/markdown/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -60,7 +60,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/markdown/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/tags/markdown/" rel="alternate" type="text/html"/>
             
         
             
@@ -68,7 +68,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/markdown/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/markdown/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -88,13 +88,13 @@
             <lastBuildDate>2023-09-18 21:33:16 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/markdown/</link>
+        <link>https://mikemg-pl.github.io/tags/markdown/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Markdown · Tags · Paige</title>
+        <title>Markdown · Tags · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>
@@ -174,7 +174,7 @@ SOFTWARE.
 <h3 id="blockquote-with-attribution">Blockquote with attribution</h3>
 <blockquote>
 <p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br>
-— <cite>Rob Pike<sup id="fnref:1"><a href="http://localhost:1313/content/markdown-syntax/#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="https://mikemg-pl.github.io/content/markdown-syntax/#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
 </blockquote>
 <h2 id="tables">Tables</h2>
 <p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
@@ -287,16 +287,16 @@ SOFTWARE.
 <hr>
 <ol>
 <li id="fn:1">
-<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="http://localhost:1313/content/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="https://mikemg-pl.github.io/content/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/content/markdown-syntax/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/content/markdown-syntax/</guid>
 
                 
-                    <link>http://localhost:1313/content/markdown-syntax/</link>
+                    <link>https://mikemg-pl.github.io/content/markdown-syntax/</link>
                 
 
                 

@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:1313/categories/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/categories/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -46,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/categories/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/categories/" rel="alternate" type="text/html"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/categories/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/categories/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,13 +72,13 @@
 
         
 
-        <link>http://localhost:1313/categories/</link>
+        <link>https://mikemg-pl.github.io/categories/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Categories · Paige</title>
+        <title>Categories · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>

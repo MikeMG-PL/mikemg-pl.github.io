@@ -71,21 +71,11 @@
     
 
     
-        <icon>http://localhost:1313/</icon>
+        <icon>https://mikemg-pl.github.io/</icon>
     
 
-    <id>tag:localhost:1313,2023-09-18:/categories/shortcodes/atom.xml</id>
+    <id>tag:mikemg-pl.github.io,2023-09-18:/categories/shortcodes/atom.xml</id>
 
-    
-        
-
-        
-            
-        
-
-        
-            <link href="http://localhost:1313/categories/shortcodes/atom.xml" rel="self" type="application/atom+xml"/>
-        
     
         
 
@@ -94,7 +84,17 @@
         
 
         
-            <link href="http://localhost:1313/categories/shortcodes/" rel="alternate" type="text/html"/>
+            <link href="https://mikemg-pl.github.io/categories/shortcodes/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://mikemg-pl.github.io/categories/shortcodes/" rel="alternate" type="text/html"/>
         
     
         
@@ -102,14 +102,14 @@
         
 
         
-            <link href="http://localhost:1313/categories/shortcodes/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://mikemg-pl.github.io/categories/shortcodes/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
     
 
     
-        <logo>http://localhost:1313/</logo>
+        <logo>https://mikemg-pl.github.io/</logo>
     
 
     
@@ -118,7 +118,7 @@
 
     
 
-    <title type="html"><![CDATA[Shortcodes · Categories · Paige]]></title>
+    <title type="html"><![CDATA[Shortcodes · Categories · Mike Galinski Blog]]></title>
     <updated>2024-06-03T21:21:05-07:00</updated>
 
     
@@ -278,7 +278,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/shortcodes/quote/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</id>
 
             
                 
@@ -286,7 +286,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="http://localhost:1313/shortcodes/quote/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/shortcodes/quote/" rel="alternate" type="text/html"/>
                 
             
 
@@ -393,7 +393,7 @@ Hickory dickory dock.</blockquote>
 </p>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/shortcodes/icon/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/icon/</id>
 
             
                 
@@ -401,7 +401,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="http://localhost:1313/shortcodes/icon/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/shortcodes/icon/" rel="alternate" type="text/html"/>
                 
             
 
@@ -693,7 +693,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/shortcodes/code/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</id>
 
             
                 
@@ -701,7 +701,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="http://localhost:1313/shortcodes/code/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/shortcodes/code/" rel="alternate" type="text/html"/>
                 
             
 

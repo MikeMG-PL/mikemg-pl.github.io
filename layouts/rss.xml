@@ -52,7 +52,7 @@
             
 
             
-                <link href="http://localhost:1313/layouts/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/layouts/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -62,7 +62,7 @@
             
 
             
-                <link href="http://localhost:1313/layouts/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/layouts/" rel="alternate" type="text/html"/>
             
         
             
@@ -70,7 +70,7 @@
             
 
             
-                <link href="http://localhost:1313/layouts/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/layouts/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -88,7 +88,7 @@
 
         
 
-        <link>http://localhost:1313/layouts/</link>
+        <link>https://mikemg-pl.github.io/layouts/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>

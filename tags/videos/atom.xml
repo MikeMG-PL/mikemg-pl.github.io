@@ -51,21 +51,11 @@
     
 
     
-        <icon>http://localhost:1313/</icon>
+        <icon>https://mikemg-pl.github.io/</icon>
     
 
-    <id>tag:localhost:1313,2023-09-18:/tags/videos/atom.xml</id>
+    <id>tag:mikemg-pl.github.io,2023-09-18:/tags/videos/atom.xml</id>
 
-    
-        
-
-        
-            
-        
-
-        
-            <link href="http://localhost:1313/tags/videos/atom.xml" rel="self" type="application/atom+xml"/>
-        
     
         
 
@@ -74,7 +64,17 @@
         
 
         
-            <link href="http://localhost:1313/tags/videos/" rel="alternate" type="text/html"/>
+            <link href="https://mikemg-pl.github.io/tags/videos/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://mikemg-pl.github.io/tags/videos/" rel="alternate" type="text/html"/>
         
     
         
@@ -82,14 +82,14 @@
         
 
         
-            <link href="http://localhost:1313/tags/videos/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://mikemg-pl.github.io/tags/videos/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
     
 
     
-        <logo>http://localhost:1313/</logo>
+        <logo>https://mikemg-pl.github.io/</logo>
     
 
     
@@ -98,7 +98,7 @@
 
     
 
-    <title type="html"><![CDATA[Videos · Tags · Paige]]></title>
+    <title type="html"><![CDATA[Videos · Tags · Mike Galinski Blog]]></title>
     <updated>2024-06-03T21:21:05-07:00</updated>
 
     

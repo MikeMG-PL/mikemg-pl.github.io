@@ -36,7 +36,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -46,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/tags/" rel="alternate" type="text/html"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,13 +72,13 @@
 
         
 
-        <link>http://localhost:1313/tags/</link>
+        <link>https://mikemg-pl.github.io/tags/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Tags · Paige</title>
+        <title>Tags · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>

@@ -64,7 +64,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/figures/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/figures/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -74,7 +74,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/figures/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/tags/figures/" rel="alternate" type="text/html"/>
             
         
             
@@ -82,7 +82,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/figures/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/tags/figures/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -102,13 +102,13 @@
             <lastBuildDate>2023-09-18 21:35:28 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/figures/</link>
+        <link>https://mikemg-pl.github.io/tags/figures/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Figures · Tags · Paige</title>
+        <title>Figures · Tags · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>
@@ -266,10 +266,10 @@ Hickory dickory dock.</blockquote>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/shortcodes/quote/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</guid>
 
                 
-                    <link>http://localhost:1313/shortcodes/quote/</link>
+                    <link>https://mikemg-pl.github.io/shortcodes/quote/</link>
                 
 
                 
@@ -546,10 +546,10 @@ Hickory dickory dock.</blockquote>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/shortcodes/code/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</guid>
 
                 
-                    <link>http://localhost:1313/shortcodes/code/</link>
+                    <link>https://mikemg-pl.github.io/shortcodes/code/</link>
                 
 
                 

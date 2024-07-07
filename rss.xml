@@ -148,7 +148,7 @@
             
 
             
-                <link href="http://localhost:1313/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -158,7 +158,7 @@
             
 
             
-                <link href="http://localhost:1313/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/" rel="alternate" type="text/html"/>
             
         
             
@@ -166,7 +166,7 @@
             
 
             
-                <link href="http://localhost:1313/paige-search.json" rel="alternate" type="application/json"/>
+                <link href="https://mikemg-pl.github.io/paige-search.json" rel="alternate" type="application/json"/>
             
         
             
@@ -174,7 +174,7 @@
             
 
             
-                <link href="http://localhost:1313/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -194,7 +194,7 @@
             <lastBuildDate>2023-09-24 21:29:30 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/</link>
+        <link>https://mikemg-pl.github.io/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
@@ -242,10 +242,10 @@
 
                 
                     <description><![CDATA[<p>It takes you to the home page.</p>
-<p><a href="http://localhost:1313/content/link/" title="Link">⏎</a></p>]]></description>
+<p><a href="https://mikemg-pl.github.io/content/link/" title="Link">⏎</a></p>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-24:/content/link/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-24:/content/link/</guid>
 
                 
                     <link>https://willfaught.com/paige</link>
@@ -411,10 +411,10 @@ Hickory dickory dock.</blockquote>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/shortcodes/quote/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</guid>
 
                 
-                    <link>http://localhost:1313/shortcodes/quote/</link>
+                    <link>https://mikemg-pl.github.io/shortcodes/quote/</link>
                 
 
                 
@@ -506,10 +506,10 @@ Hickory dickory dock.</blockquote>
 </p>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/shortcodes/icon/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/icon/</guid>
 
                 
-                    <link>http://localhost:1313/shortcodes/icon/</link>
+                    <link>https://mikemg-pl.github.io/shortcodes/icon/</link>
                 
 
                 
@@ -786,10 +786,10 @@ Hickory dickory dock.</blockquote>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/shortcodes/code/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</guid>
 
                 
-                    <link>http://localhost:1313/shortcodes/code/</link>
+                    <link>https://mikemg-pl.github.io/shortcodes/code/</link>
                 
 
                 
@@ -878,10 +878,10 @@ $$
 $$</p>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/content/math-typesetting/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/content/math-typesetting/</guid>
 
                 
-                    <link>http://localhost:1313/content/math-typesetting/</link>
+                    <link>https://mikemg-pl.github.io/content/math-typesetting/</link>
                 
 
                 
@@ -966,7 +966,7 @@ SOFTWARE.
 <h3 id="blockquote-with-attribution">Blockquote with attribution</h3>
 <blockquote>
 <p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<br>
-— <cite>Rob Pike<sup id="fnref:1"><a href="http://localhost:1313/content/markdown-syntax/#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="https://mikemg-pl.github.io/content/markdown-syntax/#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
 </blockquote>
 <h2 id="tables">Tables</h2>
 <p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
@@ -1079,16 +1079,16 @@ SOFTWARE.
 <hr>
 <ol>
 <li id="fn:1">
-<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="http://localhost:1313/content/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="https://mikemg-pl.github.io/content/markdown-syntax/#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/content/markdown-syntax/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/content/markdown-syntax/</guid>
 
                 
-                    <link>http://localhost:1313/content/markdown-syntax/</link>
+                    <link>https://mikemg-pl.github.io/content/markdown-syntax/</link>
                 
 
                 
@@ -1164,10 +1164,10 @@ SOFTWARE.
 </span></span><span class="line"><span class="cl">}</span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/content/emoji-support/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/content/emoji-support/</guid>
 
                 
-                    <link>http://localhost:1313/content/emoji-support/</link>
+                    <link>https://mikemg-pl.github.io/content/emoji-support/</link>
                 
 
                 
@@ -1216,10 +1216,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/content/alert/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/content/alert/</guid>
 
                 
-                    <link>http://localhost:1313/content/alert/</link>
+                    <link>https://mikemg-pl.github.io/content/alert/</link>
                 
 
                 
@@ -1287,10 +1287,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/customization/show/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/customization/show/</guid>
 
                 
-                    <link>http://localhost:1313/customization/show/</link>
+                    <link>https://mikemg-pl.github.io/customization/show/</link>
                 
 
                 
@@ -1375,10 +1375,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/customization/style/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/customization/style/</guid>
 
                 
-                    <link>http://localhost:1313/customization/style/</link>
+                    <link>https://mikemg-pl.github.io/customization/style/</link>
                 
 
                 

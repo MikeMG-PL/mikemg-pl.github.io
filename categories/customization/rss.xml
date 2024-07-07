@@ -52,7 +52,7 @@
             
 
             
-                <link href="http://localhost:1313/categories/customization/atom.xml" rel="self" type="application/atom+xml"/>
+                <link href="https://mikemg-pl.github.io/categories/customization/atom.xml" rel="self" type="application/atom+xml"/>
             
         
             
@@ -62,7 +62,7 @@
             
 
             
-                <link href="http://localhost:1313/categories/customization/" rel="alternate" type="text/html"/>
+                <link href="https://mikemg-pl.github.io/categories/customization/" rel="alternate" type="text/html"/>
             
         
             
@@ -70,7 +70,7 @@
             
 
             
-                <link href="http://localhost:1313/categories/customization/rss.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikemg-pl.github.io/categories/customization/rss.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -90,13 +90,13 @@
             <lastBuildDate>2023-09-18 21:21:05 -0700 -0700</lastBuildDate>
         
 
-        <link>http://localhost:1313/categories/customization/</link>
+        <link>https://mikemg-pl.github.io/categories/customization/</link>
 
         
             <managingEditor>example@example.com (John Doe)</managingEditor>
         
 
-        <title>Customization · Categories · Paige</title>
+        <title>Customization · Categories · Mike Galinski Blog</title>
 
         
             <webMaster>example@example.com (John Doe)</webMaster>
@@ -159,10 +159,10 @@
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/customization/show/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/customization/show/</guid>
 
                 
-                    <link>http://localhost:1313/customization/show/</link>
+                    <link>https://mikemg-pl.github.io/customization/show/</link>
                 
 
                 
@@ -247,10 +247,10 @@
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2023-09-18:/customization/style/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/customization/style/</guid>
 
                 
-                    <link>http://localhost:1313/customization/style/</link>
+                    <link>https://mikemg-pl.github.io/customization/style/</link>
                 
 
                 

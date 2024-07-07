@@ -109,21 +109,11 @@
     
 
     
-        <icon>http://localhost:1313/</icon>
+        <icon>https://mikemg-pl.github.io/</icon>
     
 
-    <id>tag:localhost:1313,2024-06-03:/atom.xml</id>
+    <id>tag:mikemg-pl.github.io,2024-06-03:/atom.xml</id>
 
-    
-        
-
-        
-            
-        
-
-        
-            <link href="http://localhost:1313/atom.xml" rel="self" type="application/atom+xml"/>
-        
     
         
 
@@ -132,7 +122,17 @@
         
 
         
-            <link href="http://localhost:1313/" rel="alternate" type="text/html"/>
+            <link href="https://mikemg-pl.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="https://mikemg-pl.github.io/" rel="alternate" type="text/html"/>
         
     
         
@@ -140,7 +140,7 @@
         
 
         
-            <link href="http://localhost:1313/paige-search.json" rel="alternate" type="application/json"/>
+            <link href="https://mikemg-pl.github.io/paige-search.json" rel="alternate" type="application/json"/>
         
     
         
@@ -148,14 +148,14 @@
         
 
         
-            <link href="http://localhost:1313/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="https://mikemg-pl.github.io/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
     
 
     
-        <logo>http://localhost:1313/</logo>
+        <logo>https://mikemg-pl.github.io/</logo>
     
 
     
@@ -208,10 +208,10 @@
 
             
                 <content type="html"><![CDATA[<p>It takes you to the home page.</p>
-<p><a href="http://localhost:1313/content/link/" title="Link">⏎</a></p>]]></content>
+<p><a href="https://mikemg-pl.github.io/content/link/" title="Link">⏎</a></p>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-24:/content/link/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-24:/content/link/</id>
 
             
                 
@@ -397,7 +397,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/shortcodes/quote/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</id>
 
             
                 
@@ -405,7 +405,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="http://localhost:1313/shortcodes/quote/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/shortcodes/quote/" rel="alternate" type="text/html"/>
                 
             
 
@@ -512,7 +512,7 @@ Hickory dickory dock.</blockquote>
 </p>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/shortcodes/icon/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/icon/</id>
 
             
                 
@@ -520,7 +520,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="http://localhost:1313/shortcodes/icon/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/shortcodes/icon/" rel="alternate" type="text/html"/>
                 
             
 
@@ -812,7 +812,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/shortcodes/code/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</id>
 
             
                 
@@ -820,7 +820,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="http://localhost:1313/shortcodes/code/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/shortcodes/code/" rel="alternate" type="text/html"/>
                 
             
 
@@ -924,7 +924,7 @@ $$
 $$</p>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/content/math-typesetting/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/content/math-typesetting/</id>
 
             
                 
@@ -932,7 +932,7 @@ $$</p>]]></content>
                 
                     
 
-                    <link href="http://localhost:1313/content/math-typesetting/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/content/math-typesetting/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1151,7 +1151,7 @@ SOFTWARE.
 </div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/content/markdown-syntax/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/content/markdown-syntax/</id>
 
             
                 
@@ -1159,7 +1159,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="http://localhost:1313/content/markdown-syntax/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/content/markdown-syntax/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1250,7 +1250,7 @@ SOFTWARE.
 </span></span><span class="line"><span class="cl">}</span></span></code></pre></div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/content/emoji-support/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/content/emoji-support/</id>
 
             
                 
@@ -1258,7 +1258,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="http://localhost:1313/content/emoji-support/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/content/emoji-support/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1322,7 +1322,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/content/alert/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/content/alert/</id>
 
             
                 
@@ -1330,7 +1330,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="http://localhost:1313/content/alert/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/content/alert/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1413,7 +1413,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/customization/show/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/customization/show/</id>
 
             
                 
@@ -1421,7 +1421,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="http://localhost:1313/customization/show/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/customization/show/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1521,7 +1521,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:localhost:1313,2023-09-18:/customization/style/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/customization/style/</id>
 
             
                 
@@ -1529,7 +1529,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="http://localhost:1313/customization/style/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/customization/style/" rel="alternate" type="text/html"/>
                 
             
 
