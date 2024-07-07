@@ -53,21 +53,11 @@
     
 
     
-        <icon>https://mikemg-pl.github.io/</icon>
+        <icon>http://localhost:1313/</icon>
     
 
-    <id>tag:mikemg-pl.github.io,2023-09-18:/customization/atom.xml</id>
+    <id>tag:localhost:1313,2023-09-18:/customization/atom.xml</id>
 
-    
-        
-
-        
-            
-        
-
-        
-            <link href="https://mikemg-pl.github.io/customization/atom.xml" rel="self" type="application/atom+xml"/>
-        
     
         
 
@@ -76,7 +66,17 @@
         
 
         
-            <link href="https://mikemg-pl.github.io/customization/" rel="alternate" type="text/html"/>
+            <link href="http://localhost:1313/customization/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="http://localhost:1313/customization/" rel="alternate" type="text/html"/>
         
     
         
@@ -84,14 +84,14 @@
         
 
         
-            <link href="https://mikemg-pl.github.io/customization/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="http://localhost:1313/customization/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
     
 
     
-        <logo>https://mikemg-pl.github.io/</logo>
+        <logo>http://localhost:1313/</logo>
     
 
     
@@ -103,7 +103,7 @@
     
 
     <title type="html"><![CDATA[Customization · Mike Galinski Blog]]></title>
-    <updated>2024-06-03T21:21:05-07:00</updated>
+    <updated>2024-07-07T13:19:55+02:00</updated>
 
     
         <entry>
@@ -130,8 +130,6 @@
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -167,7 +165,7 @@
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/customization/show/</id>
+            <id>tag:localhost:1313,2023-09-18:/customization/show/</id>
 
             
                 
@@ -175,7 +173,7 @@
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/customization/show/" rel="alternate" type="text/html"/>
+                    <link href="http://localhost:1313/customization/show/" rel="alternate" type="text/html"/>
                 
             
 
@@ -221,8 +219,6 @@
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -275,7 +271,7 @@
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/customization/style/</id>
+            <id>tag:localhost:1313,2023-09-18:/customization/style/</id>
 
             
                 
@@ -283,7 +279,7 @@
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/customization/style/" rel="alternate" type="text/html"/>
+                    <link href="http://localhost:1313/customization/style/" rel="alternate" type="text/html"/>
                 
             
 

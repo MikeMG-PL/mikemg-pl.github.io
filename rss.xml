@@ -23,6 +23,12 @@
     
 
     
+        
+    
+
+    
+
+    
 
     
 
@@ -191,7 +197,7 @@
         
 
         
-            <lastBuildDate>2023-09-24 21:29:30 -0700 -0700</lastBuildDate>
+            <lastBuildDate>2024-07-07 13:19:55 +0200 CEST</lastBuildDate>
         
 
         <link>https://mikemg-pl.github.io/</link>
@@ -206,6 +212,50 @@
             <webMaster>example@example.com (John Doe)</webMaster>
         
 
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>This is some content.</p>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2024-07-07:/posts/test_post/</guid>
+
+                
+                    <link>https://mikemg-pl.github.io/posts/test_post/</link>
+                
+
+                
+                    <pubDate>Sun, 07 Jul 2024 13:19:55 CEST</pubDate>
+                
+
+                
+                    <title>TEST</title>
+                
+            </item>
         
             <item>
                 
@@ -411,10 +461,10 @@ Hickory dickory dock.</blockquote>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/production/quote/</guid>
 
                 
-                    <link>https://mikemg-pl.github.io/shortcodes/quote/</link>
+                    <link>https://mikemg-pl.github.io/production/quote/</link>
                 
 
                 
@@ -506,10 +556,10 @@ Hickory dickory dock.</blockquote>
 </p>]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/icon/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/production/icon/</guid>
 
                 
-                    <link>https://mikemg-pl.github.io/shortcodes/icon/</link>
+                    <link>https://mikemg-pl.github.io/production/icon/</link>
                 
 
                 
@@ -786,10 +836,10 @@ Hickory dickory dock.</blockquote>
 </div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/production/code/</guid>
 
                 
-                    <link>https://mikemg-pl.github.io/shortcodes/code/</link>
+                    <link>https://mikemg-pl.github.io/production/code/</link>
                 
 
                 
@@ -1287,10 +1337,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/customization/show/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/programming/show/</guid>
 
                 
-                    <link>https://mikemg-pl.github.io/customization/show/</link>
+                    <link>https://mikemg-pl.github.io/programming/show/</link>
                 
 
                 
@@ -1375,10 +1425,10 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/customization/style/</guid>
+                <guid isPermaLink="false">tag:mikemg-pl.github.io,2023-09-18:/programming/style/</guid>
 
                 
-                    <link>https://mikemg-pl.github.io/customization/style/</link>
+                    <link>https://mikemg-pl.github.io/programming/style/</link>
                 
 
                 

@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="https://mikemg-pl.github.io/author/author-demo/atom.xml" rel="self" type="application/atom+xml"/>
+            
+        
+            
+
+            
+                
+            
+
+            
+                <link href="https://mikemg-pl.github.io/author/author-demo/" rel="alternate" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="https://mikemg-pl.github.io/author/author-demo/rss.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+            <copyright>© Michał Galiński, Will Faught (Paige Blog Theme)</copyright>
+        
+
+        <description>Demonstration of an author.</description>
+
+        
+            <language>en</language>
+        
+
+        
+
+        <link>https://mikemg-pl.github.io/author/author-demo/</link>
+
+        
+            <managingEditor>example@example.com (John Doe)</managingEditor>
+        
+
+        <title>Author Demo · Authors · Mike Galinski Blog</title>
+
+        
+            <webMaster>example@example.com (John Doe)</webMaster>
+        
+
+        
+    </channel>
+</rss>

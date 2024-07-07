@@ -18,6 +18,10 @@
     
 
     
+        
+    
+
+    
 
     
 
@@ -112,7 +116,7 @@
         <icon>https://mikemg-pl.github.io/</icon>
     
 
-    <id>tag:mikemg-pl.github.io,2024-06-03:/atom.xml</id>
+    <id>tag:mikemg-pl.github.io,2024-07-07:/atom.xml</id>
 
     
         
@@ -165,8 +169,62 @@
     
 
     <title type="html"><![CDATA[Mike Galinski Blog]]></title>
-    <updated>2024-06-03T21:21:05-07:00</updated>
+    <updated>2024-07-07T13:19:55+02:00</updated>
 
+    
+        <entry>
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+                <content type="html"><![CDATA[<p>This is some content.</p>
+]]></content>
+            
+
+            <id>tag:mikemg-pl.github.io,2024-07-07:/posts/test_post/</id>
+
+            
+                
+
+                
+                    
+
+                    <link href="https://mikemg-pl.github.io/posts/test_post/" rel="alternate" type="text/html"/>
+                
+            
+
+            
+
+            
+                <published>2024-07-07T13:19:55+02:00</published>
+            
+
+            
+                <rights type="html"><![CDATA[© Michał Galiński, Will Faught (Paige Blog Theme)]]></rights>
+            
+
+            
+
+            <title type="html"><![CDATA[TEST]]></title>
+            <updated>2024-07-07T13:19:55+02:00</updated>
+        </entry>
     
         <entry>
             
@@ -197,8 +255,6 @@
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -265,8 +321,6 @@
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -397,7 +451,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/production/quote/</id>
 
             
                 
@@ -405,7 +459,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/shortcodes/quote/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/production/quote/" rel="alternate" type="text/html"/>
                 
             
 
@@ -451,8 +505,6 @@ Hickory dickory dock.</blockquote>
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -512,7 +564,7 @@ Hickory dickory dock.</blockquote>
 </p>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/icon/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/production/icon/</id>
 
             
                 
@@ -520,7 +572,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/shortcodes/icon/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/production/icon/" rel="alternate" type="text/html"/>
                 
             
 
@@ -566,8 +618,6 @@ Hickory dickory dock.</blockquote>
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -812,7 +862,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/production/code/</id>
 
             
                 
@@ -820,7 +870,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/shortcodes/code/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/production/code/" rel="alternate" type="text/html"/>
                 
             
 
@@ -866,8 +916,6 @@ Hickory dickory dock.</blockquote>
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -978,8 +1026,6 @@ $$</p>]]></content>
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -1206,8 +1252,6 @@ SOFTWARE.
                         
 
                         
-                            <name>Author Demo</name>
-                        
 
                         
                     </author>
@@ -1305,8 +1349,6 @@ SOFTWARE.
                         
 
                         
-                            <name>Author Demo</name>
-                        
 
                         
                     </author>
@@ -1377,8 +1419,6 @@ SOFTWARE.
                         
 
                         
-                            <name>Author Demo</name>
-                        
 
                         
                     </author>
@@ -1413,7 +1453,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/customization/show/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/programming/show/</id>
 
             
                 
@@ -1421,7 +1461,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/customization/show/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/programming/show/" rel="alternate" type="text/html"/>
                 
             
 
@@ -1467,8 +1507,6 @@ SOFTWARE.
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -1521,7 +1559,7 @@ SOFTWARE.
 </span></span></span></code></pre></div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/customization/style/</id>
+            <id>tag:mikemg-pl.github.io,2023-09-18:/programming/style/</id>
 
             
                 
@@ -1529,7 +1567,7 @@ SOFTWARE.
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/customization/style/" rel="alternate" type="text/html"/>
+                    <link href="https://mikemg-pl.github.io/programming/style/" rel="alternate" type="text/html"/>
                 
             
 

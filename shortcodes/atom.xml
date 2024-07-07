@@ -69,21 +69,11 @@
     
 
     
-        <icon>https://mikemg-pl.github.io/</icon>
+        <icon>http://localhost:1313/</icon>
     
 
-    <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/atom.xml</id>
+    <id>tag:localhost:1313,2023-09-18:/shortcodes/atom.xml</id>
 
-    
-        
-
-        
-            
-        
-
-        
-            <link href="https://mikemg-pl.github.io/shortcodes/atom.xml" rel="self" type="application/atom+xml"/>
-        
     
         
 
@@ -92,7 +82,17 @@
         
 
         
-            <link href="https://mikemg-pl.github.io/shortcodes/" rel="alternate" type="text/html"/>
+            <link href="http://localhost:1313/shortcodes/atom.xml" rel="self" type="application/atom+xml"/>
+        
+    
+        
+
+        
+            
+        
+
+        
+            <link href="http://localhost:1313/shortcodes/" rel="alternate" type="text/html"/>
         
     
         
@@ -100,14 +100,14 @@
         
 
         
-            <link href="https://mikemg-pl.github.io/shortcodes/rss.xml" rel="alternate" type="application/rss+xml"/>
+            <link href="http://localhost:1313/shortcodes/rss.xml" rel="alternate" type="application/rss+xml"/>
         
     
 
     
 
     
-        <logo>https://mikemg-pl.github.io/</logo>
+        <logo>http://localhost:1313/</logo>
     
 
     
@@ -119,7 +119,7 @@
     
 
     <title type="html"><![CDATA[Shortcodes · Mike Galinski Blog]]></title>
-    <updated>2024-06-03T21:21:05-07:00</updated>
+    <updated>2024-07-07T13:19:55+02:00</updated>
 
     
         <entry>
@@ -146,8 +146,6 @@
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -278,7 +276,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/quote/</id>
+            <id>tag:localhost:1313,2023-09-18:/shortcodes/quote/</id>
 
             
                 
@@ -286,7 +284,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/shortcodes/quote/" rel="alternate" type="text/html"/>
+                    <link href="http://localhost:1313/shortcodes/quote/" rel="alternate" type="text/html"/>
                 
             
 
@@ -332,8 +330,6 @@ Hickory dickory dock.</blockquote>
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -393,7 +389,7 @@ Hickory dickory dock.</blockquote>
 </p>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/icon/</id>
+            <id>tag:localhost:1313,2023-09-18:/shortcodes/icon/</id>
 
             
                 
@@ -401,7 +397,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/shortcodes/icon/" rel="alternate" type="text/html"/>
+                    <link href="http://localhost:1313/shortcodes/icon/" rel="alternate" type="text/html"/>
                 
             
 
@@ -447,8 +443,6 @@ Hickory dickory dock.</blockquote>
                     <author>
                         
 
-                        
-                            <name>Author Demo</name>
                         
 
                         
@@ -693,7 +687,7 @@ Hickory dickory dock.</blockquote>
 </div>]]></content>
             
 
-            <id>tag:mikemg-pl.github.io,2023-09-18:/shortcodes/code/</id>
+            <id>tag:localhost:1313,2023-09-18:/shortcodes/code/</id>
 
             
                 
@@ -701,7 +695,7 @@ Hickory dickory dock.</blockquote>
                 
                     
 
-                    <link href="https://mikemg-pl.github.io/shortcodes/code/" rel="alternate" type="text/html"/>
+                    <link href="http://localhost:1313/shortcodes/code/" rel="alternate" type="text/html"/>
                 
             
 

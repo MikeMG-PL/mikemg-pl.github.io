@@ -5,7 +5,7 @@
     <loc>https://mikemg-pl.github.io/content/markdown-syntax/</loc>
     <lastmod>2023-09-18T21:32:52-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/customization/style/</loc>
+    <loc>https://mikemg-pl.github.io/programming/style/</loc>
     <lastmod>2023-09-18T20:21:05-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/layouts/cloud/</loc>
@@ -14,7 +14,7 @@
     <loc>https://mikemg-pl.github.io/content/rich-content/</loc>
     <lastmod>2023-09-18T21:33:24-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/customization/show/</loc>
+    <loc>https://mikemg-pl.github.io/programming/show/</loc>
     <lastmod>2023-09-18T21:21:05-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/layouts/search/</loc>
@@ -34,6 +34,15 @@
     <loc>https://mikemg-pl.github.io/content/link/</loc>
     <lastmod>2023-09-24T21:29:30-07:00</lastmod>
   </url><url>
+    <loc>https://mikemg-pl.github.io/</loc>
+    <lastmod>2024-07-07T13:19:55+02:00</lastmod>
+  </url><url>
+    <loc>https://mikemg-pl.github.io/posts/</loc>
+    <lastmod>2024-07-07T13:19:55+02:00</lastmod>
+  </url><url>
+    <loc>https://mikemg-pl.github.io/posts/test_post/</loc>
+    <lastmod>2024-07-07T13:19:55+02:00</lastmod>
+  </url><url>
     <loc>https://mikemg-pl.github.io/authors/author-demo/</loc>
     <lastmod>2024-06-03T21:21:05-07:00</lastmod>
   </url><url>
@@ -50,9 +59,6 @@
     <lastmod>2024-06-03T21:21:05-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/layouts/</loc>
-    <lastmod>2024-06-03T21:21:05-07:00</lastmod>
-  </url><url>
-    <loc>https://mikemg-pl.github.io/</loc>
     <lastmod>2024-06-03T21:21:05-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/categories/paige/</loc>
@@ -73,7 +79,7 @@
     <loc>https://mikemg-pl.github.io/categories/shortcodes/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/</loc>
+    <loc>https://mikemg-pl.github.io/production/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/videos/</loc>
@@ -82,13 +88,13 @@
     <loc>https://mikemg-pl.github.io/tags/youtube/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/youtube/</loc>
+    <loc>https://mikemg-pl.github.io/production/youtube/</loc>
     <lastmod>2023-09-18T21:35:40-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/vimeo/</loc>
     <lastmod>2023-09-18T21:35:34-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/vimeo/</loc>
+    <loc>https://mikemg-pl.github.io/production/vimeo/</loc>
     <lastmod>2023-09-18T21:35:34-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/figures/</loc>
@@ -97,10 +103,10 @@
     <loc>https://mikemg-pl.github.io/tags/quotations/</loc>
     <lastmod>2023-09-18T21:35:28-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/quote/</loc>
+    <loc>https://mikemg-pl.github.io/production/quote/</loc>
     <lastmod>2023-09-18T21:35:28-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/image/</loc>
+    <loc>https://mikemg-pl.github.io/production/image/</loc>
     <lastmod>2023-09-18T21:35:22-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/images/</loc>
@@ -109,31 +115,31 @@
     <loc>https://mikemg-pl.github.io/tags/icon/</loc>
     <lastmod>2023-09-18T21:35:15-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/icon/</loc>
+    <loc>https://mikemg-pl.github.io/production/icon/</loc>
     <lastmod>2023-09-18T21:35:15-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/web-font/</loc>
     <lastmod>2023-09-18T21:35:15-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/figure/</loc>
+    <loc>https://mikemg-pl.github.io/production/figure/</loc>
     <lastmod>2023-09-18T21:35:10-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/email/</loc>
     <lastmod>2023-09-18T21:34:58-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/email/</loc>
+    <loc>https://mikemg-pl.github.io/production/email/</loc>
     <lastmod>2023-09-18T21:34:58-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/code/</loc>
     <lastmod>2023-09-18T21:34:51-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/code/</loc>
+    <loc>https://mikemg-pl.github.io/production/code/</loc>
     <lastmod>2023-09-18T21:34:51-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/gallery/</loc>
     <lastmod>2023-09-18T21:34:01-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/shortcodes/gallery/</loc>
+    <loc>https://mikemg-pl.github.io/production/gallery/</loc>
     <lastmod>2023-09-18T21:34:01-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/privacy/</loc>
@@ -172,7 +178,7 @@
     <loc>https://mikemg-pl.github.io/categories/customization/</loc>
     <lastmod>2023-09-18T21:21:05-07:00</lastmod>
   </url><url>
-    <loc>https://mikemg-pl.github.io/customization/</loc>
+    <loc>https://mikemg-pl.github.io/programming/</loc>
     <lastmod>2023-09-18T21:21:05-07:00</lastmod>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/sections/</loc>
@@ -195,9 +201,17 @@
   </url><url>
     <loc>https://mikemg-pl.github.io/layouts/cloud/apple/</loc>
   </url><url>
+    <loc>https://mikemg-pl.github.io/author/author-demo/</loc>
+  </url><url>
+    <loc>https://mikemg-pl.github.io/author/</loc>
+  </url><url>
     <loc>https://mikemg-pl.github.io/layouts/cloud/banana/</loc>
   </url><url>
     <loc>https://mikemg-pl.github.io/layouts/cloud/cantaloupe/</loc>
+  </url><url>
+    <loc>https://mikemg-pl.github.io/portfolio/</loc>
+  </url><url>
+    <loc>https://mikemg-pl.github.io/portfolio/paige/</loc>
   </url><url>
     <loc>https://mikemg-pl.github.io/tags/search/</loc>
   </url><url>
