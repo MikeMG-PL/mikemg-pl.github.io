@@ -1,0 +1,193 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="//localhost:1313/tags/technology/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="//localhost:1313/tags/technology/index.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description></description>
+
+        
+            <language>en-us</language>
+        
+
+        
+            <lastBuildDate>2022-04-04 05:00:00 &#43;0000 UTC</lastBuildDate>
+        
+
+        <link>//localhost:1313/tags/technology/</link>
+
+        
+
+        <title>Technology · Tags · </title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+<h2 id="creative-design">Creative Design</h2>
+<p>Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
+<blockquote>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2022-04-04:/blog/post-4/</guid>
+
+                
+                    <link>//localhost:1313/blog/post-4/</link>
+                
+
+                
+                    <pubDate>Mon, 04 Apr 2022 05:00:00 UTC</pubDate>
+                
+
+                
+                    <title>How to build an Application with modern Technology</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<p>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+<h2 id="creative-design">Creative Design</h2>
+<p>Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
+<blockquote>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2022-04-04:/blog/post-2/</guid>
+
+                
+                    <link>//localhost:1313/blog/post-2/</link>
+                
+
+                
+                    <pubDate>Mon, 04 Apr 2022 05:00:00 UTC</pubDate>
+                
+
+                
+                    <title>How to build an Application with modern Technology</title>
+                
+            </item>
+        
+    </channel>
+</rss>

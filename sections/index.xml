@@ -1,0 +1,171 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="//localhost:1313/sections/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="//localhost:1313/sections/index.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description></description>
+
+        
+            <language>en-us</language>
+        
+
+        
+
+        <link>//localhost:1313/sections/</link>
+
+        
+
+        <title>Sections · </title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[Don&rsquo;t just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate.]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:</guid>
+
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>What Users Are Saying About Hugoplate</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility.]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:</guid>
+
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Ready to build your next project with Hugo?</title>
+                
+            </item>
+        
+    </channel>
+</rss>
