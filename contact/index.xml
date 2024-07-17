@@ -36,7 +36,7 @@
             
 
             
-                <link href="//localhost:1313/contact/" rel="self" type="text/html"/>
+                <link href="/contact/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="//localhost:1313/contact/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="/contact/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -60,7 +60,7 @@
 
         
 
-        <link>//localhost:1313/contact/</link>
+        <link>/contact/</link>
 
         
 

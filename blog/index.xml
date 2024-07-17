@@ -56,7 +56,7 @@
             
 
             
-                <link href="//localhost:1313/blog/" rel="self" type="text/html"/>
+                <link href="/blog/" rel="self" type="text/html"/>
             
         
             
@@ -64,7 +64,7 @@
             
 
             
-                <link href="//localhost:1313/blog/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="/blog/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -82,7 +82,7 @@
             <lastBuildDate>2022-04-04 05:00:00 &#43;0000 UTC</lastBuildDate>
         
 
-        <link>//localhost:1313/blog/</link>
+        <link>/blog/</link>
 
         
 
@@ -130,10 +130,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2022-04-04:/blog/post-2/</guid>
+                <guid isPermaLink="false">tag:,2022-04-04:/blog/post-2/</guid>
 
                 
-                    <link>//localhost:1313/blog/post-2/</link>
+                    <link>/blog/post-2/</link>
                 
 
                 
@@ -181,10 +181,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2022-04-04:/blog/post-1/</guid>
+                <guid isPermaLink="false">tag:,2022-04-04:/blog/post-1/</guid>
 
                 
-                    <link>//localhost:1313/blog/post-1/</link>
+                    <link>/blog/post-1/</link>
                 
 
                 
@@ -232,10 +232,10 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2022-04-04:/blog/post-3/</guid>
+                <guid isPermaLink="false">tag:,2022-04-04:/blog/post-3/</guid>
 
                 
-                    <link>//localhost:1313/blog/post-3/</link>
+                    <link>/blog/post-3/</link>
                 
 
                 

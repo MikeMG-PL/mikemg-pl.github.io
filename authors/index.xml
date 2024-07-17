@@ -54,7 +54,7 @@
             
 
             
-                <link href="//localhost:1313/authors/" rel="self" type="text/html"/>
+                <link href="/authors/" rel="self" type="text/html"/>
             
         
             
@@ -62,7 +62,7 @@
             
 
             
-                <link href="//localhost:1313/authors/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="/authors/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -78,7 +78,7 @@
 
         
 
-        <link>//localhost:1313/authors/</link>
+        <link>/authors/</link>
 
         
 
@@ -116,10 +116,10 @@
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/authors/william-jacob/</guid>
+                <guid isPermaLink="false">tag:,0001-01-01:/authors/william-jacob/</guid>
 
                 
-                    <link>//localhost:1313/authors/william-jacob/</link>
+                    <link>/authors/william-jacob/</link>
                 
 
                 
@@ -160,10 +160,10 @@
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/authors/sam-wilson/</guid>
+                <guid isPermaLink="false">tag:,0001-01-01:/authors/sam-wilson/</guid>
 
                 
-                    <link>//localhost:1313/authors/sam-wilson/</link>
+                    <link>/authors/sam-wilson/</link>
                 
 
                 
@@ -204,10 +204,10 @@
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/authors/john-doe/</guid>
+                <guid isPermaLink="false">tag:,0001-01-01:/authors/john-doe/</guid>
 
                 
-                    <link>//localhost:1313/authors/john-doe/</link>
+                    <link>/authors/john-doe/</link>
                 
 
                 

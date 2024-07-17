@@ -48,7 +48,7 @@
             
 
             
-                <link href="//localhost:1313/pages/" rel="self" type="text/html"/>
+                <link href="/pages/" rel="self" type="text/html"/>
             
         
             
@@ -56,7 +56,7 @@
             
 
             
-                <link href="//localhost:1313/pages/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="/pages/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,7 +72,7 @@
 
         
 
-        <link>//localhost:1313/pages/</link>
+        <link>/pages/</link>
 
         
 
@@ -125,10 +125,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros,
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/privacy-policy/</guid>
+                <guid isPermaLink="false">tag:,0001-01-01:/privacy-policy/</guid>
 
                 
-                    <link>//localhost:1313/privacy-policy/</link>
+                    <link>/privacy-policy/</link>
                 
 
                 
@@ -224,22 +224,564 @@ html {
   scroll-behavior: smooth; /* Enable smooth scrolling behavior */
 }
 
-.scroll-anchor {
-  position: sticky; /* Ensure proper positioning context */
-  display: block; /* Ensure block display */
-  margin-bottom: 20px; /* Optional: Adjust spacing between elements */
-}
-
 </style>
 <p><a id="top"></a></p>
 <h1 id="centerhere-are-some-selected-games-that-i-worked-oncenter"><center>Here are some selected games that I worked on.</center></h1>
 <br>
-<a href="#heartbreaker" class="grid-item" class="smooth-scroll">
+<div class="image-button">
+  <a href="#heartbreaker" class="grid-item" class="smooth-scroll">
     <figure class="figure">
-       <img src="images/games/heartbreaker.png" alt="Heartbreaker">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+      
+      
+        
+        
+          
+          
+            
+          
+      
+          
+      
+      
+          
+          
+      
+      
+          
+          
+          
+          
+            
+            
+          
+          
+          
+          
+      
+      
+          
+          
+            
+            
+      
+            
+              
+              
+            
+      
+      
+            
+      
+            
+            
+              
+              
+              
+            
+            
+            
+            
+      
+          
+          
+      
+          
+          
+            
+            
+                <img
+                  title="Heartbreaker"
+                  loading="lazy"
+                  decoding="async"
+                  class="img img-fluid "
+                  width="1920"
+                  height="1920"
+                  src="/images/games/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png"
+                  alt="alter-text"
+                  onerror="this.onerror='null';this.src='\/images\/games\/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png'" />
+            
+          
+      
+        
+        
+      
+      
+      
+      
+      
+      
+        <script>
+          window.addEventListener("load", (e) => {
+            const lightbox = GLightbox();
+          });
+        </script>
+      
+
       <figcaption class="figure-caption">Heartbreaker</figcaption>
     </figure>
   </a>
+  <a href="#heartbreaker" class="grid-item" class="smooth-scroll">
+    <figure class="figure">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+      
+      
+        
+        
+          
+          
+            
+          
+      
+          
+      
+      
+          
+          
+      
+      
+          
+          
+          
+          
+            
+            
+          
+          
+          
+          
+      
+      
+          
+          
+            
+            
+      
+            
+              
+              
+            
+      
+      
+            
+      
+            
+            
+              
+              
+              
+            
+            
+            
+            
+      
+          
+          
+      
+          
+          
+            
+            
+                <img
+                  title="Heartbreaker"
+                  loading="lazy"
+                  decoding="async"
+                  class="img img-fluid "
+                  width="1920"
+                  height="1920"
+                  src="/images/games/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png"
+                  alt="alter-text"
+                  onerror="this.onerror='null';this.src='\/images\/games\/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png'" />
+            
+          
+      
+        
+        
+      
+      
+      
+      
+      
+      
+
+      <figcaption class="figure-caption">Heartbreaker</figcaption>
+    </figure>
+  </a>
+  <a href="#heartbreaker" class="grid-item" class="smooth-scroll">
+    <figure class="figure">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+      
+      
+        
+        
+          
+          
+            
+          
+      
+          
+      
+      
+          
+          
+      
+      
+          
+          
+          
+          
+            
+            
+          
+          
+          
+          
+      
+      
+          
+          
+            
+            
+      
+            
+              
+              
+            
+      
+      
+            
+      
+            
+            
+              
+              
+              
+            
+            
+            
+            
+      
+          
+          
+      
+          
+          
+            
+            
+                <img
+                  title="Heartbreaker"
+                  loading="lazy"
+                  decoding="async"
+                  class="img img-fluid "
+                  width="1920"
+                  height="1920"
+                  src="/images/games/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png"
+                  alt="alter-text"
+                  onerror="this.onerror='null';this.src='\/images\/games\/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png'" />
+            
+          
+      
+        
+        
+      
+      
+      
+      
+      
+      
+
+      <figcaption class="figure-caption">Heartbreaker</figcaption>
+    </figure>
+  </a>
+  <a href="#heartbreaker" class="grid-item" class="smooth-scroll">
+    <figure class="figure">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+      
+      
+        
+        
+          
+          
+            
+          
+      
+          
+      
+      
+          
+          
+      
+      
+          
+          
+          
+          
+            
+            
+          
+          
+          
+          
+      
+      
+          
+          
+            
+            
+      
+            
+              
+              
+            
+      
+      
+            
+      
+            
+            
+              
+              
+              
+            
+            
+            
+            
+      
+          
+          
+      
+          
+          
+            
+            
+                <img
+                  title="Heartbreaker"
+                  loading="lazy"
+                  decoding="async"
+                  class="img img-fluid "
+                  width="1920"
+                  height="1920"
+                  src="/images/games/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png"
+                  alt="alter-text"
+                  onerror="this.onerror='null';this.src='\/images\/games\/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png'" />
+            
+          
+      
+        
+        
+      
+      
+      
+      
+      
+      
+
+      <figcaption class="figure-caption">Heartbreaker</figcaption>
+    </figure>
+  </a>
+  <a href="#heartbreaker" class="grid-item" class="smooth-scroll">
+    <figure class="figure">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        
+        
+        
+      
+      
+        
+        
+          
+          
+            
+          
+      
+          
+      
+      
+          
+          
+      
+      
+          
+          
+          
+          
+            
+            
+          
+          
+          
+          
+      
+      
+          
+          
+            
+            
+      
+            
+              
+              
+            
+      
+      
+            
+      
+            
+            
+              
+              
+              
+            
+            
+            
+            
+      
+          
+          
+      
+          
+          
+            
+            
+                <img
+                  title="Heartbreaker"
+                  loading="lazy"
+                  decoding="async"
+                  class="img img-fluid "
+                  width="1920"
+                  height="1920"
+                  src="/images/games/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png"
+                  alt="alter-text"
+                  onerror="this.onerror='null';this.src='\/images\/games\/heartbreaker_hu01c023a1425c4ba551c40ae497995a1c_2396387_1920x1920_resize_lanczos_3.png'" />
+            
+          
+      
+        
+        
+      
+      
+      
+      
+      
+      
+
+      <figcaption class="figure-caption">Heartbreaker</figcaption>
+    </figure>
+  </a>
+  <!-- Repeat the above grid-item structure for other images -->
+</div>
 <br>
 <br>
 <br>
@@ -777,10 +1319,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/</guid>
+                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/</guid>
 
                 
-                    <link>//localhost:1313/portfolio/</link>
+                    <link>/portfolio/</link>
                 
 
                 
