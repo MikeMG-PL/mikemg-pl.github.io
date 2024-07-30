@@ -1980,9 +1980,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
-.mb-12 {
-  margin-bottom: 3rem;
-}
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -2051,6 +2048,9 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .inline-flex {
   display: inline-flex;
+}
+.table {
+  display: table;
 }
 .hidden {
   display: none;
@@ -3252,6 +3252,16 @@ input#nav-toggle:checked ~ #nav-menu {
     width: 83.33333333333334%;
   }
 
+  .md\:col-11 {
+    flex: 0 0 auto;
+    width: 91.66666666666667%;
+  }
+
+  .md\:col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
   .md\:order-1 {
     order: 1;
   }
@@ -3293,9 +3303,14 @@ input#nav-toggle:checked ~ #nav-menu {
     width: 66.66666666666667%;
   }
 
-  .lg\:col-10 {
+  .lg\:col-11 {
     flex: 0 0 auto;
-    width: 83.33333333333334%;
+    width: 91.66666666666667%;
+  }
+
+  .lg\:col-12 {
+    flex: 0 0 auto;
+    width: 100%;
   }
 
   .lg\:order-1 {

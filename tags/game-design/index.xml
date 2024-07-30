@@ -1,0 +1,128 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="//localhost:1313/tags/game-design/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="//localhost:1313/tags/game-design/index.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description></description>
+
+        
+            <language>en-us</language>
+        
+
+        
+            <lastBuildDate>2024-07-19 16:58:35 &#43;0200 CEST</lastBuildDate>
+        
+
+        <link>//localhost:1313/tags/game-design/</link>
+
+        
+
+        <title>Game Design · Tags · </title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                    
+                
+
+                
+                
+
+                
+
+                
+
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-07-19:/blog/post-1/</guid>
+
+                
+                    <link>//localhost:1313/blog/post-1/</link>
+                
+
+                
+                    <pubDate>Fri, 19 Jul 2024 16:58:35 CEST</pubDate>
+                
+
+                
+                    <title>Why Tutorial in Your Game Sucks (And What To Do About It)</title>
+                
+            </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,3576 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="/portfolio/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="/portfolio/index.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description></description>
+
+        
+            <language>en-us</language>
+        
+
+        
+
+        <link>/portfolio/</link>
+
+        
+
+        <title>My Projects · </title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: '';
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+.image-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the grid items horizontally */
+  gap: 50px; /* Adjust margin between items as needed */
+  width: 100%; /* Ensure the grid container takes the full width */
+  margin: 0 auto; /* Center the grid container horizontally */
+}
+
+.image-button .grid-item {
+  text-align: center; /* Center align text */
+  width: 300px; /* Adjust width of each grid item */
+  margin-bottom: -50px; /* Optional: Add margin bottom for spacing */
+  position: relative; /* Ensure proper stacking context for absolute positioning */
+}
+
+.image-button .grid-item img {
+  width: 300px; /* Make the image width 100% of the grid item width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  display: block; /* Remove extra space below image */
+}
+
+.image-button .figure-caption {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: 'Signika', sans-serif;
+  color: white;
+  text-decoration: underline; /* Add underline to mimic link */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: absolute;
+  bottom: 15px; /* Position the caption at the bottom with some spacing */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center align the caption */
+  width: 100%; /* Ensure full width */
+  opacity: 0.45; /* Initially hide the caption */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.image-button .grid-item:hover .figure-caption {
+  opacity: 1; /* Show caption on hover */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+<center>
+<h5 id="by-real-invented-studio">by Real Invented Studio</h5>
+</center>
+<br>
+<br>
+
+
+
+  
+
+
+
+<div class="notice note – a disclaimer.">
+  <div class="notice-head"><svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      </svg><p>Note – A Disclaimer.</p>
+  </div>
+  <div class="notice-body"><p>&ldquo;The Riese Project – Prologue&rdquo; is <strong>a commercial game I contributed to</strong>. Any <strong>opinions</strong> expressed on this blog <strong>are solely my own</strong> and do <strong>not</strong> reflect any views or official statements of Real Invented Studio. Any content showcased here is presented to <strong>demonstrate my skills</strong> and <strong>contributions</strong>, with <strong>proper credit</strong> given to all parties involved. <strong>I adhere to NDAs</strong> and do not disclose proprietary information.</p></div>
+</div>
+
+<blockquote><center>Immerse yourself in the mystery set in the Owl Mountains, exploring the enigmatic Nazi-built<br>"Riese Complex". As Anna, follow your grandfather's discoveries and unravel World War II secrets.
+</center></blockquote>
+<h5 id="centersee-the-videos-about-the-gamecenter"><center>See the videos about the game:</center></h5>
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/VUDMfJwPdqc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          ></iframe>
+        </div>
+
+  </div>
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/s1QCg3ZYnaw?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          ></iframe>
+        </div>
+
+  </div>
+</div>
+<blockquote><center>"The Riese Project – Prologue" is a playable introduction to the full version of the game.<br>Explore real locations created using the latest Lumen & Nanite technologies employed by Unreal Engine 5.
+</center></blockquote>
+<p>I worked on “The Riese Project – Prologue” for a year alongside a team of amazing and talented developers. As a Junior Unreal Developer at Real Invented Studio, my responsibilities included:</p>
+<ul>
+<li>UI programming (the phone in the game 🤍)</li>
+<li>VR interaction programming</li>
+<li>gameplay and story flow programming</li>
+<li>animation programming – VR hands animation logic, character animation logic</li>
+<li>optimization, profiling, testing</li>
+</ul>
+<br>
+<h5 id="centervisit-the-games-steam-websitehttpsstoresteampoweredcomapp2142400the_riese_project__prologuecenter"><center><a href="https://store.steampowered.com/app/2142400/The_Riese_Project__Prologue/">Visit the game&rsquo;s Steam website</a></center></h5>
+<h5 id="centervisit-the-developers-websitehttpsrealinventedstudioplenthe-riese-projectcenter"><center><a href="https://realinventedstudio.pl/en/the-riese-project">Visit the developer&rsquo;s website</a></center></h5>
+<br>
+<br>
+<br>
+<center>
+<p>
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="/portfolio" class="btn-custom solid">← Back</a>
+
+
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="#" class="btn-custom solid">↑ Top ↑</a>
+</p>
+</center>
+<br>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/riese/</guid>
+
+                
+                    <link>/portfolio/riese/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>The Riese Project – Prologue</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: '';
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+.image-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the grid items horizontally */
+  gap: 50px; /* Adjust margin between items as needed */
+  width: 100%; /* Ensure the grid container takes the full width */
+  margin: 0 auto; /* Center the grid container horizontally */
+}
+
+.image-button .grid-item {
+  text-align: center; /* Center align text */
+  width: 300px; /* Adjust width of each grid item */
+  margin-bottom: -50px; /* Optional: Add margin bottom for spacing */
+  position: relative; /* Ensure proper stacking context for absolute positioning */
+}
+
+.image-button .grid-item img {
+  width: 300px; /* Make the image width 100% of the grid item width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  display: block; /* Remove extra space below image */
+}
+
+.image-button .figure-caption {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: 'Signika', sans-serif;
+  color: white;
+  text-decoration: underline; /* Add underline to mimic link */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: absolute;
+  bottom: 15px; /* Position the caption at the bottom with some spacing */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center align the caption */
+  width: 100%; /* Ensure full width */
+  opacity: 0.45; /* Initially hide the caption */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.image-button .grid-item:hover .figure-caption {
+  opacity: 1; /* Show caption on hover */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+
+
+
+  
+
+
+
+<div class="notice note">
+  <div class="notice-head"><svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      </svg><p>Note</p>
+  </div>
+  <div class="notice-body"><p>This game has been developed in <strong>48 hours</strong> during Global Game Jam (Łódzki Game Jam 8).</p></div>
+</div>
+
+<blockquote><center>As a roller-skating clown, embark a nostalgic journey to make a child laugh last time in its life.</center></blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+      
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid img-center"
+            width=""
+            height=""
+            src="/images/laughmaker/jump.gif"
+            alt=""
+            onerror="this.onerror='null';this.src=''" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+  <script>
+    window.addEventListener("load", (e) => {
+      const lightbox = GLightbox();
+    });
+  </script>
+
+
+<p>The theme for the game jam was <em>&ldquo;Make Me Laugh.&quot;</em>  While most teams aimed to create humorous games, we wanted to take a different approach. We chose to craft a nostalgic experience, and we are quite happy with the result. The game was build with <strong>Unreal Engine 5</strong> (Blueprints, as they are great for building a game quickly).</p>
+<p>&ldquo;Laughmaker&rdquo; was developed by &ldquo;Disco Angels&rdquo;, the team behind <a href="../heartbreaker">&ldquo;Heartbreaker&rdquo;</a> video game.</p>
+<br>
+<h5 id="centerwhat-we-are-proud-ofcenter"><center>What we are proud of:</center></h5>
+<ul>
+<li><strong>clown animations!</strong> Notice a blend of animations created by Agata with physics. And then comes the ragdoll. Quite advanced for a game built in 48 hours.</li>
+</ul>
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+          
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width=""
+                height=""
+                src="/images/laughmaker/ride.gif"
+                alt=""
+                onerror="this.onerror='null';this.src=''" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+
+  </div>
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+          
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width=""
+                height=""
+                src="/images/laughmaker/crash.gif"
+                alt=""
+                onerror="this.onerror='null';this.src=''" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+
+  </div>
+</div>
+<ul>
+<li>different approach to the theme</li>
+<li>overall multilayered design, &ldquo;Laughmaker&rdquo; has nice-looking VFX, voice-over, music and sound effects that support overall experience.</li>
+<li>simplicity – you just have fun riding towards your goal while collecting ballons. No one had any problem with understanding how to play.</li>
+</ul>
+<br>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Michał Galiński</td>
+<td style="text-align:center">Production, Programming</td>
+</tr>
+<tr>
+<td style="text-align:center">Mikołaj Przybylski</td>
+<td style="text-align:center">Programming</td>
+</tr>
+<tr>
+<td style="text-align:center">Mateusz Banasik</td>
+<td style="text-align:center">Programming</td>
+</tr>
+<tr>
+<td style="text-align:center">Agata Granosik</td>
+<td style="text-align:center">2D/3D Art</td>
+</tr>
+<tr>
+<td style="text-align:center">Michał Świstak</td>
+<td style="text-align:center">Music &amp; Sound</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h5 id="centeryou-can-download-the-game-herehttpstulodz-mysharepointcomugpersonal242385_edu_p_lodz_plexxe4udqil1okfhiqokn02kblgowywd7tuq5wkxaw2r3zaeftdk1ecenter"><center><a href="https://tulodz-my.sharepoint.com/:u:/g/personal/242385_edu_p_lodz_pl/EXXe4UdQiL1OkfhIqoKN02kBlgowywD7tuq5WKXaW2R3ZA?e=fTdk1e">You can download the game here</a></center></h5>
+<br>
+<br>
+<br>
+<center>
+<p>
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="/portfolio" class="btn-custom solid">← Back</a>
+
+
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="#" class="btn-custom solid">↑ Top ↑</a>
+</p>
+</center>
+<br>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/laughmaker/</guid>
+
+                
+                    <link>/portfolio/laughmaker/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Laughmaker</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: '';
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+.image-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the grid items horizontally */
+  gap: 50px; /* Adjust margin between items as needed */
+  width: 100%; /* Ensure the grid container takes the full width */
+  margin: 0 auto; /* Center the grid container horizontally */
+}
+
+.image-button .grid-item {
+  text-align: center; /* Center align text */
+  width: 300px; /* Adjust width of each grid item */
+  margin-bottom: -50px; /* Optional: Add margin bottom for spacing */
+  position: relative; /* Ensure proper stacking context for absolute positioning */
+}
+
+.image-button .grid-item img {
+  width: 300px; /* Make the image width 100% of the grid item width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  display: block; /* Remove extra space below image */
+}
+
+.image-button .figure-caption {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: 'Signika', sans-serif;
+  color: white;
+  text-decoration: underline; /* Add underline to mimic link */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: absolute;
+  bottom: 15px; /* Position the caption at the bottom with some spacing */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center align the caption */
+  width: 100%; /* Ensure full width */
+  opacity: 0.45; /* Initially hide the caption */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.image-button .grid-item:hover .figure-caption {
+  opacity: 1; /* Show caption on hover */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+<blockquote><center>Would you rest on your laurels, having all you've ever wanted? These people would.</center></blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="swiper gallery-slider center">
+  <div class="swiper-wrapper">
+    
+    
+      
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/heartbreaker/eUFkEL.png"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/heartbreaker/eUFkEL_hu506cf20b6a097f39b02a92238568bbdc_2994827_1200x1200_fit_lanczos_3.png"
+                  class="img"
+                  style="margin: 0"
+                  alt="eUFkEL.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/eUFkEL_hu506cf20b6a097f39b02a92238568bbdc_2994827_1200x1200_fit_lanczos_3.png'" />
+              </a>
+            
+          </div>
+        
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/heartbreaker/gtxeQJ.png"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/heartbreaker/gtxeQJ_hufb729f3bbb8c516acfffe940d50add3a_1973244_1200x1200_fit_lanczos_3.png"
+                  class="img"
+                  style="margin: 0"
+                  alt="gtxeQJ.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/gtxeQJ_hufb729f3bbb8c516acfffe940d50add3a_1973244_1200x1200_fit_lanczos_3.png'" />
+              </a>
+            
+          </div>
+        
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/heartbreaker/l2lpdi.png"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/heartbreaker/l2lpdi_hudb4ac97b825f388dd7d1ccf74e2f2dc9_2469301_1200x1200_fit_lanczos_3.png"
+                  class="img"
+                  style="margin: 0"
+                  alt="l2lpdi.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/l2lpdi_hudb4ac97b825f388dd7d1ccf74e2f2dc9_2469301_1200x1200_fit_lanczos_3.png'" />
+              </a>
+            
+          </div>
+        
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/heartbreaker/L_mwU_.png"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/heartbreaker/L_mwU__hue4fc3d4030b3f71517dda88867141ff7_1120285_1200x1200_fit_lanczos_3.png"
+                  class="img"
+                  style="margin: 0"
+                  alt="L_mwU_.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/L_mwU__hue4fc3d4030b3f71517dda88867141ff7_1120285_1200x1200_fit_lanczos_3.png'" />
+              </a>
+            
+          </div>
+        
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/heartbreaker/LsDX1_.png"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/heartbreaker/LsDX1__hu5748675c641a0f1c6d7e18fab39b1dc2_1080181_1200x1200_fit_lanczos_3.png"
+                  class="img"
+                  style="margin: 0"
+                  alt="LsDX1_.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/LsDX1__hu5748675c641a0f1c6d7e18fab39b1dc2_1080181_1200x1200_fit_lanczos_3.png'" />
+              </a>
+            
+          </div>
+        
+      
+
+
+      
+
+      
+    
+    
+  </div>
+
+  
+  <span class="swiper-button-prev"></span>
+  <span class="swiper-button-next"></span>
+</div>
+
+
+<blockquote><center>Heartbreaker is a first person action platformer about crashing the hearts of stone using your movement, set in a picturesque and nostalgic atmosphere.</center></blockquote>
+<br>
+<h5 id="centersee-the-trailer-devlog-and-gameplay-videocenter"><center>See the trailer, devlog, and gameplay video:</center></h5>
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div style="flex: 0 0 auto; max-width: 33%; width: 100%;">
+    
+    
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rDb873UhP2I?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          ></iframe>
+        </div>
+
+  </div>
+  <div style="flex: 0 0 auto; max-width: 33%; width: 100%;">
+    
+    
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/2_xnj8MikRo?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          ></iframe>
+        </div>
+
+  </div>
+  <div style="flex: 0 0 auto; max-width: 33%; width: 100%;">
+    
+    
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/wL9tY9LjcVM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          ></iframe>
+        </div>
+
+  </div>
+</div>
+<br>
+<br>
+<h5 id="centercreditscenter"><center>Credits</center></h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Michał Galiński</td>
+<td style="text-align:center">Production, Programming</td>
+</tr>
+<tr>
+<td style="text-align:center">Mikołaj Przybylski</td>
+<td style="text-align:center">Programming</td>
+</tr>
+<tr>
+<td style="text-align:center">Mateusz Banasik</td>
+<td style="text-align:center">Programming</td>
+</tr>
+<tr>
+<td style="text-align:center">Agata Granosik</td>
+<td style="text-align:center">2D/3D Art</td>
+</tr>
+<tr>
+<td style="text-align:center">Michał Świstak</td>
+<td style="text-align:center">Music &amp; Sound Design</td>
+</tr>
+<tr>
+<td style="text-align:center">Aleksandra Kwapińska</td>
+<td style="text-align:center">Voice Acting</td>
+</tr>
+<tr>
+<td style="text-align:center">Michał Galiński</td>
+<td style="text-align:center">Voice Acting</td>
+</tr>
+<tr>
+<td style="text-align:center">Jarosław Andrzejczak</td>
+<td style="text-align:center">Mentoring &amp; UI/UX Consultation</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h5 id="centervisit-game-website-download-the-gamehttpsdisco-angelsitchioheartbreakercenter"><center><a href="https://disco-angels.itch.io/heartbreaker">Visit game website, download the game</a></center></h5>
+<br>
+<div class="image-button">
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/best-gameplay_hu50b04069ffa2e7fb65de7ddc6c758591_112942_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/best-gameplay_hu50b04069ffa2e7fb65de7ddc6c758591_112942_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+      <script>
+        window.addEventListener("load", (e) => {
+          const lightbox = GLightbox();
+        });
+      </script>
+    
+  
+  </a>
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/best-art_huebf825274afb8d65e151ac4692e72233_82562_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/best-art_huebf825274afb8d65e151ac4692e72233_82562_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  </a>
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/best-game-design_hu50b04069ffa2e7fb65de7ddc6c758591_107364_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/best-game-design_hu50b04069ffa2e7fb65de7ddc6c758591_107364_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  </a>
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/techland_hu50b04069ffa2e7fb65de7ddc6c758591_106750_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/techland_hu50b04069ffa2e7fb65de7ddc6c758591_106750_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  </a>
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/game-access_hu50b04069ffa2e7fb65de7ddc6c758591_110217_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/game-access_hu50b04069ffa2e7fb65de7ddc6c758591_110217_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  </a>
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/it-media_hu50b04069ffa2e7fb65de7ddc6c758591_105213_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/it-media_hu50b04069ffa2e7fb65de7ddc6c758591_105213_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  </a>
+  <!-- Repeat the above grid-item structure for other images -->
+</div>
+<br>
+<br>
+<br>
+<center>
+<p>
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="/portfolio" class="btn-custom solid">← Back</a>
+
+
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="#" class="btn-custom solid">↑ Top ↑</a>
+</p>
+</center>
+<br>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/heartbreaker/</guid>
+
+                
+                    <link>/portfolio/heartbreaker/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Heartbreaker</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: '';
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+.image-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the grid items horizontally */
+  gap: 50px; /* Adjust margin between items as needed */
+  width: 100%; /* Ensure the grid container takes the full width */
+  margin: 0 auto; /* Center the grid container horizontally */
+}
+
+.image-button .grid-item {
+  text-align: center; /* Center align text */
+  width: 300px; /* Adjust width of each grid item */
+  margin-bottom: -50px; /* Optional: Add margin bottom for spacing */
+  position: relative; /* Ensure proper stacking context for absolute positioning */
+}
+
+.image-button .grid-item img {
+  width: 300px; /* Make the image width 100% of the grid item width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  display: block; /* Remove extra space below image */
+}
+
+.image-button .figure-caption {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: 'Signika', sans-serif;
+  color: white;
+  text-decoration: underline; /* Add underline to mimic link */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: absolute;
+  bottom: 15px; /* Position the caption at the bottom with some spacing */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center align the caption */
+  width: 100%; /* Ensure full width */
+  opacity: 0.45; /* Initially hide the caption */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.image-button .grid-item:hover .figure-caption {
+  opacity: 1; /* Show caption on hover */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+
+
+
+  
+
+
+
+<div class="notice note">
+  <div class="notice-head"><svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"></path>
+      </svg><p>Note</p>
+  </div>
+  <div class="notice-body"><p>Guiding Light is a game developed along its <strong>own game engine</strong> in <strong>4 months</strong> for courses conducted by the <a href="https://p.lodz.pl/en">Lodz University of Technology</a>.</p></div>
+</div>
+
+<blockquote><center>You're a lighthouse keeper and a courier… at once. In "Guiding Light", a casual time-management game, you operate alone in the Pole of Cold. And you’re the only one who can feed the penguins!</center></blockquote>
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="swiper gallery-slider center">
+  <div class="swiper-wrapper">
+    
+    
+      
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/guiding-light/engine.gif"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/guiding-light/engine.gif"
+                  class="img"
+                  style="margin: 0"
+                  alt="engine.gif"
+                  onerror="this.onerror='null';this.src=''" />
+              </a>
+            
+          </div>
+        
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/guiding-light/gl.gif"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/guiding-light/gl.gif"
+                  class="img"
+                  style="margin: 0"
+                  alt="gl.gif"
+                  onerror="this.onerror='null';this.src=''" />
+              </a>
+            
+          </div>
+        
+      
+
+
+      
+
+      
+    
+    
+  </div>
+
+  
+  <span class="swiper-button-prev"></span>
+  <span class="swiper-button-next"></span>
+</div>
+
+ -->
+<center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+      
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width=""
+            height=""
+            src="/images/guiding-light/gl.gif"
+            alt=""
+            onerror="this.onerror='null';this.src=''" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+  <script>
+    window.addEventListener("load", (e) => {
+      const lightbox = GLightbox();
+    });
+  </script>
+
+</center>
+<blockquote><center>Guide the ships, pick-up the food rations, and upgrade your lighthouse.<br>Get ready to prevent shipwrecks and master the polar night!</center></blockquote>
+
+
+
+
+
+
+  
+
+
+
+<div class="accordion ">
+  <button class="accordion-header " data-accordion>
+    The Engine
+    <svg
+      class="accordion-icon"
+      x="0px"
+      y="0px"
+      viewBox="0 0 512 512"
+      xmlspace="preserve">
+      <path
+        fill="currentColor"
+        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path>
+    </svg>
+  </button>
+  <div class="accordion-content ">
+    <p><p>Our Engine is written in modern C++23. Its architecture is based on <strong>Object-Component model</strong> used by <strong>Unity</strong>. We use <strong>DirectX 11</strong> as our graphics API (initially it was OpenGL, but we decided to port it).<br><br><strong>Some notable systems:</strong></p>
+<ul>
+<li>2D physics engine (collision detection and resolution)</li>
+<li>Resource Manager (for sharing resources like models and textures)</li>
+<li>UI</li>
+<li>Runtime prefab loading</li>
+<li>Input and Event systems</li>
+</ul></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+<div class="accordion ">
+  <button class="accordion-header " data-accordion>
+    The Editor
+    <svg
+      class="accordion-icon"
+      x="0px"
+      y="0px"
+      viewBox="0 0 512 512"
+      xmlspace="preserve">
+      <path
+        fill="currentColor"
+        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path>
+    </svg>
+  </button>
+  <div class="accordion-content ">
+    <p><center>
+<p><img alt="Guiding Light" src="https://raw.githubusercontent.com/0GreenClover0/Engine/main/readme_files/engine.gif"></p>
+</center>
+<p>We developed <strong>our own editor</strong> along with countless tools and functionalities:</p>
+<ul>
+<li>Scene and prefab loading</li>
+<li>Gizmos</li>
+<li>Curve editors</li>
+<li>Debug drawings</li>
+<li>Debug logging</li>
+<li>Shader hot-swapping</li>
+<li>Custom inspectors for specific Components</li>
+</ul>
+</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+<div class="accordion ">
+  <button class="accordion-header " data-accordion>
+    Engine Header Tool
+    <svg
+      class="accordion-icon"
+      x="0px"
+      y="0px"
+      viewBox="0 0 512 512"
+      xmlspace="preserve">
+      <path
+        fill="currentColor"
+        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path>
+    </svg>
+  </button>
+  <div class="accordion-content ">
+    <p>To speed up our work, we wrote a <strong>Python script</strong> that <strong>generates (de)serialization code</strong> for all components by <strong>parsing the C++ header files</strong>, similarly to <a href="https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/BuildTools/UnrealHeaderTool/">UnrealHeaderTool</a>. <strong>(We are very proud of that.)</strong></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+<div class="accordion ">
+  <button class="accordion-header " data-accordion>
+    Rendering
+    <svg
+      class="accordion-icon"
+      x="0px"
+      y="0px"
+      viewBox="0 0 512 512"
+      xmlspace="preserve">
+      <path
+        fill="currentColor"
+        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path>
+    </svg>
+  </button>
+  <div class="accordion-content ">
+    <p><p>We are using deferred rendering, with exceptions for transparent objects and UI that use forward rendering. We managed to implement a couple of rendering algorithms:</p>
+<ul>
+<li>Screen Space Reflection</li>
+<li>Screen Space Refraction</li>
+<li>Volumetric light scattering</li>
+<li>Screen Space Ambient Occlusion (SSAO)</li>
+<li>Particles (and particle emitters, done on CPU)</li>
+<li>Fast Approximate Anti-Aliasing (FXAA)</li>
+<li>Gerstner waves (for water geometry)</li>
+<li>Shadow mapping (including point lights)</li>
+<li>Percentage-Closer Soft Shadows</li>
+</ul></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+<div class="accordion ">
+  <button class="accordion-header " data-accordion>
+    Thirdparty
+    <svg
+      class="accordion-icon"
+      x="0px"
+      y="0px"
+      viewBox="0 0 512 512"
+      xmlspace="preserve">
+      <path
+        fill="currentColor"
+        d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0 s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667 C514.096,145.416,514.096,131.933,505.755,123.592z"></path>
+    </svg>
+  </button>
+  <div class="accordion-content ">
+    <p>Editor&rsquo;s UI is made with <a href="https://github.com/ocornut/imgui">ImGui</a> and it&rsquo;s extensions: <a href="https://github.com/CedricGuillemet/ImGuizmo">ImGuizmo</a>, <a href="https://github.com/epezent/implot">ImPlot</a>. Audio is handled by <a href="https://github.com/mackron/miniaudio">miniaudio</a>. <a href="https://github.com/g-truc/glm">glm</a> for additional math operations.<br>(De)serializing yaml: <a href="https://github.com/jbeder/yaml-cpp">yaml-cpp</a>. Window abstraction: <a href="https://github.com/glfw/glfw">glfw</a>. Helper loading libraries used: <a href="https://github.com/Microsoft/DirectXTK/wiki/DDSTextureLoader">DDSTextureLoader</a>, <a href="https://github.com/nothings/stb/blob/master/stb_image.h">stb_image</a>, <a href="https://github.com/assimp/assimp">assimp</a>, <a href="https://github.com/gamelaster/FW1FontWrapper">FW1FontWrapper</a>.</p>
+  </div>
+</div>
+
+<h5 id="centercreditscenter"><center>Credits</center></h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://github.com/0GreenClover0">Mikołaj Przybylski</a></td>
+<td style="text-align:center">Programming Lead</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/MikeMG-PL">Michał Galiński</a></td>
+<td style="text-align:center">Production Lead</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/boniffacy">Jakub Januszewicz</a></td>
+<td style="text-align:center">2D &amp; Branding Lead</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/MiloszKawczynski">Miłosz Kawczyński</a></td>
+<td style="text-align:center">Design Lead</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/nadkow">Nadia Kowalska</a></td>
+<td style="text-align:center">3D Art Lead</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/umbc1ok">Hubert Olejnik</a></td>
+<td style="text-align:center">Rendering Lead</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://soundcloud.com/michal_swistak">Michał Świstak</a></td>
+<td style="text-align:center">Sound Design</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://www.linkedin.com/in/julian-rakowski/">Julian Rakowski</a></td>
+<td style="text-align:center">Voice Acting</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h5 id="centersee-the-devlog-and-gameplay-videocenter"><center>See the devlog and gameplay video:</center></h5>
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4NOTxV9gPgM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          ></iframe>
+        </div>
+
+  </div>
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    
+        
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ecWnXpiUJ6A?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          ></iframe>
+        </div>
+
+  </div>
+</div>
+<br>
+<h5 id="centersource-codehttpsgithubcom0greenclover0enginecenter"><center><a href="https://github.com/0GreenClover0/Engine">Source Code</a></center></h5>
+<h5 id="centervisit-game-website-download-the-gamehttpsoeljitchioguiding-lightcenter"><center><a href="https://oelj.itch.io/guiding-light">Visit game website, download the game</a></center></h5>
+<br>
+<div class="image-button">
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/game-development_hu50b04069ffa2e7fb65de7ddc6c758591_108803_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/game-development_hu50b04069ffa2e7fb65de7ddc6c758591_108803_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  </a>
+  <a class="grid-item">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+      
+      
+        
+        
+          
+        
+    
+        
+    
+    
+        
+        
+    
+    
+        
+        
+        
+        
+          
+          
+        
+        
+        
+        
+    
+    
+        
+        
+          
+          
+    
+          
+            
+            
+          
+    
+    
+          
+    
+          
+          
+            
+            
+            
+          
+          
+          
+          
+    
+        
+        
+    
+        
+        
+          
+          
+              <img
+                title=""
+                loading="lazy"
+                decoding="async"
+                class="img img-fluid "
+                width="1533"
+                height="1108"
+                src="/images/awards/activision_hu50b04069ffa2e7fb65de7ddc6c758591_110000_1533x1108_resize_lanczos_3.png"
+                alt=""
+                onerror="this.onerror='null';this.src='\/images\/awards\/activision_hu50b04069ffa2e7fb65de7ddc6c758591_110000_1533x1108_resize_lanczos_3.png'" />
+          
+        
+    
+      
+      
+    
+    
+    
+    
+    
+    
+  
+  </a>
+  <!-- Repeat the above grid-item structure for other images -->
+</div>
+<br>
+<br>
+<br>
+<center>
+<p>
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="/portfolio" class="btn-custom solid">← Back</a>
+
+
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="#" class="btn-custom solid">↑ Top ↑</a>
+</p>
+</center>
+<br>]]></description>
+                
+
+                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/guiding-light/</guid>
+
+                
+                    <link>/portfolio/guiding-light/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Guiding Light</title>
+                
+            </item>
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: '';
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+.image-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the grid items horizontally */
+  gap: 50px; /* Adjust margin between items as needed */
+  width: 100%; /* Ensure the grid container takes the full width */
+  margin: 0 auto; /* Center the grid container horizontally */
+}
+
+.image-button .grid-item {
+  text-align: center; /* Center align text */
+  width: 300px; /* Adjust width of each grid item */
+  margin-bottom: -50px; /* Optional: Add margin bottom for spacing */
+  position: relative; /* Ensure proper stacking context for absolute positioning */
+}
+
+.image-button .grid-item img {
+  width: 300px; /* Make the image width 100% of the grid item width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  display: block; /* Remove extra space below image */
+}
+
+.image-button .figure-caption {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: 'Signika', sans-serif;
+  color: white;
+  text-decoration: underline; /* Add underline to mimic link */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: absolute;
+  bottom: 15px; /* Position the caption at the bottom with some spacing */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center align the caption */
+  width: 100%; /* Ensure full width */
+  opacity: 0.45; /* Initially hide the caption */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.image-button .grid-item:hover .figure-caption {
+  opacity: 1; /* Show caption on hover */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+<blockquote><center>"Disco Sorter" – a VR game in which you sort apples to the rhythm of music.</center></blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="swiper gallery-slider center">
+  <div class="swiper-wrapper">
+    
+    
+      
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/disco-sorter/sYGt5q.png"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/disco-sorter/sYGt5q_hu99e3ce1eb526d5caf290dff8b0cc032e_1783331_1200x1200_fit_lanczos_3.png"
+                  class="img"
+                  style="margin: 0"
+                  alt="sYGt5q.png"
+                  onerror="this.onerror='null';this.src='\/images\/disco-sorter\/sYGt5q_hu99e3ce1eb526d5caf290dff8b0cc032e_1783331_1200x1200_fit_lanczos_3.png'" />
+              </a>
+            
+          </div>
+        
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/disco-sorter/XEvJbz.jpg"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/disco-sorter/XEvJbz_hu75cccff19b7d94bfa8039a0a3ca50517_178616_1200x1200_fit_q80_lanczos.jpg"
+                  class="img"
+                  style="margin: 0"
+                  alt="XEvJbz.jpg"
+                  onerror="this.onerror='null';this.src='\/images\/disco-sorter\/XEvJbz_hu75cccff19b7d94bfa8039a0a3ca50517_178616_1200x1200_fit_q80_lanczos.jpg'" />
+              </a>
+            
+          </div>
+        
+      
+
+
+      
+
+      
+    
+    
+  </div>
+
+  
+  <span class="swiper-button-prev"></span>
+  <span class="swiper-button-next"></span>
+</div>
+
+
+<blockquote><center>Orcharding has never been an easy job. Workers in an apple sorting facility constantly have to deal with cold storage rooms, disgusting rotten apples, and monotonous fruit picking. It's time to wind up with it. Time for a little fun, let the party begin!</center></blockquote>
+<br>
+<h5 id="centersee-the-trailer-and-the-gameplaycenter"><center>See the trailer and the gameplay:</center></h5>
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe src="https://player.vimeo.com/video/524444731" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+  </div>
+  <div style="flex: 0 0 auto; max-width: 50%; width: 100%;">
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe src="https://player.vimeo.com/video/524473641" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+  </div>
+</div>
+<br>
+<p>The development of the game began in late 2019 when my team at <a href="https://www.facebook.com/DigitalNightStudio">Digital Night Studio</a>, a student game development club, decided to create a VR game. At that time, my friend <a href="https://www.linkedin.com/in/mikołaj-przybylski-5b8865206/">Mikołaj</a> and I were both 17 years old. When the COVID pandemic hit in 2020, we had ample time to complete the game and submit it to the <a href="https://ztgk.pl">ZTGK</a> game development contest!</p>
+<p>This is a standalone Meta Quest game. The main challenges we faced were:</p>
+<ul>
+<li>Building rytm controller and combining rythm-based events with physics (the apples roll physically!)</li>
+<li>Creating full level editor</li>
+<li>Optimizing the game (as it&rsquo;s standalone Meta Quest) while preserving neon and party style. Lots of interesting tricks were applied here.</li>
+</ul>
+<p>The game was developed using <strong>Unity</strong> game engine.</p>
+<br>
+<h5 id="centervisit-game-website-download-the-gamehttpsclovermikeitchiodisco-sortercenter"><center><a href="https://clovermike.itch.io/disco-sorter">Visit game website, download the game</a></center></h5>
+<h5 id="centersource-codehttpsgithubcommikemg-pldisco-sortercenter"><center><a href="https://github.com/MikeMG-PL/Disco-Sorter">Source Code</a></center></h5>
+<center>
+<p>I was young and stupid back then (now I&rsquo;m only stupid). Forgive poor commit naming and rookie code.</p>
+</center>
+<br>
+<br>
+<br>
+<center>
+<p>
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="/portfolio" class="btn-custom solid">← Back</a>
+
+
+
+
+
+<style>
+  .btn-custom {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+    font-family: 'Signika', sans-serif;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+	opacity: 0.75;
+    transition: opacity 0.3s ease;
+  }
+
+  .btn-custom:hover {
+    
+    opacity: 1;  
+  }
+</style>
+
+
+  
+  <a href="#" class="btn-custom solid">↑ Top ↑</a>
+</p>
+</center>
+<br>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/disco-sorter/</guid>
+
+                
+                    <link>/portfolio/disco-sorter/</link>
+                
+
+                
+                    <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                
+
+                
+                    <title>Disco Sorter</title>
+                
+            </item>
+        
+    </channel>
+</rss>

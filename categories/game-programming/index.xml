@@ -12,14 +12,6 @@
 
 
 
-    
-        
-    
-
-    
-        
-    
-
 
 
 
@@ -46,7 +38,7 @@
             
 
             
-                <link href="/categories/game-programming/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/categories/game-programming/" rel="self" type="text/html"/>
             
         
             
@@ -54,7 +46,7 @@
             
 
             
-                <link href="/categories/game-programming/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/categories/game-programming/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -69,10 +61,8 @@
         
 
         
-            <lastBuildDate>2022-04-04 05:00:00 &#43;0000 UTC</lastBuildDate>
-        
 
-        <link>/categories/game-programming/</link>
+        <link>//localhost:1313/categories/game-programming/</link>
 
         
 
@@ -80,60 +70,6 @@
 
         
 
-        
-            <item>
-                
-                
-                
-                
-                
-                
-                
-
-                
-
-                
-
-                
-
-                
-
-                
-                
-
-                
-
-                
-
-                
-                    <description><![CDATA[<a href="#dolor" class="grid-item" class="smooth-scroll">
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-</a>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
-<h2 id="creative-design">Creative Design</h2>
-<p>Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.</p>
-<blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
-</blockquote>
-<p><a id="dolor"></a>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!</p>
-]]></description>
-                
-
-                <guid isPermaLink="false">tag:,2022-04-04:/blog/post-2/</guid>
-
-                
-                    <link>/blog/post-2/</link>
-                
-
-                
-                    <pubDate>Mon, 04 Apr 2022 05:00:00 UTC</pubDate>
-                
-
-                
-                    <title>Programming Placeholder Post</title>
-                
-            </item>
         
     </channel>
 </rss>

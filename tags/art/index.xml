@@ -46,7 +46,7 @@
             
 
             
-                <link href="/tags/art/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/tags/art/" rel="self" type="text/html"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="/tags/art/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/tags/art/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,7 +72,7 @@
             <lastBuildDate>2022-04-04 05:00:00 &#43;0000 UTC</lastBuildDate>
         
 
-        <link>/tags/art/</link>
+        <link>//localhost:1313/tags/art/</link>
 
         
 
@@ -117,10 +117,10 @@
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,2022-04-04:/blog/post-3/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,2022-04-04:/blog/spost-3/</guid>
 
                 
-                    <link>/blog/post-3/</link>
+                    <link>//localhost:1313/blog/spost-3/</link>
                 
 
                 
