@@ -4,7 +4,7 @@
   class="dark"
   lang="en-us"
   itemtype="http://schema.org/WebPage">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
     <meta charset="utf-8" />
 
@@ -72,6 +72,7 @@
 
 
 
+  <base href="//localhost:1313/blog/post-1/" />
 
 
 
@@ -159,8 +160,8 @@
       
       
       
-        <meta property="og:image" content="/images/posts/post-1/post-1.png" />
-        <meta name="twitter:image" content="/images/posts/post-1/post-1.png" />
+        <meta property="og:image" content="//localhost:1313/images/posts/post-1/post-1.png" />
+        <meta name="twitter:image" content="//localhost:1313/images/posts/post-1/post-1.png" />
         <meta
           name="twitter:card"
           content="summary_large_image" />
@@ -187,7 +188,7 @@
 <meta property="og:title" content="Why Tutorial in Your Game Sucks (And What To Do About It)" />
 <meta property="og:description" content="Mike Galinski Gamedev Blog" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/blog/post-1/" />
+<meta property="og:url" content="//localhost:1313/blog/post-1/" />
 
 
 <meta name="twitter:title" content="Why Tutorial in Your Game Sucks (And What To Do About It)" />
@@ -214,7 +215,7 @@
 
 
 <script>
-  let indexURL = "/searchindex.json";
+  let indexURL = "//localhost:1313/searchindex.json";
   let includeSectionsInSearch = ["blog"];
   let search_no_results = "No results for";
   let search_initial_message = "Type something to search..";
@@ -324,8 +325,8 @@
 
 
 <link
-  href="/css/style.min.7d28b7fac2a0b03bad8f28d0528cf52de27cd3a4e492b919e33f614d85996034.css"
-  integrity="sha256-fSi3+sKgsDutjyjQUoz1LeJ806TkkrkZ4z9hTYWZYDQ="
+  href="/css/style.css"
+  integrity=""
   rel="stylesheet" />
 
 
@@ -333,8 +334,8 @@
   defer
   async
   rel="stylesheet"
-  href="/css/style-lazy.min.5d85e889fd5f5b28f9387aeade847fcb0a66d76a99a985ab4cdae3d37cf21557.css"
-  integrity="sha256-XYXoif1fWyj5OHrq3oR/ywpm12qZqYWrTNrj03zyFVc="
+  href="/css/style-lazy.css"
+  integrity=""
   media="print"
   onload="this.media='all'; this.onload=null;" />
 
@@ -348,7 +349,18 @@
 
 
 
+
+
       
+      <div
+  class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200">
+  <span class="block sm:hidden">all</span>
+  <span class="hidden sm:block md:hidden">sm</span>
+  <span class="hidden md:block lg:hidden">md</span>
+  <span class="hidden lg:block xl:hidden">lg</span>
+  <span class="hidden xl:block 2xl:hidden">xl</span>
+  <span class="hidden 2xl:block">2xl</span>
+</div>
 
     
 
@@ -935,7 +947,8 @@
             </li>
           </ul>
           <div class="content mb-10">
-            
+		  <aside id="toc">
+			
 
  
   
@@ -949,9 +962,9 @@
   <nav id="TableOfContents">
   <ol>
     <li><a href="#answering-the-question">Answering The Question</a></li>
-    <li><a href="#a-tutorial-i-didnt-like">A Tutorial I Didn&rsquo;t Like</a>
+    <li><a href="#a-tutorial-i-didnt-like--the-witcher-2-assasins-of-kings">A Tutorial I Didn&rsquo;t Like – &ldquo;The Witcher 2: Assasins of Kings&rdquo;</a>
       <ol>
-        <li><a href="#the-witcher-2-assasins-of-kings-by-cd-projekt-red">&ldquo;The Witcher 2: Assasins of Kings&rdquo; by CD Projekt RED</a>
+        <li><a href="#heading"></a>
           <ol>
             <li><a href="#detached-from-the-main-game">Detached From The Main Game</a></li>
             <li><a href="#tutorial-about-the-tutorial">Tutorial About The Tutorial</a></li>
@@ -963,9 +976,9 @@
       </ol>
     </li>
     <li><a href="#the-best-tutorial-is-the-one-you-dont-feel">The Best Tutorial Is The One You Don&rsquo;t Feel</a></li>
-    <li><a href="#case-study--seamless-tutorial">Case Study – Seamless Tutorial</a>
+    <li><a href="#case-study-of-guiding-light--seamless-tutorial">Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial</a>
       <ol>
-        <li><a href="#guiding-light">&ldquo;Guiding Light&rdquo;</a>
+        <li><a href="#heading-1"></a>
           <ol>
             <li><a href="#you-can-teach-the-player-earlier-than-you-think">You Can Teach The Player Earlier Than You Think</a></li>
             <li><a href="#keep-the-gameplay-loop-consistent-tutoring-is-not-an-exception">Keep The Gameplay Loop Consistent, Tutoring Is Not An Exception</a></li>
@@ -982,6 +995,72 @@
 </nav>
 </details>
 
+			</aside>
+			
+			<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    function isEmpty(element) {
+      return !element.textContent.trim();
+    }
+
+    function moveChildrenUp(parent) {
+      
+      while (parent.firstChild) {
+        var child = parent.firstChild;
+        
+        if (child.tagName === 'LI') {
+          child.classList.add('child-indent');
+        }
+        parent.parentElement.insertBefore(child, parent);
+      }
+      
+      parent.style.display = 'none';
+    }
+
+    function processToc(tocElement) {
+      
+      var tocItems = tocElement.querySelectorAll("li");
+
+      tocItems.forEach(function(item) {
+        
+        var link = item.querySelector("a");
+        if (link) {
+          var targetId = link.getAttribute("href").substring(1);
+          var targetElement = document.getElementById(targetId);
+
+          if (targetElement && isEmpty(targetElement)) {
+            moveChildrenUp(item);
+          }
+        }
+      });
+
+      
+      var remainingTocItems = tocElement.querySelectorAll("li");
+      remainingTocItems.forEach(function(item) {
+        
+        var childItems = item.querySelectorAll("li");
+        if (childItems.length > 0) {
+          childItems.forEach(function(child) {
+            var childLink = child.querySelector("a");
+            if (childLink) {
+              var childTargetId = childLink.getAttribute("href").substring(1);
+              var childTargetElement = document.getElementById(childTargetId);
+              if (childTargetElement && isEmpty(childTargetElement)) {
+                moveChildrenUp(child);
+              }
+            }
+          });
+        }
+      });
+    }
+
+    var tocElement = document.getElementById("toc");
+    if (tocElement) {
+      processToc(tocElement);
+    }
+  });
+</script>
+			
             <style>
 
 :target:before {
@@ -1001,10 +1080,10 @@ html {
 <p><strong>Nothing could be further from the truth!</strong></p>
 <h2 id="answering-the-question">Answering The Question</h2>
 <p>Why is your tutorial <strong>NOT</strong> fun? Player feedback might mention it&rsquo;s too long, overwhelming, or text-heavy. While these points are often valid, they miss the core issue: <strong>the form, pacing, and structure of the tutorial</strong>. <strong>Players shouldn&rsquo;t even realize they&rsquo;re being taught</strong> and <strong>the joy of discovering the game should remain intact</strong>.</p>
-<h2 id="a-tutorial-i-didnt-like">A Tutorial I Didn&rsquo;t Like</h2>
-<p>Let&rsquo;s look at an acclaimed game that has a tutorial which doesn&rsquo;t align with my design philosophy. <strong>&ldquo;The Witcher 2: Assasins of Kings&rdquo;</strong> is a great game, but the way it guides players differs from how I would approach it. I show this example to emphasize that even highly acclaimed AAA games can do it better and designing a good tutorial is a difficult task.</p>
+<h2 id="a-tutorial-i-didnt-like--the-witcher-2-assasins-of-kings">A Tutorial I Didn&rsquo;t Like – &ldquo;The Witcher 2: Assasins of Kings&rdquo;</h2>
+<p>Let&rsquo;s look at an acclaimed game that has a tutorial which doesn&rsquo;t align with my design philosophy. <strong>&ldquo;The Witcher 2: Assasins of Kings&rdquo;</strong> by <strong>CD Projekt RED</strong> is a great game, but the way it guides players differs from how I would approach it. I show this example to emphasize that even highly acclaimed AAA games can do it better and designing a good tutorial is a difficult task.</p>
 <center>
-<h3 id="the-witcher-2-assasins-of-kings-by-cd-projekt-red">&ldquo;The Witcher 2: Assasins of Kings&rdquo; by CD Projekt RED</h3>
+<h3 id="heading"></h3>
 
 
 
@@ -2075,7 +2154,7 @@ html {
   <div class="notice-body"><p>If a button icon appears out of nowhere and attracts attention, players press it.</p></div>
 </div>
 
-<p>Now you might be thinking that I am talking about absolute trivia but an example of &ldquo;The Witcher 2&rdquo; shows that it&rsquo;s <strong>less obvious</strong> and <strong>more important</strong> that you&rsquo;d think. Camera and movement are just a tip of the iceberg. In section <a href="#case-study--seamless-tutorial">&ldquo;Case Study – Seamless Tutorial&rdquo;</a> I show that even such simple prompts can be effective enough in more complex cases.</p>
+<p>Now you might be thinking that I am talking about absolute trivia but an example of &ldquo;The Witcher 2&rdquo; shows that it&rsquo;s <strong>less obvious</strong> and <strong>more important</strong> that you&rsquo;d think. Camera and movement are just a tip of the iceberg. In section <a href="#case-study-of-guiding-light--seamless-tutorial">&ldquo;Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial&rdquo;</a> I show that even such simple prompts can be effective enough in more complex cases.</p>
 <hr>
 <p>An in-depth analysis of &ldquo;The Witcher 2&rdquo; tutorial is not a main point of this post, so I&rsquo;ll just briefly point out the rest of things I didn&rsquo;t enjoy:</p>
 <h4 id="too-rushed">Too Rushed</h4>
@@ -2300,10 +2379,8 @@ html {
 <h2 id="the-best-tutorial-is-the-one-you-dont-feel">The Best Tutorial Is The One You Don&rsquo;t Feel</h2>
 <p>The <a href="#answering-the-question">Answering The Question</a> section says that the process of tutoring players should be embedded into the game. And this is the moment where <strong>you should forget about tutorials</strong>. You shouldn&rsquo;t even use this word in your game.</p>
 <p>Now it&rsquo;s finally time for the &ldquo;What To Do About It&rdquo; part!</p>
-<h2 id="case-study--seamless-tutorial">Case Study – Seamless Tutorial</h2>
-<center>
-<h3 id="guiding-light">&ldquo;Guiding Light&rdquo;</h3>
-</center>
+<h2 id="case-study-of-guiding-light--seamless-tutorial">Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial</h2>
+<h3 id="heading-1"></h3>
 
 
 
@@ -2329,7 +2406,6 @@ html {
   <div class="notice-body"><p>It will be easier for you to follow the text if you get to know <a href="/portfolio/guiding-light/">&ldquo;Guiding Light&rdquo;</a> first (you can even <strong>download and play it</strong>).</p></div>
 </div>
 
-<p><strong>&ldquo;Guiding Light&rdquo; gameplay:</strong></p>
 
 
     
@@ -2970,7 +3046,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
   </div>
   <div class="notice-body"><p><p>After we press space, we leave the lighthouse and are able to control the hovercraft with WASD keys:</p>
 <center>
-  <img src="/images/posts/post-1/wasd.gif" position="center" height="400" width="400" command="fill" option="q100" class="img-fluid" webp="true"/>
+  <img src="/images/posts/post-1/wsad.gif" position="center" height="400" width="400" command="fill" option="q100" class="img-fluid" webp="true">
 </center></p></div>
 </div>
 
@@ -4344,6 +4420,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 <li><a href="https://publications.lib.chalmers.se/records/fulltext/111921.pdf">Beyond the HUD: User Interfaces for Increased Player Immersion in FPS Games: Master of Science Thesis</a></li>
 </ul>
 
+			
           </div>
           <div class="row items-start justify-between">
             
@@ -4405,7 +4482,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
   
     <a
       class="share-link share-facebook"
-      href="https://facebook.com/sharer/sharer.php?u=%2fblog%2fpost-1%2f"
+      href="https://facebook.com/sharer/sharer.php?u=%2f%2flocalhost%3a1313%2fblog%2fpost-1%2f"
       target="_blank"
       rel="noopener"
       aria-label="share facebook">
@@ -4423,7 +4500,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
   
     <a
       class="share-link share-twitter"
-      href="https://twitter.com/intent/tweet/?text=Share&amp;url=%2fblog%2fpost-1%2f"
+      href="https://twitter.com/intent/tweet/?text=Share&amp;url=%2f%2flocalhost%3a1313%2fblog%2fpost-1%2f"
       target="_blank"
       rel="noopener"
       aria-label="share twitter">
@@ -4441,7 +4518,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
   
     <a
       class="share-link share-email"
-      href="mailto:?subject=Share&amp;body=%2fblog%2fpost-1%2f"
+      href="mailto:?subject=Share&amp;body=%2f%2flocalhost%3a1313%2fblog%2fpost-1%2f"
       target="_self"
       rel="noopener"
       aria-label="share email">
@@ -4459,7 +4536,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
   
     <a
       class="share-link share-reddit"
-      href="https://reddit.com/submit/?url=%2fblog%2fpost-1%2f&amp;resubmit=true&amp;title=Share"
+      href="https://reddit.com/submit/?url=%2f%2flocalhost%3a1313%2fblog%2fpost-1%2f&amp;resubmit=true&amp;title=Share"
       target="_blank"
       rel="noopener"
       aria-label="share reddit">
@@ -4525,6 +4602,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
       
     </div>
   </section>
+  
 
     </main>
 
@@ -4798,23 +4876,20 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
-  
-  
-
 
 
 <script
   crossorigin="anonymous"
-  integrity="sha256-D2kkaxAIxGPL2I1SpG2d3fVbWmp4Bq7T1ix99waPvyM="
-  src="/js/script.min.0f69246b1008c463cbd88d52a46d9dddf55b5a6a7806aed3d62c7df7068fbf23.js"></script>
+  integrity=""
+  src="/js/script.js"></script>
 
 
 <script
   defer
   async
   crossorigin="anonymous"
-  integrity="sha256-w&#43;aS42D2&#43;B&#43;Jix&#43;joZ7pAua1vbu/pRK/IhoP55b8n3w="
-  src="/js/script-lazy.min.c3e692e360f6f81f898b1fa3a19ee902e6b5bdbbbfa512bf221a0fe796fc9f7c.js"></script>
+  integrity=""
+  src="/js/script-lazy.js"></script>
 
 
 

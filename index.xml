@@ -92,7 +92,7 @@
             
 
             
-                <link href="/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/" rel="self" type="text/html"/>
             
         
             
@@ -100,7 +100,7 @@
             
 
             
-                <link href="/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
             
@@ -114,7 +114,7 @@
             
 
             
-                <link href="/searchindex.json" rel="alternate" type="application/json"/>
+                <link href="//localhost:1313/searchindex.json" rel="alternate" type="application/json"/>
             
         
 
@@ -132,7 +132,7 @@
             <lastBuildDate>2024-07-30 16:58:35 &#43;0200 CEST</lastBuildDate>
         
 
-        <link>/</link>
+        <link>//localhost:1313/</link>
 
         
 
@@ -185,10 +185,10 @@ html {
 <p><strong>Nothing could be further from the truth!</strong></p>
 <h2 id="answering-the-question">Answering The Question</h2>
 <p>Why is your tutorial <strong>NOT</strong> fun? Player feedback might mention it&rsquo;s too long, overwhelming, or text-heavy. While these points are often valid, they miss the core issue: <strong>the form, pacing, and structure of the tutorial</strong>. <strong>Players shouldn&rsquo;t even realize they&rsquo;re being taught</strong> and <strong>the joy of discovering the game should remain intact</strong>.</p>
-<h2 id="a-tutorial-i-didnt-like">A Tutorial I Didn&rsquo;t Like</h2>
-<p>Let&rsquo;s look at an acclaimed game that has a tutorial which doesn&rsquo;t align with my design philosophy. <strong>&ldquo;The Witcher 2: Assasins of Kings&rdquo;</strong> is a great game, but the way it guides players differs from how I would approach it. I show this example to emphasize that even highly acclaimed AAA games can do it better and designing a good tutorial is a difficult task.</p>
+<h2 id="a-tutorial-i-didnt-like--the-witcher-2-assasins-of-kings">A Tutorial I Didn&rsquo;t Like – &ldquo;The Witcher 2: Assasins of Kings&rdquo;</h2>
+<p>Let&rsquo;s look at an acclaimed game that has a tutorial which doesn&rsquo;t align with my design philosophy. <strong>&ldquo;The Witcher 2: Assasins of Kings&rdquo;</strong> by <strong>CD Projekt RED</strong> is a great game, but the way it guides players differs from how I would approach it. I show this example to emphasize that even highly acclaimed AAA games can do it better and designing a good tutorial is a difficult task.</p>
 <center>
-<h3 id="the-witcher-2-assasins-of-kings-by-cd-projekt-red">&ldquo;The Witcher 2: Assasins of Kings&rdquo; by CD Projekt RED</h3>
+<h3 id="heading"></h3>
 
 
 
@@ -1259,7 +1259,7 @@ html {
   <div class="notice-body"><p>If a button icon appears out of nowhere and attracts attention, players press it.</p></div>
 </div>
 
-<p>Now you might be thinking that I am talking about absolute trivia but an example of &ldquo;The Witcher 2&rdquo; shows that it&rsquo;s <strong>less obvious</strong> and <strong>more important</strong> that you&rsquo;d think. Camera and movement are just a tip of the iceberg. In section <a href="#case-study--seamless-tutorial">&ldquo;Case Study – Seamless Tutorial&rdquo;</a> I show that even such simple prompts can be effective enough in more complex cases.</p>
+<p>Now you might be thinking that I am talking about absolute trivia but an example of &ldquo;The Witcher 2&rdquo; shows that it&rsquo;s <strong>less obvious</strong> and <strong>more important</strong> that you&rsquo;d think. Camera and movement are just a tip of the iceberg. In section <a href="#case-study-of-guiding-light--seamless-tutorial">&ldquo;Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial&rdquo;</a> I show that even such simple prompts can be effective enough in more complex cases.</p>
 <hr>
 <p>An in-depth analysis of &ldquo;The Witcher 2&rdquo; tutorial is not a main point of this post, so I&rsquo;ll just briefly point out the rest of things I didn&rsquo;t enjoy:</p>
 <h4 id="too-rushed">Too Rushed</h4>
@@ -1484,10 +1484,8 @@ html {
 <h2 id="the-best-tutorial-is-the-one-you-dont-feel">The Best Tutorial Is The One You Don&rsquo;t Feel</h2>
 <p>The <a href="#answering-the-question">Answering The Question</a> section says that the process of tutoring players should be embedded into the game. And this is the moment where <strong>you should forget about tutorials</strong>. You shouldn&rsquo;t even use this word in your game.</p>
 <p>Now it&rsquo;s finally time for the &ldquo;What To Do About It&rdquo; part!</p>
-<h2 id="case-study--seamless-tutorial">Case Study – Seamless Tutorial</h2>
-<center>
-<h3 id="guiding-light">&ldquo;Guiding Light&rdquo;</h3>
-</center>
+<h2 id="case-study-of-guiding-light--seamless-tutorial">Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial</h2>
+<h3 id="heading-1"></h3>
 
 
 
@@ -1513,7 +1511,6 @@ html {
   <div class="notice-body"><p>It will be easier for you to follow the text if you get to know <a href="/portfolio/guiding-light/">&ldquo;Guiding Light&rdquo;</a> first (you can even <strong>download and play it</strong>).</p></div>
 </div>
 
-<p><strong>&ldquo;Guiding Light&rdquo; gameplay:</strong></p>
 
 
     
@@ -2133,6 +2130,112 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+        
+        
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid img-center"
+            width="1096"
+            height="480"
+            src="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_1096x480_fill_q100_lanczos_smart1_3.png"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/post-1_hu15aada9750093d492186d7bc841149c3_326162_1096x480_fill_q100_lanczos_smart1_3.png'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+
+
+
+
   
 
 
@@ -2154,7 +2257,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
   </div>
   <div class="notice-body"><p><p>After we press space, we leave the lighthouse and are able to control the hovercraft with WASD keys:</p>
 <center>
-  <img src="/images/posts/post-1/wasd.gif" position="center" height="400" width="400" command="fill" option="q100" class="img-fluid" webp="true"/>
+  <img src="/images/posts/post-1/wasd.gif" position="center" height="400" width="400" command="fill" option="q100" class="img-fluid" webp="true">
 </center></p></div>
 </div>
 
@@ -3530,10 +3633,10 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,2024-07-30:/blog/post-1/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,2024-07-30:/blog/post-1/</guid>
 
                 
-                    <link>/blog/post-1/</link>
+                    <link>//localhost:1313/blog/post-1/</link>
                 
 
                 
@@ -3575,7 +3678,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
                     <description><![CDATA[Don&rsquo;t just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate.]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:</guid>
 
                 
 
@@ -3810,10 +3913,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/riese/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/riese/</guid>
 
                 
-                    <link>/portfolio/riese/</link>
+                    <link>//localhost:1313/portfolio/riese/</link>
                 
 
                 
@@ -3863,10 +3966,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/authors/mike-galinski/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/authors/mike-galinski/</guid>
 
                 
-                    <link>/authors/mike-galinski/</link>
+                    <link>//localhost:1313/authors/mike-galinski/</link>
                 
 
                 
@@ -3908,7 +4011,7 @@ html {
                     <description><![CDATA[Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility.]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:</guid>
 
                 
 
@@ -4418,10 +4521,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/laughmaker/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/laughmaker/</guid>
 
                 
-                    <link>/portfolio/laughmaker/</link>
+                    <link>//localhost:1313/portfolio/laughmaker/</link>
                 
 
                 
@@ -5807,10 +5910,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/heartbreaker/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/heartbreaker/</guid>
 
                 
-                    <link>/portfolio/heartbreaker/</link>
+                    <link>//localhost:1313/portfolio/heartbreaker/</link>
                 
 
                 
@@ -6717,10 +6820,10 @@ html {
 <br>]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/guiding-light/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/guiding-light/</guid>
 
                 
-                    <link>/portfolio/guiding-light/</link>
+                    <link>//localhost:1313/portfolio/guiding-light/</link>
                 
 
                 
@@ -7142,10 +7245,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/disco-sorter/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/disco-sorter/</guid>
 
                 
-                    <link>/portfolio/disco-sorter/</link>
+                    <link>//localhost:1313/portfolio/disco-sorter/</link>
                 
 
                 

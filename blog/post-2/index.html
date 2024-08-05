@@ -83,7 +83,7 @@
   
 
 
-<title>Multilayered Approach To Game Production – How We Made &#34;Heartbreaker&#34;</title>
+<title>Multilayered Game Production – How We Made &#34;Heartbreaker&#34;</title>
 
 
 
@@ -185,13 +185,13 @@
 
 
 
-<meta property="og:title" content="Multilayered Approach To Game Production – How We Made &#34;Heartbreaker&#34;" />
+<meta property="og:title" content="Multilayered Game Production – How We Made &#34;Heartbreaker&#34;" />
 <meta property="og:description" content="Mike Galinski Gamedev Blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="//localhost:1313/blog/post-2/" />
 
 
-<meta name="twitter:title" content="Multilayered Approach To Game Production – How We Made &#34;Heartbreaker&#34;" />
+<meta name="twitter:title" content="Multilayered Game Production – How We Made &#34;Heartbreaker&#34;" />
 <meta name="twitter:description" content="Mike Galinski Gamedev Blog" />
 
 
@@ -901,7 +901,7 @@
               loading="lazy" decoding="async"
               src="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_1110x0_resize_lanczos_3.png"
             class=" w-full rounded img"
-            alt="Multilayered Approach To Game Production – How We Made &#34;Heartbreaker&#34;"
+            alt="Multilayered Game Production – How We Made &#34;Heartbreaker&#34;"
             width="1096"
             height="480" />
         </picture>
@@ -918,7 +918,7 @@
             </div>
           
           <h1 class="h2 mb-4">
-            Multilayered Approach To Game Production – How We Made &#34;Heartbreaker&#34;
+            Multilayered Game Production – How We Made &#34;Heartbreaker&#34;
           </h1>
           <ul class="mb-4">
             <li class="mr-4 inline-block">
@@ -947,7 +947,8 @@
             </li>
           </ul>
           <div class="content mb-10">
-            
+		  <aside id="toc">
+			
 
  
   
@@ -960,35 +961,93 @@
   </summary>
   <nav id="TableOfContents">
   <ol>
-    <li><a href="#the-development-of-heartbreaker--introduction">The Development of &ldquo;Heartbreaker&rdquo; – Introduction</a></li>
     <li><a href="#the-challenge-of-becoming-a-producer">The Challenge of Becoming A Producer</a>
       <ol>
-        <li>
+        <li><a href="#heading"></a>
           <ol>
-            <li><a href="#a-producer-does-slightly-different-things-in-different-studios">A Producer Does Slightly Different Things in Different Studios</a></li>
-            <li><a href="#seldom-will-you-find-an-entry-level-offer-for-a-producer">Seldom Will You Find An Entry Level Offer For A Producer</a></li>
+            <li><a href="#producers-responsibilities-vary-by-studio-especially-indie">Producer&rsquo;s Responsibilities Vary by Studio (Especially Indie)</a></li>
+            <li><a href="#entry-level-producer-positions-are-rare">Entry-Level Producer Positions Are Rare</a></li>
           </ol>
         </li>
       </ol>
     </li>
+    <li><a href="#the-development-of-heartbreaker--introduction">The Development of &ldquo;Heartbreaker&rdquo; – Introduction</a></li>
     <li><a href="#the-ultimate-weapon-is-the-team--how-we-do-good">&ldquo;The Ultimate Weapon Is The Team&rdquo; – How We Do Good</a></li>
-    <li><a href="#layers-of-fear-production">Layers of <del>Fear</del> Production</a></li>
+    <li><a href="#layers-of-production">Layers of Production</a></li>
     <li><a href="#the-mess-of-game-production">The Mess of Game Production</a></li>
-    <li><a href="#the-art-of-defining-scope-and-killing-your-children-cutting-things-out">The Art of Defining Scope And <del>Killing Your Children</del> Cutting Things Out</a>
-      <ol>
-        <li><a href="#subheader">Subheader</a>
-          <ol>
-            <li><a href="#first-point">First Point</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
+    <li><a href="#the-art-of-defining-scope-and-cutting-things-out">The Art of Defining Scope And Cutting Things Out</a></li>
     <li><a href="#summary">Summary</a></li>
     <li><a href="#sources--additional-materials">Sources &amp; Additional Materials</a></li>
   </ol>
 </nav>
 </details>
 
+			</aside>
+			
+			<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    function isEmpty(element) {
+      return !element.textContent.trim();
+    }
+
+    function moveChildrenUp(parent) {
+      
+      while (parent.firstChild) {
+        var child = parent.firstChild;
+        
+        if (child.tagName === 'LI') {
+          child.classList.add('child-indent');
+        }
+        parent.parentElement.insertBefore(child, parent);
+      }
+      
+      parent.style.display = 'none';
+    }
+
+    function processToc(tocElement) {
+      
+      var tocItems = tocElement.querySelectorAll("li");
+
+      tocItems.forEach(function(item) {
+        
+        var link = item.querySelector("a");
+        if (link) {
+          var targetId = link.getAttribute("href").substring(1);
+          var targetElement = document.getElementById(targetId);
+
+          if (targetElement && isEmpty(targetElement)) {
+            moveChildrenUp(item);
+          }
+        }
+      });
+
+      
+      var remainingTocItems = tocElement.querySelectorAll("li");
+      remainingTocItems.forEach(function(item) {
+        
+        var childItems = item.querySelectorAll("li");
+        if (childItems.length > 0) {
+          childItems.forEach(function(child) {
+            var childLink = child.querySelector("a");
+            if (childLink) {
+              var childTargetId = childLink.getAttribute("href").substring(1);
+              var childTargetElement = document.getElementById(childTargetId);
+              if (childTargetElement && isEmpty(childTargetElement)) {
+                moveChildrenUp(child);
+              }
+            }
+          });
+        }
+      });
+    }
+
+    var tocElement = document.getElementById("toc");
+    if (tocElement) {
+      processToc(tocElement);
+    }
+  });
+</script>
+			
             <style>
 
 :target:before {
@@ -1005,8 +1064,13 @@ html {
 
 </style>
 <p>&ldquo;Heartbreaker&rdquo; started as a job interview task I moulded in one weekend. 18 months later, my teammates and I won an award with &ldquo;Heartbreaker&rdquo; during a global gamedev conference, surpassing over a 100 professional indie teams. How did we achieve it?</p>
+<h2 id="the-challenge-of-becoming-a-producer">The Challenge of Becoming A Producer</h2>
+<p>Before I dive into <a href="#layers-of-production">Layers of Production</a> – a section written to help you tie your game together – I want to highlight that there are two key challenges related to becoming a commercial producer. <strong>I spoke with two experienced game producers</strong> from AA/AA+ studios, and they confirmed these challenges are indeed what game production pretenders need to face.</p>
+<h3 id="heading"></h3>
+<h4 id="producers-responsibilities-vary-by-studio-especially-indie">Producer&rsquo;s Responsibilities Vary by Studio (Especially Indie)</h4>
+<p>What I write about in this post also applies to <strong>creative directing</strong> and <strong>game design</strong>.</p>
+<h4 id="entry-level-producer-positions-are-rare">Entry-Level Producer Positions Are Rare</h4>
 <h2 id="the-development-of-heartbreaker--introduction">The Development of &ldquo;Heartbreaker&rdquo; – Introduction</h2>
-<p>When I started writing about the production of &ldquo;Heartbreaker,&rdquo; my mind went blank. I wanted to write an abstract of the development process, but I realized it wouldn&rsquo;t offer much help for your own games. So I decided to pick up <strong>the most crucial things that impacted me</strong> as a rookie producer and eventually <strong>brought my team a success</strong>.</p>
 <p>First, I encourage you to get to know <a href="/portfolio/heartbreaker/">“Heartbreaker.”</a> This will help you follow the text more easily. You can even download and try the game yourself.</p>
 
 
@@ -1016,17 +1080,11 @@ html {
       ></iframe>
     </div>
 
-<h2 id="the-challenge-of-becoming-a-producer">The Challenge of Becoming A Producer</h2>
-<p>The title of the post mentions &ldquo;multilayered approach&rdquo; to game production. This &ldquo;approach&rdquo; is also related to other fields: creative directing or design. And that also highlights the first problem of getting into game production. But there are two of them, actually. 🤓</p>
-<h4 id="a-producer-does-slightly-different-things-in-different-studios">A Producer Does Slightly Different Things in Different Studios</h4>
-<h4 id="seldom-will-you-find-an-entry-level-offer-for-a-producer">Seldom Will You Find An Entry Level Offer For A Producer</h4>
 <h2 id="the-ultimate-weapon-is-the-team--how-we-do-good">&ldquo;The Ultimate Weapon Is The Team&rdquo; – How We Do Good</h2>
-<h2 id="layers-of-fear-production">Layers of <del>Fear</del> Production</h2>
+<h2 id="layers-of-production">Layers of Production</h2>
 <h2 id="the-mess-of-game-production">The Mess of Game Production</h2>
-<h2 id="the-art-of-defining-scope-and-killing-your-children-cutting-things-out">The Art of Defining Scope And <del>Killing Your Children</del> Cutting Things Out</h2>
+<h2 id="the-art-of-defining-scope-and-cutting-things-out">The Art of Defining Scope And Cutting Things Out</h2>
 <blockquote>NIE PUSHUJ NICZEGO NA REPO BEZ USTAWIANIA TEGO NA DRAFT</blockquote>
-<h3 id="subheader">Subheader</h3>
-<h4 id="first-point">First Point</h4>
 <br>
 <br>
 <br>
@@ -1035,6 +1093,7 @@ html {
 <h2 id="summary">Summary</h2>
 <h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
 
+			
           </div>
           <div class="row items-start justify-between">
             
@@ -1368,6 +1427,7 @@ html {
       
     </div>
   </section>
+  
 
     </main>
 

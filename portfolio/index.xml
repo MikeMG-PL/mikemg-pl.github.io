@@ -66,7 +66,7 @@
             
 
             
-                <link href="/portfolio/" rel="self" type="text/html"/>
+                <link href="//localhost:1313/portfolio/" rel="self" type="text/html"/>
             
         
             
@@ -74,7 +74,7 @@
             
 
             
-                <link href="/portfolio/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="//localhost:1313/portfolio/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -90,7 +90,7 @@
 
         
 
-        <link>/portfolio/</link>
+        <link>//localhost:1313/portfolio/</link>
 
         
 
@@ -321,10 +321,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/riese/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/riese/</guid>
 
                 
-                    <link>/portfolio/riese/</link>
+                    <link>//localhost:1313/portfolio/riese/</link>
                 
 
                 
@@ -833,10 +833,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/laughmaker/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/laughmaker/</guid>
 
                 
-                    <link>/portfolio/laughmaker/</link>
+                    <link>//localhost:1313/portfolio/laughmaker/</link>
                 
 
                 
@@ -2222,10 +2222,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/heartbreaker/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/heartbreaker/</guid>
 
                 
-                    <link>/portfolio/heartbreaker/</link>
+                    <link>//localhost:1313/portfolio/heartbreaker/</link>
                 
 
                 
@@ -3132,10 +3132,10 @@ html {
 <br>]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/guiding-light/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/guiding-light/</guid>
 
                 
-                    <link>/portfolio/guiding-light/</link>
+                    <link>//localhost:1313/portfolio/guiding-light/</link>
                 
 
                 
@@ -3557,10 +3557,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/disco-sorter/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/disco-sorter/</guid>
 
                 
-                    <link>/portfolio/disco-sorter/</link>
+                    <link>//localhost:1313/portfolio/disco-sorter/</link>
                 
 
                 
