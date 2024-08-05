@@ -1,0 +1,173 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="//localhost:1313/tags/heartbreaker/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="//localhost:1313/tags/heartbreaker/index.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description></description>
+
+        
+            <language>en-us</language>
+        
+
+        
+            <lastBuildDate>2024-07-31 16:58:35 &#43;0200 CEST</lastBuildDate>
+        
+
+        <link>//localhost:1313/tags/heartbreaker/</link>
+
+        
+
+        <title>Heartbreaker · Tags · </title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: '';
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+<p>&ldquo;Heartbreaker&rdquo; started as a job interview task I moulded in one weekend. 18 months later, my teammates and I won an award with &ldquo;Heartbreaker&rdquo; during a global gamedev conference, surpassing over a 100 professional indie teams. How did we achieve it?</p>
+<h2 id="the-development-of-heartbreaker--introduction">The Development of &ldquo;Heartbreaker&rdquo; – Introduction</h2>
+<p>When I started writing about the production of &ldquo;Heartbreaker,&rdquo; my mind went blank. I wanted to write an abstract of the development process, but I realized it wouldn&rsquo;t offer much help for your own games. So I decided to pick up <strong>the most crucial things that impacted me</strong> as a rookie producer and eventually <strong>brought my team a success</strong>.</p>
+<p>First, I encourage you to get to know <a href="/portfolio/heartbreaker/">“Heartbreaker.”</a> This will help you follow the text more easily. You can even download and try the game yourself.</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/wL9tY9LjcVM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="the-challenge-of-becoming-a-producer">The Challenge of Becoming A Producer</h2>
+<p>The title of the post mentions &ldquo;multilayered approach&rdquo; to game production. This &ldquo;approach&rdquo; is also related to other fields: creative directing or design. And that also highlights the first problem of getting into game production. But there are two of them, actually. 🤓</p>
+<h4 id="a-producer-does-slightly-different-things-in-different-studios">A Producer Does Slightly Different Things in Different Studios</h4>
+<h4 id="seldom-will-you-find-an-entry-level-offer-for-a-producer">Seldom Will You Find An Entry Level Offer For A Producer</h4>
+<h2 id="the-ultimate-weapon-is-the-team--how-we-do-good">&ldquo;The Ultimate Weapon Is The Team&rdquo; – How We Do Good</h2>
+<h2 id="layers-of-fear-production">Layers of <del>Fear</del> Production</h2>
+<h2 id="the-mess-of-game-production">The Mess of Game Production</h2>
+<h2 id="the-art-of-defining-scope-and-killing-your-children-cutting-things-out">The Art of Defining Scope And <del>Killing Your Children</del> Cutting Things Out</h2>
+<blockquote>NIE PUSHUJ NICZEGO NA REPO BEZ USTAWIANIA TEGO NA DRAFT</blockquote>
+<h3 id="subheader">Subheader</h3>
+<h4 id="first-point">First Point</h4>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 id="summary">Summary</h2>
+<h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-07-31:/blog/post-2/</guid>
+
+                
+                    <link>//localhost:1313/blog/post-2/</link>
+                
+
+                
+                    <pubDate>Wed, 31 Jul 2024 16:58:35 CEST</pubDate>
+                
+
+                
+                    <title>Multilayered Approach To Game Production – How We Made “Heartbreaker”</title>
+                
+            </item>
+        
+    </channel>
+</rss>
