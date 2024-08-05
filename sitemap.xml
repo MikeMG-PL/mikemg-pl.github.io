@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2024-07-31T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2024-07-31T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2024-07-30T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/design/</loc>
+    <loc>/tags/design/</loc>
     <lastmod>2024-07-30T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/game-production/</loc>
+    <loc>/categories/game-production/</loc>
     <lastmod>2024-07-30T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/production/</loc>
+    <loc>/tags/production/</loc>
     <lastmod>2024-07-30T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2024-07-30T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tutorials/</loc>
+    <loc>/tags/tutorials/</loc>
     <lastmod>2024-07-30T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/post-1/</loc>
+    <loc>/blog/post-1/</loc>
     <lastmod>2024-07-30T16:58:35+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/authors/</loc>
+    <loc>/authors/</loc>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>/contact/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/disco-sorter/</loc>
+    <loc>/portfolio/disco-sorter/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/guiding-light/</loc>
+    <loc>/portfolio/guiding-light/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/heartbreaker/</loc>
+    <loc>/portfolio/heartbreaker/</loc>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/laughmaker/</loc>
+    <loc>/portfolio/laughmaker/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/</loc>
+    <loc>/portfolio/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/mike-galinski/</loc>
+    <loc>/authors/mike-galinski/</loc>
   </url><url>
-    <loc>//localhost:1313/sections/</loc>
+    <loc>/sections/</loc>
   </url><url>
-    <loc>//localhost:1313/portfolio/riese/</loc>
+    <loc>/portfolio/riese/</loc>
   </url>
 </urlset>

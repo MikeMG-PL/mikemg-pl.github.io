@@ -44,7 +44,7 @@
             
 
             
-                <link href="//localhost:1313/blog/" rel="self" type="text/html"/>
+                <link href="/blog/" rel="self" type="text/html"/>
             
         
             
@@ -52,7 +52,7 @@
             
 
             
-                <link href="//localhost:1313/blog/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="/blog/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -70,7 +70,7 @@
             <lastBuildDate>2024-07-30 16:58:35 &#43;0200 CEST</lastBuildDate>
         
 
-        <link>//localhost:1313/blog/</link>
+        <link>/blog/</link>
 
         
 
@@ -2068,112 +2068,6 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-  
-  
-
-
-  
-  
-    
-    
-      
-    
-
-    
-
-
-    
-    
-
-
-    
-    
-    
-    
-      
-      
-    
-    
-    
-    
-
-
-    
-    
-      
-      
-
-      
-        
-        
-      
-
-
-      
-
-      
-      
-        
-        
-        
-      
-      
-      
-      
-
-    
-    
-
-    
-    
-      
-      
-          <img
-            title=""
-            loading="lazy"
-            decoding="async"
-            class="img img-fluid img-center"
-            width="1096"
-            height="480"
-            src="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_1096x480_fill_q100_lanczos_smart1_3.png"
-            alt=""
-            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/post-1_hu15aada9750093d492186d7bc841149c3_326162_1096x480_fill_q100_lanczos_smart1_3.png'" />
-      
-    
-
-  
-  
-
-
-
-
-
-
-
-
-
-
   
 
 
@@ -2195,7 +2089,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
   </div>
   <div class="notice-body"><p><p>After we press space, we leave the lighthouse and are able to control the hovercraft with WASD keys:</p>
 <center>
-  <img src="/images/posts/post-1/wasd.gif" position="center" height="400" width="400" command="fill" option="q100" class="img-fluid" webp="true">
+  <img src="/images/posts/post-1/wsad.gif" position="center" height="400" width="400" command="fill" option="q100" class="img-fluid" webp="true">
 </center></p></div>
 </div>
 
@@ -3571,10 +3465,10 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2024-07-30:/blog/post-1/</guid>
+                <guid isPermaLink="false">tag:,2024-07-30:/blog/post-1/</guid>
 
                 
-                    <link>//localhost:1313/blog/post-1/</link>
+                    <link>/blog/post-1/</link>
                 
 
                 
