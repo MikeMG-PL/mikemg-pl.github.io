@@ -121,12 +121,12 @@ html {
 }
 
 </style>
-<p>Someone testing your game might point out that your tutorial is not fun. You, a developer convinced about its tutoring power, say: <em>&ldquo;It&rsquo;s a tutorial. It&rsquo;s supposed to teach the player how to play, not to be fun.&rdquo;</em></p>
+<p>Someone testing your game might point out that your tutorial is not fun. You, a developer convinced about its tutoring power, say:<br><em>&ldquo;It&rsquo;s a tutorial. It&rsquo;s supposed to teach the player how to play, not to be fun.&rdquo;</em></p>
 <p><strong>Nothing could be further from the truth!</strong></p>
-<h2 id="answering-the-question">Answering The Question</h2>
-<p>Why is your tutorial <strong>NOT</strong> fun? Player feedback might mention it&rsquo;s too long, overwhelming, or text-heavy. While these points are often valid, they miss the core issue: <strong>the form, pacing, and structure of the tutorial</strong>. <strong>Players shouldn&rsquo;t even realize they&rsquo;re being taught</strong> and <strong>the joy of discovering the game should remain intact</strong>.</p>
-<h2 id="a-tutorial-i-didnt-like--the-witcher-2-assasins-of-kings">A Tutorial I Didn&rsquo;t Like – &ldquo;The Witcher 2: Assasins of Kings&rdquo;</h2>
-<p>Let&rsquo;s look at an acclaimed game that has a tutorial which doesn&rsquo;t align with my design philosophy. <strong>&ldquo;The Witcher 2: Assasins of Kings&rdquo;</strong> by <strong>CD Projekt RED</strong> is a great game, but the way it guides players differs from how I would approach it. I show this example to emphasize that even highly acclaimed AAA games can do it better and designing a good tutorial is a difficult task.</p>
+<h2 id="trying-to-answer-the-question">Trying To Answer The Question</h2>
+<p>OK, yes, I don&rsquo;t know what tutorial you designed – it might be awesome! So let&rsquo;s discuss why tutorials in general might be <strong>NOT</strong> fun? Player feedback might mention it&rsquo;s too long, overwhelming, or text-heavy. While these points are often valid, they miss the core issue: <strong>the form, pacing, and structure of the tutorial</strong>. <strong>Players shouldn&rsquo;t even realize they&rsquo;re being taught</strong> and <strong>the joy of discovering the game should remain intact</strong>. That&rsquo;s how <strong>seamless tutorials</strong> are created.</p>
+<h2 id="an-explicit-tutorial--the-witcher-2-assasins-of-kings">An Explicit Tutorial – &ldquo;The Witcher 2: Assasins of Kings&rdquo;</h2>
+<p>Firstly, let&rsquo;s look at an acclaimed game that has a tutorial which doesn&rsquo;t align with the &ldquo;seamless&rdquo; philosophy. <strong>&ldquo;The Witcher 2: Assasins of Kings&rdquo;</strong> by <strong>CD Projekt RED</strong> is a great game, but the way it guides players is very explicit. I&rsquo;m not trying to judge here, but if your opinion will be that &ldquo;The Witcher&rsquo;s 2&rdquo; tutorial could be designed better, this section will show that even highly acclaimed AAA games can do it better. I&rsquo;m also <strong>NOT</strong> trying to say that my game I devote further part of this article is better than &ldquo;The Witcher 2&rdquo; (because it&rsquo;s not). It&rsquo;s good to highlight here that I want to present two approaches, but it&rsquo;s also not a mystery that I evangelize the seamless one. And that&rsquo;s just my personal opinion. What you can be sure of is that good tutoring is always <strong>iterated and tested</strong>, and that both of presented approaches have their pros and cons.</p>
 <center>
 <h3 id="heading"></h3>
 
@@ -248,10 +248,10 @@ html {
       ></iframe>
     </div>
 
-<p><strong>And here are the greatest sins of the tutorial in &ldquo;The Witcher 2&rdquo;:</strong></p>
+<p><strong>And here are the things we can observe in the tutorial of &ldquo;The Witcher 2&rdquo;:</strong></p>
 <h4 id="detached-from-the-main-game">Detached From The Main Game</h4>
-<p>The tutorial in &ldquo;The Witcher 2&rdquo; is optional and detached from the story. You are supposed to hop into the tutorial to learn how to play before you start the prologue. <strong>I find this bad.</strong><br>The prologue should serve as an introduction and seamlessly get the player to know the fundamentals of the gameplay.</p>
-<p>Luckily, &ldquo;The Witcher 3&rdquo; keeps off this approach. Have you noticed that the whole region of White Orchard (and Geralt&rsquo;s dream before) serves as a seamless tutorial? You learn how to play by playing the game and being introduced slowly and seamlessly. That&rsquo;s great!</p>
+<p>The tutorial in &ldquo;The Witcher 2&rdquo; is optional and detached from the story. You are supposed to hop into the tutorial to learn how to play before you start the prologue. It&rsquo;s a pity that it&rsquo;s not <strong>any real adventure of Geralt</strong>. If this was designed seamlessly, the prologue should serve as an introduction, get players to know fundamentals of the gameplay, and then unfold.</p>
+<p><strong>CD Projekt RED changed their direction</strong>. &ldquo;The Witcher 3&rdquo; keeps off this approach! Have you noticed that the whole region of White Orchard (and Geralt&rsquo;s dream before) serves as a seamless tutorial? You learn how to play by playing the game and being introduced slowly and seamlessly <strong>in the first section of the game</strong>. That&rsquo;s great!</p>
 <h4 id="tutorial-about-the-tutorial">Tutorial About The Tutorial</h4>
 <p>The first thing you see when the camera zooms in on Geralt during the tutorial is this panel:</p>
 
@@ -357,19 +357,14 @@ html {
 
 
 
-<p><strong>There are multiple reasons why this is bad:</strong></p>
+<p><strong>This is what you do if you apply &ldquo;The Witcher&rsquo;s 2&rdquo; approach:</strong></p>
 <ul>
-<li><strong>you immediately tell the players: <em>&ldquo;Now you will be taught how to play!&rdquo;</em></strong> Felling that you&rsquo;re being taught how to play is like doing homework. The fun gets killed.</li>
-<li><strong>the players want to play but you stop them.</strong> You may ask: <em>&ldquo;How do I make them play if they don&rsquo;t know how?&rdquo;</em> Well, probably at the stage when Geralt has to move forward they&rsquo;ll get it quickly (and later on I&rsquo;ll show you how to make them get it seamlessly).</li>
+<li><strong>you immediately tell the players: <em>&ldquo;Now you will be taught how to play!&rdquo;</em></strong>  Felling that you&rsquo;re being taught how to play might be like doing homework. The fun gets killed.</li>
+<li><strong>the players want to play but you stop them.</strong> You may ask: <em>&ldquo;How do I make them play if they don&rsquo;t know how?&quot;</em>  Well, probably at the stage when Geralt has to move forward they&rsquo;ll get it quickly (and later on I&rsquo;ll show you how to make them get it seamlessly).</li>
 <li><strong>that&rsquo;s a lot of text.</strong> Players don&rsquo;t like to read through tutorials. <strong>Don&rsquo;t get me wrong:</strong> I have nothing against text in games. There are many titles such as <a href="https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/">Disco Elysium</a> that nail the art of written content, but I&rsquo;m talking about in-your-face tutorial panels.</li>
 <li><strong>it breaks immersion</strong>. Each of these panels pulls you further from the world of The Witcher.</li>
 </ul>
-<p><strong>There are, however, some minor advantages:</strong></p>
-<ul>
-<li><strong>we show the players that they can return to particular hints later</strong> (we can still show it more seamlessly, so this advantage doesn&rsquo;t matter anyway)</li>
-<li><strong>we foreshadow the convention of tutorial panels and then stick to it</strong> (I don&rsquo;t find those panels a good method, so this advantage doesn&rsquo;t matter either)</li>
-</ul>
-<p>As I mentioned above, it&rsquo;s not bad to inform players they can return to specific hints later. However, this isn&rsquo;t the best moment to do so. An &ldquo;encyclopedia&rdquo; of game mechanics is useful, but it should be introduced later as a brief reminder, not as the first thing players see in the game.</p>
+<p>It&rsquo;s not bad to inform players they can return to specific hints later. However, maybe this isn&rsquo;t the best moment to do so. An &ldquo;encyclopedia&rdquo; of game mechanics is useful, but it could be introduced later as a brief reminder, not as the first thing players see in the game.</p>
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <div style="flex: 0 0 auto; max-width: 50%; width: 100%; margin-right: -50px;">
     
@@ -1201,8 +1196,8 @@ html {
 
 <p>Now you might be thinking that I am talking about absolute trivia but an example of &ldquo;The Witcher 2&rdquo; shows that it&rsquo;s <strong>less obvious</strong> and <strong>more important</strong> that you&rsquo;d think. Camera and movement are just a tip of the iceberg. In section <a href="#case-study-of-guiding-light--seamless-tutorial">&ldquo;Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial&rdquo;</a> I show that even such simple prompts can be effective enough in more complex cases.</p>
 <hr>
-<p>An in-depth analysis of &ldquo;The Witcher 2&rdquo; tutorial is not a main point of this post, so I&rsquo;ll just briefly point out the rest of things I didn&rsquo;t enjoy:</p>
-<h4 id="too-rushed">Too Rushed</h4>
+<p>An in-depth analysis of &ldquo;The Witcher 2&rdquo; tutorial is not a main point of this post, so I&rsquo;ll just briefly point out the rest of important things we can notice:</p>
+<h4 id="35-hours-in-25-minutes">35 Hours in 25 Minutes</h4>
 <p>According to <a href="https://howlongtobeat.com/game/10268">howlongtobeat.com</a>, &ldquo;The Witcher 2&rdquo; takes around 35 hours to finish during an average playthrough (main story + side quests). And all the most important mechanics are being explained during a <strong>half an hour</strong> tutorial!</p>
 
 
@@ -1312,7 +1307,7 @@ html {
 
 <p>There&rsquo;s a need of explaining alchemy? Why don&rsquo;t we introduce it when it&rsquo;s <strong>needed for the first time</strong>? It could be during preparations before the fight with Kayran in Flotsam (a first major boss you face in the game). And so on with rest of the systems&hellip; I find <strong>providing too much information at once a bad practice</strong>.</p>
 <h4 id="inconsistent-with-the-game-world-immersion-breaking">Inconsistent With The Game World, Immersion-Breaking</h4>
-<p>I am talking mostly about the combat part. The game speaks directly to players and spawns enemies in front of them out of nowhere. Who are these people we kill? Why do they appear out of nowhere? This is immersion-breaking and definitely builds a bad first impression.</p>
+<p>I am talking mostly about the combat part. The game speaks directly to players and spawns enemies in front of them out of nowhere. Who are these people we kill? Why do they appear out of nowhere? Players might find it immersion-breaking and building a bad first impression.</p>
 
 
 
@@ -1420,7 +1415,7 @@ html {
 <p><em>&ldquo;Oh, yeah, I&rsquo;ve just spawned out of nowhere and I&rsquo;m standing still. Now kill me.&rdquo;</em></p>
 </center>
 <hr>
-<p>In case of &ldquo;The Witcher 2&rdquo; I think that not only was the tutorial <strong>not fun</strong>, but also <strong>moderately effective</strong>. &ldquo;The Witcher 2&rdquo; is often listed among <a href="https://www.youtube.com/watch?v=s7dpDKRFim8&t=89s">the worst game tutorials</a> for a reason. Luckily, an off-putting tutorial was not followed by a bad game, and what&rsquo;s more, CD Projekt RED took a lesson and the process of tutoring players got vastly improved in the next installment of &ldquo;The Witcher&rdquo; series.</p>
+<p>To sum up this part with my opinion: In case of &ldquo;The Witcher 2&rdquo; I think that not only was the tutorial <strong>not fun</strong>, but also <strong>moderately effective</strong>. &ldquo;The Witcher 2&rdquo; is often listed among <a href="https://www.youtube.com/watch?v=s7dpDKRFim8&t=89s">the worst game tutorials</a> for a reason. Luckily, an off-putting tutorial was not followed by a bad game, and what&rsquo;s more, CD Projekt RED took a lesson and the process of tutoring players got vastly improved in the next installment of &ldquo;The Witcher&rdquo; series.</p>
 <h2 id="the-best-tutorial-is-the-one-you-dont-feel">The Best Tutorial Is The One You Don&rsquo;t Feel</h2>
 <p>The <a href="#answering-the-question">Answering The Question</a> section says that the process of tutoring players should be embedded into the game. And this is the moment where <strong>you should forget about tutorials</strong>. You shouldn&rsquo;t even use this word in your game.</p>
 <p>Now it&rsquo;s finally time for the &ldquo;What To Do About It&rdquo; part!</p>
@@ -3105,7 +3100,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 <p>The level is finished after we guide this ship to the port and feed the penguins (consistent gameplay loop).</p>
 <hr>
-<p>The same techniques are used in the third introductory level to explain <strong>upgrading the lighthouse</strong>. However, another gameplay aspect – pirates – provides an opportunity for a different tutoring technique. This technique is used not necessarily to teach, but to <strong>make tutoring more enjoyable:</strong></p>
+<p>The same techniques are used in the third introductory level to explain <strong>upgrading the lighthouse</strong>. However, another gameplay aspect – pirates – provides an opportunity for a different tutoring technique. This technique is used not necessarily to teach, but to <strong>make tutoring more enjoyable:</strong></p>
 <h4 id="leaving-a-surprise-to-discover">Leaving A Surprise To Discover</h4>
 <p>When pirates appear in the third level, this is what the players are told:</p>
 
@@ -3421,7 +3416,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 </div>
 
 <h2 id="summary">Summary</h2>
-<p>I hope that now you can see a difference between in-your-face tutorials that overwhelm players and seamless tutorials that are fun, lore-accurate and more player-friendly. To make a cheat-sheet for designing a seamless tutorial in your next game, I gathered all the tips and they are presented below:</p>
+<p>I hope that now you can see a difference between in-your-face tutorials that overwhelm players and seamless tutorials that are fun, lore-accurate and more player-friendly. To make a cheat-sheet for designing a seamless tutorial in your next game, I gathered all the tips and they are presented below:</p>
 
 
 

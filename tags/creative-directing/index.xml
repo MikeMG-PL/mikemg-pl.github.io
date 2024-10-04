@@ -1,0 +1,172 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="//localhost:1313/tags/creative-directing/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="//localhost:1313/tags/creative-directing/index.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description></description>
+
+        
+            <language>en-us</language>
+        
+
+        
+            <lastBuildDate>2024-07-31 16:58:35 &#43;0200 CEST</lastBuildDate>
+        
+
+        <link>//localhost:1313/tags/creative-directing/</link>
+
+        
+
+        <title>Creative Directing · Tags · </title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: '';
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+<p>&ldquo;Heartbreaker&rdquo; started as a job interview task I moulded in one weekend. 18 months later, my teammates and I won an award with &ldquo;Heartbreaker&rdquo; during a global gamedev conference, surpassing over a 100 professional indie teams. How did we achieve it?</p>
+<h2 id="the-challenge-of-becoming-a-producer">The Challenge of Becoming A Producer</h2>
+<p>Before I dive into <a href="#layers-of-production">Layers of Production</a> – a section written to help you tie your game together – I want to highlight that there are two key challenges related to becoming a commercial producer. <strong>I spoke with two experienced game producers</strong> from AA/AA+ studios, and they confirmed these challenges are indeed what game production pretenders need to face.</p>
+<h3 id="heading"></h3>
+<h4 id="producers-responsibilities-vary-by-studio-especially-indie">Producer&rsquo;s Responsibilities Vary by Studio (Especially Indie)</h4>
+<p>What I write about in this post also applies to <strong>creative directing</strong> and <strong>game design</strong>.</p>
+<h4 id="entry-level-producer-positions-are-rare">Entry-Level Producer Positions Are Rare</h4>
+<h2 id="the-development-of-heartbreaker--introduction">The Development of &ldquo;Heartbreaker&rdquo; – Introduction</h2>
+<p>First, I encourage you to get to know <a href="/portfolio/heartbreaker/">“Heartbreaker.”</a> This will help you follow the text more easily. You can even download and try the game yourself.</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/wL9tY9LjcVM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<h2 id="the-ultimate-weapon-is-the-team--how-we-do-good">&ldquo;The Ultimate Weapon Is The Team&rdquo; – How We Do Good</h2>
+<h2 id="layers-of-production">Layers of Production</h2>
+<h2 id="the-mess-of-game-production">The Mess of Game Production</h2>
+<h2 id="the-art-of-defining-scope-and-cutting-things-out">The Art of Defining Scope And Cutting Things Out</h2>
+<blockquote>NIE PUSHUJ NICZEGO NA REPO BEZ USTAWIANIA TEGO NA DRAFT</blockquote>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 id="summary">Summary</h2>
+<h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-07-31:/blog/post-2/</guid>
+
+                
+                    <link>//localhost:1313/blog/post-2/</link>
+                
+
+                
+                    <pubDate>Wed, 31 Jul 2024 16:58:35 CEST</pubDate>
+                
+
+                
+                    <title>Multilayered Game Production – How We Made “Heartbreaker”</title>
+                
+            </item>
+        
+    </channel>
+</rss>

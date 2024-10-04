@@ -3477,7 +3477,7 @@ html {
 <p>The development of the game began in late 2019 when my team at <a href="https://www.facebook.com/DigitalNightStudio">Digital Night Studio</a>, a student game development club, decided to create a VR game. At that time, my friend <a href="https://www.linkedin.com/in/mikołaj-przybylski-5b8865206/">Mikołaj</a> and I were both 17 years old. When the COVID pandemic hit in 2020, we had ample time to complete the game and submit it to the <a href="https://ztgk.pl">ZTGK</a> game development contest!</p>
 <p>This is a standalone Meta Quest game. The main challenges we faced were:</p>
 <ul>
-<li>Building rytm controller and combining rythm-based events with physics (the apples roll physically!)</li>
+<li>Building rythm controller and combining rythm-based events with physics (the apples roll physically!)</li>
 <li>Creating full level editor</li>
 <li>Optimizing the game (as it&rsquo;s standalone Meta Quest) while preserving neon and party style. Lots of interesting tricks were applied here.</li>
 </ul>
