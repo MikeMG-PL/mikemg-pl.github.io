@@ -211,7 +211,7 @@ html {
 
     
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/wL9tY9LjcVM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/9UdSVbAIhKI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
       ></iframe>
     </div>
 
@@ -1383,7 +1383,7 @@ html {
 <p>Sound and music are also something that holds the game together and you shouldn&rsquo;t ignore it. They are important for many reasons. Some more obvious, like being an integral part of the antourage around the game&rsquo;s setting, just like visuals. Less obvious reasons include <strong>being a major UX component</strong> – sound can be (and should be!) used as <strong>something that gives players feedback</strong> just as user interface, particles, or other visuals.</p>
 <hr>
 <p>In &ldquo;Heartbreaker&rdquo;, sound effects are everywhere – they accompany every action players take, every piece of it, to fully notify the players about what is happening right now. The main goal our sound designer and composer, <a href="https://soundcloud.com/michal_swistak">Michał</a>, has had was delivering the feeling of being immersed into the world we have created.</p>
-<p>Soundtrack is also built around the party and holiday theme with a nostalgic addition to it. Players traverse the levels listening to chill &amp; beach house music. What is more, the music reflects the atmosphere of the story we discover and locations we visit. When we arrive at the garden party at the very beginning of the game, we can hear a lively dance track. When we reach darker but much more magical jungle, <a href="https://www.youtube.com/watch?v=wL9tY9LjcVM&t=160s" target="_blank">the music changes to more nostalgic</a>. You can listen to the full soundtrack below:</p>
+<p>Soundtrack is also built around the party and holiday theme with a nostalgic addition to it. Players traverse the levels listening to chill &amp; beach house music. What is more, the music reflects the atmosphere of the story we discover and locations we visit. When we arrive at the garden party at the very beginning of the game, we can hear a lively dance track. When we reach darker but much more magical jungle, <a href="https://youtu.be/9UdSVbAIhKI?t=204" target="_blank">the music changes to more nostalgic</a>. You can listen to the full soundtrack below:</p>
 <div style="width: 500px; height: 500px; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto;">
     <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1842737232&color=%2398bcdc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/michal_swistak" title="michal_swistak" target="_blank" style="color: #cccccc; text-decoration: none;">Michał Świstak</a> · <a href="https://soundcloud.com/michal_swistak/sets/heartbreaker_ost" title="heartbreaker_OST" target="_blank" style="color: #cccccc; text-decoration: none;">Heartbreaker OST</a></div>
 </div>
@@ -6439,7 +6439,8 @@ html {
 }
 
 </style>
-<blockquote><center>Would you rest on your laurels, having all you've ever wanted? These people would.</center></blockquote>
+<blockquote><center>Would you rest on your laurels, having all you've ever wanted? These people would.
+</center></blockquote>
 
 
 
@@ -6541,16 +6542,16 @@ html {
             class="swiper-slide zoomable">
             
               <a
-                href="/images/heartbreaker/eUFkEL.png"
+                href="/images/heartbreaker/1.png"
                 class="glightbox"
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/heartbreaker/eUFkEL_hu506cf20b6a097f39b02a92238568bbdc_2994827_1200x1200_fit_lanczos_3.png"
+                  src="/images/heartbreaker/1_hudc0f07964ef4448b48f5f03b72d8e7bd_2184194_1200x1200_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="eUFkEL.png"
-                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/eUFkEL_hu506cf20b6a097f39b02a92238568bbdc_2994827_1200x1200_fit_lanczos_3.png'" />
+                  alt="1.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/1_hudc0f07964ef4448b48f5f03b72d8e7bd_2184194_1200x1200_fit_lanczos_3.png'" />
               </a>
             
           </div>
@@ -6631,16 +6632,16 @@ html {
             class="swiper-slide zoomable">
             
               <a
-                href="/images/heartbreaker/gtxeQJ.png"
+                href="/images/heartbreaker/2.png"
                 class="glightbox"
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/heartbreaker/gtxeQJ_hufb729f3bbb8c516acfffe940d50add3a_1973244_1200x1200_fit_lanczos_3.png"
+                  src="/images/heartbreaker/2_hu5748675c641a0f1c6d7e18fab39b1dc2_1080181_1200x1200_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="gtxeQJ.png"
-                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/gtxeQJ_hufb729f3bbb8c516acfffe940d50add3a_1973244_1200x1200_fit_lanczos_3.png'" />
+                  alt="2.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/2_hu5748675c641a0f1c6d7e18fab39b1dc2_1080181_1200x1200_fit_lanczos_3.png'" />
               </a>
             
           </div>
@@ -6721,16 +6722,16 @@ html {
             class="swiper-slide zoomable">
             
               <a
-                href="/images/heartbreaker/l2lpdi.png"
+                href="/images/heartbreaker/3.png"
                 class="glightbox"
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/heartbreaker/l2lpdi_hudb4ac97b825f388dd7d1ccf74e2f2dc9_2469301_1200x1200_fit_lanczos_3.png"
+                  src="/images/heartbreaker/3_hu886c992c5a93de69473b431d77acd216_1857413_1200x1200_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="l2lpdi.png"
-                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/l2lpdi_hudb4ac97b825f388dd7d1ccf74e2f2dc9_2469301_1200x1200_fit_lanczos_3.png'" />
+                  alt="3.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/3_hu886c992c5a93de69473b431d77acd216_1857413_1200x1200_fit_lanczos_3.png'" />
               </a>
             
           </div>
@@ -6811,16 +6812,16 @@ html {
             class="swiper-slide zoomable">
             
               <a
-                href="/images/heartbreaker/L_mwU_.png"
+                href="/images/heartbreaker/4.png"
                 class="glightbox"
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/heartbreaker/L_mwU__hue4fc3d4030b3f71517dda88867141ff7_1120285_1200x1200_fit_lanczos_3.png"
+                  src="/images/heartbreaker/4_huec2eb80b43c5b4ab99d3a057eae7ff23_2574946_1200x1200_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="L_mwU_.png"
-                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/L_mwU__hue4fc3d4030b3f71517dda88867141ff7_1120285_1200x1200_fit_lanczos_3.png'" />
+                  alt="4.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/4_huec2eb80b43c5b4ab99d3a057eae7ff23_2574946_1200x1200_fit_lanczos_3.png'" />
               </a>
             
           </div>
@@ -6901,16 +6902,106 @@ html {
             class="swiper-slide zoomable">
             
               <a
-                href="/images/heartbreaker/LsDX1_.png"
+                href="/images/heartbreaker/5.png"
                 class="glightbox"
                 style="display: block;">
                 <img
                   loading="lazy"
-                  src="/images/heartbreaker/LsDX1__hu5748675c641a0f1c6d7e18fab39b1dc2_1080181_1200x1200_fit_lanczos_3.png"
+                  src="/images/heartbreaker/5_hu1a4e8ffa84f36e3bb488cca2c38875df_1339242_1200x1200_fit_lanczos_3.png"
                   class="img"
                   style="margin: 0"
-                  alt="LsDX1_.png"
-                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/LsDX1__hu5748675c641a0f1c6d7e18fab39b1dc2_1080181_1200x1200_fit_lanczos_3.png'" />
+                  alt="5.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/5_hu1a4e8ffa84f36e3bb488cca2c38875df_1339242_1200x1200_fit_lanczos_3.png'" />
+              </a>
+            
+          </div>
+        
+      
+        
+        
+        
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+  
+  
+  
+
+
+  
+  
+    
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    
+      
+      
+        
+        
+      
+      
+    
+
+
+    
+  
+
+
+  
+
+
+          
+          
+          
+          
+
+
+          <div
+            class="swiper-slide zoomable">
+            
+              <a
+                href="/images/heartbreaker/6.png"
+                class="glightbox"
+                style="display: block;">
+                <img
+                  loading="lazy"
+                  src="/images/heartbreaker/6_hufb729f3bbb8c516acfffe940d50add3a_1973244_1200x1200_fit_lanczos_3.png"
+                  class="img"
+                  style="margin: 0"
+                  alt="6.png"
+                  onerror="this.onerror='null';this.src='\/images\/heartbreaker\/6_hufb729f3bbb8c516acfffe940d50add3a_1973244_1200x1200_fit_lanczos_3.png'" />
               </a>
             
           </div>
@@ -6931,7 +7022,8 @@ html {
 </div>
 
 
-<blockquote><center>Heartbreaker is a first person action platformer about crashing the hearts of stone using your movement, set in a picturesque and nostalgic atmosphere.</center></blockquote>
+<blockquote><center>Heartbreaker is a first person action platformer, where you crash hearts of stone using your movement,<br>set in a&nbsp;picturesque and nostalgic atmosphere.
+</center></blockquote>
 <br>
 <h5 id="centersee-the-trailer-devlog-and-gameplay-videocenter"><center>See the trailer, devlog, and gameplay video:</center></h5>
 <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
@@ -6940,7 +7032,7 @@ html {
     
         
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rDb873UhP2I?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/aITj-S1CrZg?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
           ></iframe>
         </div>
 
@@ -6960,7 +7052,7 @@ html {
     
         
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/wL9tY9LjcVM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+          <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/9UdSVbAIhKI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
           ></iframe>
         </div>
 

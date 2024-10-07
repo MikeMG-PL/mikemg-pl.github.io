@@ -1,0 +1,148 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            
+
+            
+                
+            
+
+            
+                <link href="//localhost:1313/tags/programming/" rel="self" type="text/html"/>
+            
+        
+            
+
+            
+
+            
+                <link href="//localhost:1313/tags/programming/index.xml" rel="alternate" type="application/rss+xml"/>
+            
+        
+
+        
+
+        
+
+        <description></description>
+
+        
+            <language>en-us</language>
+        
+
+        
+            <lastBuildDate>2024-10-04 16:58:35 &#43;0200 CEST</lastBuildDate>
+        
+
+        <link>//localhost:1313/tags/programming/</link>
+
+        
+
+        <title>Programming · Tags · </title>
+
+        
+
+        
+            <item>
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+
+                
+
+                
+
+                
+                    <description><![CDATA[<style>
+
+:target:before {
+  content: ''
+  display: block;
+  height: 100px; /* Adjust offset as needed */
+  margin-top: -100px; /* Negative value equal to height */
+  visibility: hidden;
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
+
+</style>
+<p>Resource management in game engines is a wide term, from handling newly exported assets to managing assets loaded into memory in a specific form for particular engine modules.</p>
+<h1 id="nie-pushuj-nic-na-repo-bez-ustawiania-tego-na-draft-">NIE PUSHUJ NIC NA REPO BEZ USTAWIANIA TEGO NA DRAFT 🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩</h1>
+<h2 id="abstract">Abstract</h2>
+<h2 id="summary">Summary</h2>
+<h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
+]]></description>
+                
+
+                <guid isPermaLink="false">tag:localhost:1313,2024-10-04:/blog/post-3/</guid>
+
+                
+                    <link>//localhost:1313/blog/post-3/</link>
+                
+
+                
+                    <pubDate>Fri, 04 Oct 2024 16:58:35 CEST</pubDate>
+                
+
+                
+                    <title>Basic Resource Management in a Custom Game Engine</title>
+                
+            </item>
+        
+    </channel>
+</rss>
