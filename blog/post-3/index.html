@@ -968,7 +968,8 @@
   </summary>
   <nav id="TableOfContents">
   <ol>
-    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#background">Background</a></li>
+    <li><a href="#what-you-need-to-be-aware-of">What You Need to Be Aware of</a></li>
     <li><a href="#summary">Summary</a></li>
     <li><a href="#sources--additional-materials">Sources &amp; Additional Materials</a></li>
   </ol>
@@ -1056,9 +1057,13 @@ html {
 }
 
 </style>
-<p>Resource management in game engines is a wide term, from handling newly exported assets to managing assets loaded into memory in a specific form for particular engine modules.</p>
+<p>Resource management in game engines is a wide term, from handling newly exported assets to managing assets loaded into memory in a specific form for particular engine modules. In this article I describe the most basic form of resource management – based on reference counting and sharing one resource allocated in memory. <strong>Why is this so important?</strong></p>
 <h1 id="nie-pushuj-nic-na-repo-bez-ustawiania-tego-na-draft-">NIE PUSHUJ NIC NA REPO BEZ USTAWIANIA TEGO NA DRAFT 🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩🚩</h1>
-<h2 id="abstract">Abstract</h2>
+<h2 id="background">Background</h2>
+<p>I present this topic in context of a simple game engine I coworked on. My team and I developed a simple game engine, and a game made with it, in <strong>4 months</strong> for courses conducted by the <a href="https://p.lodz.pl/en">Lodz University of Technology</a>.</p>
+<p>You can check the project <a href="/portfolio/guiding-light/">right there</a> – more technical aspects of the engine are presented under this link, but I will also delve into some details in this post, where needed. But now, let&rsquo;s answer the question from the introduction: <strong>Why is resource management so important, even in simple custom game engines and educational projects?</strong></p>
+<p>By writing this post I want to guide mostly rookie engine devs, based on my contribution to our student project. That results in a few significant aspects you need to know, before you dive into the post&hellip;</p>
+<h2 id="what-you-need-to-be-aware-of">What You Need to Be Aware of</h2>
 <h2 id="summary">Summary</h2>
 <h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
 

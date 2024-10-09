@@ -907,6 +907,14 @@ select {
   padding-left: calc(var(--bs-gutter-x) / 2);
   margin-top: var(--bs-gutter-y);
 }
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.666666666666668%;
+}
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.333333333333336%;
+}
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
@@ -1998,6 +2006,9 @@ input#nav-toggle:checked ~ #nav-menu {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.ml-0 {
+  margin-left: 0px;
+}
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -2069,6 +2080,15 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .w-full {
   width: 100%;
+}
+.max-w-\[100px\] {
+  max-width: 100px;
+}
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 .cursor-pointer {
   cursor: pointer;
