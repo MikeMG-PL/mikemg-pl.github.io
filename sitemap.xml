@@ -5,11 +5,32 @@
     <loc>/</loc>
     <lastmod>2024-10-04T16:58:35+02:00</lastmod>
   </url><url>
+    <loc>/blog/post-3/</loc>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
+  </url><url>
     <loc>/blog/</loc>
     <lastmod>2024-10-04T16:58:35+02:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-10-01T16:58:35+02:00</lastmod>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
+  </url><url>
+    <loc>/tags/core-engine/</loc>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
+  </url><url>
+    <loc>/tags/game-engines/</loc>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
+  </url><url>
+    <loc>/categories/game-programming/</loc>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
+  </url><url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
+  </url><url>
+    <loc>/tags/resource-management/</loc>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-10-04T16:58:35+02:00</lastmod>
   </url><url>
     <loc>/tags/design/</loc>
     <lastmod>2024-10-01T16:58:35+02:00</lastmod>
@@ -27,9 +48,6 @@
     <lastmod>2024-10-01T16:58:35+02:00</lastmod>
   </url><url>
     <loc>/tags/production/</loc>
-    <lastmod>2024-10-01T16:58:35+02:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-10-01T16:58:35+02:00</lastmod>
   </url><url>
     <loc>/tags/tutorials/</loc>
