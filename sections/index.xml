@@ -48,7 +48,7 @@
             
 
             
-                <link href="http://localhost:1313/sections/" rel="self" type="text/html"/>
+                <link href="https://mikegalinski.com/sections/" rel="self" type="text/html"/>
             
         
             
@@ -56,7 +56,7 @@
             
 
             
-                <link href="http://localhost:1313/sections/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikegalinski.com/sections/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,7 +72,7 @@
 
         
 
-        <link>http://localhost:1313/sections/</link>
+        <link>https://mikegalinski.com/sections/</link>
 
         
 
@@ -111,7 +111,7 @@
                     <description><![CDATA[Don&rsquo;t just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate.]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:</guid>
 
                 
 
@@ -154,7 +154,7 @@
                     <description><![CDATA[Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility.]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:</guid>
 
                 
 

@@ -46,7 +46,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/tutorials/" rel="self" type="text/html"/>
+                <link href="https://mikegalinski.com/tags/tutorials/" rel="self" type="text/html"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="http://localhost:1313/tags/tutorials/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikegalinski.com/tags/tutorials/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,7 +72,7 @@
             <lastBuildDate>2024-07-30 16:58:35 &#43;0200 CEST</lastBuildDate>
         
 
-        <link>http://localhost:1313/tags/tutorials/</link>
+        <link>https://mikegalinski.com/tags/tutorials/</link>
 
         
 
@@ -4351,10 +4351,10 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:localhost:1313,2024-07-30:/blog/post-1/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,2024-07-30:/blog/post-1/</guid>
 
                 
-                    <link>http://localhost:1313/blog/post-1/</link>
+                    <link>https://mikegalinski.com/blog/post-1/</link>
                 
 
                 
