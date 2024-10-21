@@ -82,7 +82,7 @@
   
 
 
-<title>Why Tutorial in Your Game Sucks (And What To Do About It)</title>
+<title>Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;</title>
 
 
 
@@ -184,13 +184,13 @@
 
 
 
-<meta property="og:title" content="Why Tutorial in Your Game Sucks (And What To Do About It)" />
+<meta property="og:title" content="Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;" />
 <meta property="og:description" content="Mike Galinski Gamedev Blog" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/blog/post-1/" />
 
 
-<meta name="twitter:title" content="Why Tutorial in Your Game Sucks (And What To Do About It)" />
+<meta name="twitter:title" content="Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;" />
 <meta name="twitter:description" content="Mike Galinski Gamedev Blog" />
 
 
@@ -324,8 +324,8 @@
 
 
 <link
-  href="/css/style.min.b369f489784858b73c44593661338d3b3bfb6c0e4f69e1fe30aaddd2b4e395cf.css"
-  integrity="sha256-s2n0iXhIWLc8RFk2YTONOzv7bA5PaeH+MKrd0rTjlc8="
+  href="/css/style.min.d15a64ae314ea11048b75ea95f3fb95eee9f9ad745944dbb67f0a83ccb674ea8.css"
+  integrity="sha256-0VpkrjFOoRBIt16pXz+5Xu6fmtdFlE27Z/CoPMtnTqg="
   rel="stylesheet" />
 
 
@@ -896,7 +896,7 @@
               loading="lazy" decoding="async"
               src="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_1110x0_resize_lanczos_3.png"
             class=" w-full rounded img"
-            alt="Why Tutorial in Your Game Sucks (And What To Do About It)"
+            alt="Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;"
             width="1096"
             height="480" />
         </picture>
@@ -913,7 +913,7 @@
             </div>
           
           <h1 class="h2 mb-4">
-            Why Tutorial in Your Game Sucks (And What To Do About It)
+            Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;
           </h1>
           <ul class="mb-4">
             <li class="mr-4 inline-block">
@@ -956,34 +956,25 @@
   </summary>
   <nav id="TableOfContents">
   <ol>
-    <li><a href="#trying-to-answer-the-question">Trying To Answer The Question</a></li>
-    <li><a href="#an-explicit-tutorial--the-witcher-2-assasins-of-kings">An Explicit Tutorial – &ldquo;The Witcher 2: Assasins of Kings&rdquo;</a>
+    <li><a href="#what-is-a-seamless-tutorial-and-what-is-this-text-about">What Is a Seamless Tutorial and What Is This Text About</a></li>
+    <li><a href="#why-we-wanted-seamless-tutoring">Why We Wanted Seamless Tutoring</a></li>
+    <li><a href="#case-study-of-guiding-light">Case Study of &ldquo;Guiding Light&rdquo;</a>
       <ol>
         <li><a href="#heading"></a>
           <ol>
-            <li><a href="#detached-from-the-main-game">Detached From The Main Game</a></li>
-            <li><a href="#tutorial-about-the-tutorial">Tutorial About The Tutorial</a></li>
-            <li><a href="#panels-for-the-most-basic-controls">Panels For The Most Basic Controls</a></li>
-            <li><a href="#35-hours-in-25-minutes">35 Hours in 25 Minutes</a></li>
-            <li><a href="#inconsistent-with-the-game-world-immersion-breaking">Inconsistent With The Game World, Immersion-Breaking</a></li>
-          </ol>
-        </li>
-      </ol>
-    </li>
-    <li><a href="#the-best-tutorial-is-the-one-you-dont-feel">The Best Tutorial Is The One You Don&rsquo;t Feel</a></li>
-    <li><a href="#case-study-of-guiding-light--seamless-tutorial">Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial</a>
-      <ol>
-        <li><a href="#heading-1"></a>
-          <ol>
-            <li><a href="#you-can-teach-the-player-earlier-than-you-think">You Can Teach The Player Earlier Than You Think</a></li>
-            <li><a href="#keep-the-gameplay-loop-consistent-tutoring-is-not-an-exception">Keep The Gameplay Loop Consistent, Tutoring Is Not An Exception</a></li>
-            <li><a href="#controls-goal-context">Controls, Goal, Context</a></li>
+            <li><a href="#we-taught-the-player-sooner-than-expected">We Taught the Player Sooner Than Expected</a></li>
+            <li><a href="#tutoring-was-no-exception-to-the-gameplay-loop">Tutoring Was No Exception to the Gameplay Loop</a></li>
+            <li><a href="#prompts-vs-panels">Prompts vs Panels</a></li>
+            <li><a href="#controls-goal-and-context">Controls, Goal, and Context</a></li>
+            <li><a href="#stopping-progress-until-players-use-the-new-mechanic">Stopping Progress Until Players Use the New Mechanic</a></li>
+            <li><a href="#dots-and-connections">Dots and Connections</a></li>
             <li><a href="#explaining-more-complex-systems">Explaining More Complex Systems</a></li>
             <li><a href="#leaving-a-surprise-to-discover">Leaving A Surprise To Discover</a></li>
           </ol>
         </li>
       </ol>
     </li>
+    <li><a href="#what-could-be-done-better">What Could Be Done Better</a></li>
     <li><a href="#summary">Summary</a></li>
     <li><a href="#sources--additional-materials">Sources &amp; Additional Materials</a></li>
   </ol>
@@ -1071,14 +1062,22 @@ html {
 }
 
 </style>
-<p>Someone testing your game might point out that your tutorial is not fun. You, a developer convinced about its tutoring power, say:<br><em>&ldquo;It&rsquo;s a tutorial. It&rsquo;s supposed to teach the player how to play, not to be fun.&rdquo;</em></p>
-<p><strong>Nothing could be further from the truth!</strong></p>
-<h2 id="trying-to-answer-the-question">Trying To Answer The Question</h2>
-<p>OK, yes, I don&rsquo;t know what tutorial you designed – it might be awesome! So let&rsquo;s discuss why tutorials in general might be <strong>NOT</strong> fun? Player feedback might mention it&rsquo;s too long, overwhelming, or text-heavy. While these points are often valid, they miss the core issue: <strong>the form, pacing, and structure of the tutorial</strong>. <strong>Players shouldn&rsquo;t even realize they&rsquo;re being taught</strong> and <strong>the joy of discovering the game should remain intact</strong>. That&rsquo;s how <strong>seamless tutorials</strong> are created.</p>
-<h2 id="an-explicit-tutorial--the-witcher-2-assasins-of-kings">An Explicit Tutorial – &ldquo;The Witcher 2: Assasins of Kings&rdquo;</h2>
-<p>Firstly, let&rsquo;s look at an acclaimed game that has a tutorial which doesn&rsquo;t align with the &ldquo;seamless&rdquo; philosophy. <strong>&ldquo;The Witcher 2: Assasins of Kings&rdquo;</strong> by <strong>CD Projekt RED</strong> is a great game, but the way it guides players is very explicit. I&rsquo;m not trying to judge here, but if your opinion will be that &ldquo;The Witcher&rsquo;s 2&rdquo; tutorial could be designed better, this section will show that even highly acclaimed AAA games can do it better. I&rsquo;m also <strong>NOT</strong> trying to say that my game I devote further part of this article is better than &ldquo;The Witcher 2&rdquo; (because it&rsquo;s not). It&rsquo;s good to highlight here that I want to present two approaches, but it&rsquo;s also not a mystery that I evangelize the seamless one. And that&rsquo;s just my personal opinion. What you can be sure of is that good tutoring is always <strong>iterated and tested</strong>, and that both of presented approaches have their pros and cons.</p>
+<!-- Someone testing your game might point out that your tutorial is not fun. You, a developer convinced about its tutoring power, say:<br>*"It's a tutorial. It's supposed to teach the player how to play, not to be fun."*
+
+**Nothing could be further from the truth!**
+
+## Trying To Answer The Question
+
+OK, yes, I don't know what tutorial you designed – it might be awesome! So let's discuss why tutorials in general might be **NOT** fun? Player feedback might mention it's too long, overwhelming, or text-heavy. While these points are often valid, they miss the core issue: **the form, pacing, and structure of the tutorial**. **Players shouldn't even realize they're being taught** and **the joy of discovering the game should remain intact**. That's how **seamless tutorials** are created.
+
+## An Explicit Tutorial – "The Witcher 2: Assasins of Kings"
+
+Firstly, let's look at an acclaimed game that has a tutorial which doesn't align with the "seamless" philosophy. **"The Witcher 2: Assasins of Kings"** by **CD Projekt RED** is a great game, but the way it guides players is very explicit. I'm not trying to judge here, but if your opinion will be that "The Witcher's 2" tutorial could be designed better, this section will show that even highly acclaimed AAA games can do it better. I'm also **NOT** trying to say that my game I devote further part of this article is better than "The Witcher 2" (because it's not). It's good to highlight here that I want to present two approaches, but it's also not a mystery that I evangelize the seamless one. And that's just my personal opinion. What you can be sure of is that good tutoring is always **iterated and tested**, and that both of presented approaches have their pros and cons. 
+
 <center>
-<h3 id="heading"></h3>
+
+###
+
 
 
 
@@ -1188,8 +1187,11 @@ html {
   </script>
 
 
+
 </center>
-<p>If you want to remind &ldquo;The Witcher 2&rdquo; tutorial, there&rsquo;s a nice video by <a href="https://www.youtube.com/@BNGamesYT">BNGamesReviews</a> (though I strongly recommend playing the game if you haven&rsquo;t):</p>
+
+If you want to remind "The Witcher 2" tutorial, there's a nice video by [BNGamesReviews](https://www.youtube.com/@BNGamesYT) (though I strongly recommend playing the game if you haven't):
+
 
 
     
@@ -1198,12 +1200,19 @@ html {
       ></iframe>
     </div>
 
-<p><strong>And here are the things we can observe in the tutorial of &ldquo;The Witcher 2&rdquo;:</strong></p>
-<h4 id="detached-from-the-main-game">Detached From The Main Game</h4>
-<p>The tutorial in &ldquo;The Witcher 2&rdquo; is optional and detached from the story. You are supposed to hop into the tutorial to learn how to play before you start the prologue. It&rsquo;s a pity that it&rsquo;s not <strong>any real adventure of Geralt</strong>. If this was designed seamlessly, the prologue should serve as an introduction, get players to know fundamentals of the gameplay, and then unfold.</p>
-<p><strong>CD Projekt RED changed their direction</strong>. &ldquo;The Witcher 3&rdquo; keeps off this approach! Have you noticed that the whole region of White Orchard (and Geralt&rsquo;s dream before) serves as a seamless tutorial? You learn how to play by playing the game and being introduced slowly and seamlessly <strong>in the first section of the game</strong>. That&rsquo;s great!</p>
-<h4 id="tutorial-about-the-tutorial">Tutorial About The Tutorial</h4>
-<p>The first thing you see when the camera zooms in on Geralt during the tutorial is this panel:</p>
+
+**And here are the things we can observe in the tutorial of "The Witcher 2":**
+
+#### Detached From The Main Game
+
+The tutorial in "The Witcher 2" is optional and detached from the story. You are supposed to hop into the tutorial to learn how to play before you start the prologue. It's a pity that it's not **any real adventure of Geralt**. If this was designed seamlessly, the prologue should serve as an introduction, get players to know fundamentals of the gameplay, and then unfold.
+
+**CD Projekt RED changed their direction**. "The Witcher 3" keeps off this approach! Have you noticed that the whole region of White Orchard (and Geralt's dream before) serves as a&nbsp;seamless tutorial? You learn how to play by playing the game and being introduced slowly and seamlessly **in the first section of the game**. That's great!
+
+#### Tutorial About The Tutorial
+
+The first thing you see when the camera zooms in on Geralt during the tutorial is this panel:
+
 
 
 
@@ -1307,14 +1316,15 @@ html {
 
 
 
-<p><strong>This is what you do if you apply &ldquo;The Witcher&rsquo;s 2&rdquo; approach:</strong></p>
-<ul>
-<li><strong>you immediately tell the players: <em>&ldquo;Now you will be taught how to play!&rdquo;</em></strong>  Felling that you&rsquo;re being taught how to play might be like doing homework. The fun gets killed.</li>
-<li><strong>the players want to play but you stop them.</strong> You may ask: <em>&ldquo;How do I make them play if they don&rsquo;t know how?&quot;</em>  Well, probably at the stage when Geralt has to move forward they&rsquo;ll get it quickly (and later on I&rsquo;ll show you how to make them get it seamlessly).</li>
-<li><strong>that&rsquo;s a lot of text.</strong> Players don&rsquo;t like to read through tutorials. <strong>Don&rsquo;t get me wrong:</strong> I have nothing against text in games. There are many titles such as <a href="https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/">Disco Elysium</a> that nail the art of written content, but I&rsquo;m talking about in-your-face tutorial panels.</li>
-<li><strong>it breaks immersion</strong>. Each of these panels pulls you further from the world of The Witcher.</li>
-</ul>
-<p>It&rsquo;s not bad to inform players they can return to specific hints later. However, maybe this isn&rsquo;t the best moment to do so. An &ldquo;encyclopedia&rdquo; of game mechanics is useful, but it could be introduced later as a brief reminder, not as the first thing players see in the game.</p>
+
+**This is what you do if you apply "The Witcher's 2" approach:**
+- **you immediately tell the players: *"Now you will be taught how to play!"***  Felling that you're being taught how to play might be like doing homework. The fun gets killed.
+- **the players want to play but you stop them.** You may ask: *"How do I make them play if they don't know how?"*  Well, probably at the stage when Geralt has to move forward they'll get it quickly (and later on I'll show you how to make them get it seamlessly).
+- **that's a lot of text.** Players don't like to read through tutorials. **Don't get me wrong:** I have nothing against text in games. There are many titles such as [Disco Elysium](https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/) that nail the art of written content, but I'm talking about in-your-face tutorial panels.
+- **it breaks immersion**. Each of these panels pulls you further from the world of The Witcher.
+
+It's not bad to inform players they can return to specific hints later. However, maybe this isn't the best moment to do so. An "encyclopedia" of game mechanics is useful, but it could be introduced later as a brief reminder, not as the first thing players see in the game.
+
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <div style="flex: 0 0 auto; max-width: 50%; width: 100%; margin-right: -50px;">
     
@@ -1505,9 +1515,13 @@ html {
 
   </div>
 </div>
-<h4 id="panels-for-the-most-basic-controls">Panels For The Most Basic Controls</h4>
-<p>OK, you got tutored about tutoring. You close this panel and start playing!<br><center><span style="font-size: 30px;"><strong>No.</strong></span></center></p>
-<p>This is what you see next:</p>
+
+#### Panels For The Most Basic Controls
+
+OK, you got tutored about tutoring. You close this panel and start playing!<br><center><span style="font-size: 30px;">**No.**</span></center>
+
+This is what you see next:
+
 
 
 
@@ -1611,19 +1625,16 @@ html {
 
 
 
-<p>Do we really need this panel to explain what the left and right analog sticks do? If we were explaining more complicated game mechanics this could be reasonable (although many things can be explained without it).</p>
-<p>Instead of a <strong>panel</strong>, imagine just a <strong>prompt</strong>. Let&rsquo;s distinguish these two terms now:</p>
+
+Do we really need this panel to explain what the left and right analog sticks do? If we were explaining more complicated game mechanics this could be reasonable (although many things can be explained without it).
+
+Instead of a **panel**, imagine just a **prompt**. Let's distinguish these two terms now:
+
 <center>
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><span style="font-size: 30px; font-family: Signika;"><strong>Prompt</strong></span></th>
-<th style="text-align:center"><span style="font-size: 30px;  font-family: Signika;"><strong>Panel</strong></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">
+
+| <span style="font-size: 30px; font-family: Signika;">**Prompt**</span>        |      <span style="font-size: 30px;  font-family: Signika;">**Panel**</span>     |
+| :-----------: | :-----------: |
+|   
 
 
 
@@ -1726,8 +1737,7 @@ html {
 
 
 
-</td>
-<td style="text-align:center">
+    | 
 
 
 
@@ -1824,15 +1834,17 @@ html {
 
 
 
-</td>
-</tr>
-</tbody>
-</table>
+ |
+
 </center>
+
 <blockquote><b>Prompt</b> – either non-diegetic or geometric message to the player. It may contain text, icons, or both, with simple and short instructions for controls.</blockquote>
+
 <blockquote><b>Panel</b> – usually a non-diegetic (but sometimes it can be geometric) overlay aimed at explaining more complex aspects of the game. It uses text, images, videos, animations, or a combination of these elements. Because a panel contains more content the player needs to acknowledge, showing it often pauses the game.</blockquote>
-<p><strong>The above definitions are my own</strong> (I will use them from now on). However, I have included two terms from the literature in my definitions:</p>
-<p>
+
+**The above definitions are my own** (I will use them from now on). However, I have included two terms from the literature in my definitions:
+
+
 
 
   
@@ -1881,12 +1893,17 @@ html {
   </div>
   <div class="notice-body"><p><strong>Geometric</strong> elements are UI elements presented in the 3D geometry without being an entity of the fictional game world.</p></div>
 </div>
-</p>
-<p>Source: <a href="https://publications.lib.chalmers.se/records/fulltext/111921.pdf">Beyond the HUD: User Interfaces for Increased Player Immersion in FPS Games: Master of Science Thesis</a></p>
+
+
+Source: [Beyond the HUD: User Interfaces for Increased Player Immersion in FPS Games: Master of Science Thesis](https://publications.lib.chalmers.se/records/fulltext/111921.pdf)
+
 <br>
-<p>I believe the controls would still be clear if we swapped overwhelming panels with simple prompts. The camera focuses on The Witcher. A prompt appears:</p>
+
+I believe the controls would still be clear if we swapped overwhelming panels with simple prompts. The camera focuses on The Witcher. A prompt appears:
+
 <center>
-<p><span style="font-size: 30px; font-family: Signika;"><strong>Use</strong>     </span> 
+
+<span style="font-size: 30px; font-family: Signika;">**Use**     </span> 
 
 
 
@@ -1987,11 +2004,15 @@ html {
 
 
 
-<span style="font-size: 30px; font-family: Signika;">     <strong>to look around.</strong></span></p>
+<span style="font-size: 30px; font-family: Signika;">     **to look around.**</span>
+
 </center>
-<p>Along with another one after the player uses the first (right) stick:</p>
+
+Along with another one after the player uses the first (right) stick:
+
 <center>
-<p><span style="font-size: 30px; font-family: Signika;"><strong>Use</strong>     </span> 
+
+<span style="font-size: 30px; font-family: Signika;">**Use**     </span> 
 
 
 
@@ -2092,9 +2113,12 @@ html {
 
 
 
-<span style="font-size: 30px; font-family: Signika;">     <strong>to move.</strong></span></p>
+<span style="font-size: 30px; font-family: Signika;">     **to move.**</span>
+
 </center>
-<p>When using such simple prompts, it&rsquo;s important that the players <strong>have feedback</strong> and <strong>see the results</strong> of taking action. In our case it&rsquo;s immediate, because the character starts moving and the camera starts rotating.</p>
+
+When using such simple prompts, it's important that the players **have feedback** and **see the results** of taking action. In our case it's immediate, because the character starts moving and the camera starts rotating.
+
 
 
 
@@ -2119,7 +2143,9 @@ html {
   <div class="notice-body"><p>When introducing something new, use the simplest understandable explanation.</p></div>
 </div>
 
-<p>Often we can simplify this even more using <strong>just the icons</strong> or <strong>animations</strong> showing how to perform an action. This works, if done well, because&hellip;</p>
+
+Often we can simplify this even more using **just the icons** or **animations** showing how to perform an action. This works, if done well, because...
+
 
 
 
@@ -2144,11 +2170,17 @@ html {
   <div class="notice-body"><p>If a button icon appears out of nowhere and attracts attention, players press it.</p></div>
 </div>
 
-<p>Now you might be thinking that I am talking about absolute trivia but an example of &ldquo;The Witcher 2&rdquo; shows that it&rsquo;s <strong>less obvious</strong> and <strong>more important</strong> that you&rsquo;d think. Camera and movement are just a tip of the iceberg. In section <a href="#case-study-of-guiding-light--seamless-tutorial">&ldquo;Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial&rdquo;</a> I show that even such simple prompts can be effective enough in more complex cases.</p>
+
+Now you might be thinking that I am talking about absolute trivia but an example of "The Witcher 2" shows that it's **less obvious** and **more important** that you'd think. Camera and movement are just a tip of the iceberg. In section ["Case Study of "Guiding Light" – Seamless Tutorial"](#case-study-of-guiding-light--seamless-tutorial) I show that even such simple prompts can be effective enough in more complex cases.
+
 <hr>
-<p>An in-depth analysis of &ldquo;The Witcher 2&rdquo; tutorial is not a main point of this post, so I&rsquo;ll just briefly point out the rest of important things we can notice:</p>
-<h4 id="35-hours-in-25-minutes">35 Hours in 25 Minutes</h4>
-<p>According to <a href="https://howlongtobeat.com/game/10268">howlongtobeat.com</a>, &ldquo;The Witcher 2&rdquo; takes around 35 hours to finish during an average playthrough (main story + side quests). And all the most important mechanics are being explained during a <strong>half an hour</strong> tutorial!</p>
+
+An in-depth analysis of "The Witcher 2" tutorial is not a main point of this post, so I'll just briefly point out the rest of important things we can notice: 
+
+#### 35 Hours in 25 Minutes
+
+According to [howlongtobeat.com](https://howlongtobeat.com/game/10268), "The Witcher 2" takes around 35 hours to finish during an average playthrough (main story + side quests). And all the most important mechanics are being explained during a **half an hour** tutorial!
+
 
 
 
@@ -2255,9 +2287,13 @@ html {
 
 
 
-<p>There&rsquo;s a need of explaining alchemy? Why don&rsquo;t we introduce it when it&rsquo;s <strong>needed for the first time</strong>? It could be during preparations before the fight with Kayran in Flotsam (a first major boss you face in the game). And so on with rest of the systems&hellip; I find <strong>providing too much information at once a bad practice</strong>.</p>
-<h4 id="inconsistent-with-the-game-world-immersion-breaking">Inconsistent With The Game World, Immersion-Breaking</h4>
-<p>I am talking mostly about the combat part. The game speaks directly to players and spawns enemies in front of them out of nowhere. Who are these people we kill? Why do they appear out of nowhere? Players might find it immersion-breaking and building a bad first impression.</p>
+
+There's a need of explaining alchemy? Why don't we introduce it when it's **needed for the first time**? It could be during preparations before the fight with Kayran in Flotsam (a first major boss you face in the game). And so on with rest of the systems... I find **providing too much information at once a bad practice**.
+
+#### Inconsistent With The Game World, Immersion-Breaking
+
+I am talking mostly about the combat part. The game speaks directly to players and spawns enemies in front of them out of nowhere. Who are these people we kill? Why do they appear out of nowhere? Players might find it immersion-breaking and building a bad first impression.
+
 
 
 
@@ -2361,41 +2397,32 @@ html {
 
 
 
+
 <center>
-<p><em>&ldquo;Oh, yeah, I&rsquo;ve just spawned out of nowhere and I&rsquo;m standing still. Now kill me.&rdquo;</em></p>
+
+*"Oh, yeah, I've just spawned out of nowhere and I'm standing still. Now kill me."*
+
 </center>
+
 <hr>
-<p>To sum up this part with my opinion: In case of &ldquo;The Witcher 2&rdquo; I think that not only was the tutorial <strong>not fun</strong>, but also <strong>moderately effective</strong>. &ldquo;The Witcher 2&rdquo; is often listed among <a href="https://www.youtube.com/watch?v=s7dpDKRFim8&t=89s">the worst game tutorials</a> for a reason. Luckily, an off-putting tutorial was not followed by a bad game, and what&rsquo;s more, CD Projekt RED took a lesson and the process of tutoring players got vastly improved in the next installment of &ldquo;The Witcher&rdquo; series.</p>
-<h2 id="the-best-tutorial-is-the-one-you-dont-feel">The Best Tutorial Is The One You Don&rsquo;t Feel</h2>
-<p>The <a href="#answering-the-question">Answering The Question</a> section says that the process of tutoring players should be embedded into the game. And this is the moment where <strong>you should forget about tutorials</strong>. You shouldn&rsquo;t even use this word in your game.</p>
-<p>Now it&rsquo;s finally time for the &ldquo;What To Do About It&rdquo; part!</p>
-<h2 id="case-study-of-guiding-light--seamless-tutorial">Case Study of &ldquo;Guiding Light&rdquo; – Seamless Tutorial</h2>
-<h3 id="heading-1"></h3>
 
+To sum up this part with my opinion: In case of "The Witcher 2" I think that not only was the tutorial **not fun**, but also **moderately effective**. "The Witcher 2" is often listed among [the&nbsp;worst&nbsp;game&nbsp;tutorials](https://www.youtube.com/watch?v=s7dpDKRFim8&t=89s) for a reason. Luckily, an off-putting tutorial was not followed by a bad game, and what's more, CD Projekt RED took a lesson and the process of tutoring players got vastly improved in the next installment of "The Witcher" series.
 
+## The Best Tutorial Is The One You Don't Feel 
 
-  
+The [Answering The Question](#answering-the-question) section says that the process of tutoring players should be embedded into the game. And this is the moment where **you should forget about tutorials**. You shouldn't even use this word in your game.
 
+Now it's finally time for the "What To Do About It" part!
 
+<hr>
 
-<div class="notice note">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
-      </svg><p>Note</p>
-  </div>
-  <div class="notice-body"><p>It will be easier for you to follow the text if you get to know <a href="/portfolio/guiding-light/">&ldquo;Guiding Light&rdquo;</a> first (you can even <strong>download and play it</strong>).</p></div>
-</div>
+# WIELKA KRECHA
 
+<hr> -->
+<p>Games take different approaches to teaching players how to play. Some provide explicit tutorials before the game starts, some offer no guidance, leaving players to figure out the mechanics on their own (or check a wiki), and others teach players seamlessly as they play. During the development of our game, <a href="/portfolio/guiding-light/">&ldquo;Guiding Light&rdquo;</a>, we decided that we need the latter approach.</p>
+<h2 id="what-is-a-seamless-tutorial-and-what-is-this-text-about">What Is a Seamless Tutorial and What Is This Text About</h2>
+<p>A <strong>&ldquo;seamless tutorial&rdquo;</strong>, in our case, is <strong>&ldquo;a tutorial you don&rsquo;t feel is a tutorial.&rdquo;</strong></p>
+<p>This text is a case study of a game I coworked on for the courses conducted by <a href="https://p.lodz.pl/en">Lodz University of Technology</a>, and depicts our design path, assumptions, conclusions, what worked out, and what could be done better. It will be easier for you to follow the text if you get to know <a href="/portfolio/guiding-light/">&ldquo;Guiding Light&rdquo;</a> first (you can even <strong>download and play it</strong>).</p>
 
 
     
@@ -2404,10 +2431,35 @@ html {
       ></iframe>
     </div>
 
-<p>During the development of <a href="https://portfolio/guiding-light/">our game</a>, one of my responsibilities was designing a game &ldquo;tutorial&rdquo;. From the beginning, I knew that a regular tutorial was not an option. Along with our lead designer <a href="https://github.com/MiloszKawczynski">Miłosz</a>, I came up with the idea of a special &ldquo;directing&rdquo; of the first three levels – to guide players without making them feel like it&rsquo;s a tutorial.</p>
-<p>But the first element of tutoring appears even earlier&hellip; in the main menu.</p>
-<h4 id="you-can-teach-the-player-earlier-than-you-think">You Can Teach The Player Earlier Than You Think</h4>
-<p>The first thing we wanted to teach players was that <strong>in our game they control a beam of light with a mouse</strong>. Take a look at our menu:</p>
+<p>&ldquo;Guiding Light&rdquo; is a game in which <strong>you&rsquo;re a lighthouse keeper in the Pole of Cold</strong>. It&rsquo;s <strong>a casual time-management game</strong>, and your goal is not only <strong>guiding ships in a stormy night</strong>, but also <strong>collecting their cargos to feed hungry penguins</strong>!</p>
+<h2 id="why-we-wanted-seamless-tutoring">Why We Wanted Seamless Tutoring</h2>
+<p>The main reason our game needed a seamless tutorial was that <strong>we were presenting the demo during short hands-on sessions</strong>. &ldquo;Guiding Light&rdquo; was destined to be showcased at the <a href="https://ztgk.pl">ZTGK 2024 Gamedev Contest</a>, meaning the jury members had only a few minutes to play and talk with us at our stand. The game had to be both <strong>clear</strong> and <strong>fun</strong> from the very first seconds.</p>
+<p>We deeply analyzed the nature of our game and circumstances, and concluded that:</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>Without tutoring, &ldquo;Guiding Light&rdquo; would be unclear and frustrating. With a traditional tutorial, it could be less fun, immersion-breaking, or cluttered with too much text.</p>
+  </div>
+</div>
+<p>And we simply found such tutoring elegant and fitting our game.</p>
+<!-- //
+### What Exactly Is It in Our Game
+
+In our game we identified several factors which pool together for **"seamless tutoring"**, as we call it. Those factors were **elements&nbsp;of&nbsp;the&nbsp;game design** that **brought us closer to the tutoring experience we aimed to deliver**. No tutoring versus an explicit tutorial, and us, trying to take the best from those two approaches. **Were our assumptions correct?** I will try to answer this at the end of the article. Now here's what we identified:
+
+- **tutoring embedded into the game:** our game was initially destined to be played for a few minutes by jury. If players had just a few minutes to experience the game, we wanted to **make them jump straight into the game and not be bothered with an explicit tutorial** beforehand.
+- **not letting players know they're being tutored:** if the tutorial was meant to be embedded into the game, it was crucial for us to not let the players realize they're in any kind of a tutorial. We were afraid this might initiate a feeling of **"being at school on a tedious lesson."**
+- **reducing text clutter:** gameplay aspects in many titles are complex. It often results in pausing the game and explaining things directly to the players with huge amount of text. We didn't want this in "Guiding Light". **We wanted to reduce text information**, because early prototypes (and, God, we built **eleven game prototypes**) proved that **players didn't read most of our extensive text panels**.
+- **not too rushed:** we believed that a rushed tutoring might not convey information effectively. So we decided to come up with a special "directing" of the first three levels (literally half of our demo!) to make sure players get used to gameplay.
+- **immersive:** the tutoring is set in the game's fantasy. We use the language of the world we created and also try to explain context with elements that teach players how to play. We considered it as a significant advantage of our game. -->
+<h2 id="case-study-of-guiding-light">Case Study of &ldquo;Guiding Light&rdquo;</h2>
+<h3 id="heading"></h3>
+<p>Now let me present elements of game design we decided to apply to <strong>teach players how to play</strong>, but to keep the experience <strong>fun, approachable, immersive, and seamless</strong>.</p>
+<h4 id="we-taught-the-player-sooner-than-expected">We Taught the Player Sooner Than Expected</h4>
+<p>We applied the first element of tutoring earlier than some might think&hellip; in the main menu. The first thing we wanted to teach players was that <strong>in our game they control a beam of light with a mouse</strong>. Take a look at our menu:</p>
 
 
 
@@ -2496,41 +2548,280 @@ html {
 
 
 
-<p>Fancy, simple, and players got it subconsciously. This was <strong>the simplest possible solution to show this</strong>. And the game hasn&rsquo;t even started yet! Sometimes you don&rsquo;t need a single word, image, or a prompt to highlight something. You should aim to <strong>highlight something really important</strong>. In our case it was controlling the light.</p>
+<p>Fancy, simple, and players got it subconsciously. And the game hasn&rsquo;t even started yet! We aimed to <strong>highlight something really important</strong> – controlling the light, the absolute basics. It turned out, we didn&rsquo;t need a single word, image, or animation for it, as our tests proved it is clear for the players. This is where we came to these conclusions:</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>We managed to teach players subconsciously here by designing the basics (main menu) in a gameplay-supportive way.</p>
+  </div>
+</div>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>If some things could be explained without a single word, we didn&rsquo;t use any. We seeked the most simple solution for explaining our gameplay.</p>
+  </div>
+</div>
+<hr>
+<p>To support this, I would like to show examples from other games that do similar things:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 30px; font-family: Signika;"><strong>&ldquo;Fruit Ninja&rdquo; main menu</strong></span></th>
+<th style="text-align:center"><span style="font-size: 30px;  font-family: Signika;"><strong>&ldquo;Mega Man X&rdquo; main menu</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="600"
+            height="338"
+            src="/images/posts/post-1/fruit_hufbf546f82da1c708a2478ef4e9a4e55b_53785_600x0_resize_q100_h2_lanczos.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/fruit_hufbf546f82da1c708a2478ef4e9a4e55b_53785_600x0_resize_q100_lanczos.jpg'" />
+      
+    
+
+  
+  
 
 
 
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
-  </div>
-  <div class="notice-body"><p>You can teach the player subconsciously by designing the basics (such as main menu) in a gameplay-supportive way.</p></div>
-</div>
 
-<h4 id="keep-the-gameplay-loop-consistent-tutoring-is-not-an-exception">Keep The Gameplay Loop Consistent, Tutoring Is Not An Exception</h4>
-<p>&ldquo;Guiding Light&rdquo; consists of <strong>six levels</strong>. This means that gameplay loop is closed inside every level. So a tutorial that is detached from the rest of the levels would be a major inconsistency, and <strong>gameplay loop should be consistent between the levels</strong> (at least in our case we wanted it to be). It is also crucial that introduction of new mechanics needs to happen step by step and arise gradually.</p>
+
+
+</td>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="600"
+            height="289"
+            src="/images/posts/post-1/mega_hu56e6a31c72cffd8af1213606b44652a2_55244_600x0_resize_q100_h2_lanczos.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/mega_hu56e6a31c72cffd8af1213606b44652a2_55244_600x0_resize_q100_lanczos.jpg'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>In case of &ldquo;Fruit Ninja&rdquo; you need to cut a fruit to choose an option in the main menu. <strong>What a beautiful way to highlight the main thing you do in the game!</strong> I suspect there could be a fraction of players that would try to press a fruit instead of cutting it. In that case such menu lets them learn how to perform the most basic action in the game.</p>
+<p>&ldquo;Mega Man X&rdquo; main menu has a little Mega Man as a &ldquo;cursor&rdquo;. When choosing an option, Mega Man fires a blast. This highlights that Mega Man <strong>can fire projectiles</strong>.</p>
+<h4 id="tutoring-was-no-exception-to-the-gameplay-loop">Tutoring Was No Exception to the Gameplay Loop</h4>
+<p>&ldquo;Guiding Light&rdquo; consists of <strong>six levels</strong>. This means that gameplay loop is closed inside every level. So a tutorial that is detached from the rest of the levels (i.e. you do stuff to learn how to play before you enter the main game) would be a major inconsistency. We wanted to keep the <strong>gameplay loop consistent between the levels</strong> and present <strong>just the game with six levels</strong>. Not a game with <strong>&ldquo;a tutorial + three levels.&rdquo;</strong> It also supported introducing new mechanics gradually, level by level.</p>
 <p><strong>The solution was to make the first three levels introductory</strong> – gradually building the level of complexity. The formula was something like this:</p>
 <ul>
 <li>Level 1: explaining controls + context + <strong>gameplay loop</strong></li>
 <li>Level 2: explaining new type of ship + the first ability + <strong>gameplay loop</strong></li>
 <li>Level 3: upgrades + enemies + <strong>gameplay loop</strong></li>
 </ul>
-<p>In the rest of the levels (4-6), the players are on their own and need to utilize everything they learned during levels 1-3. Most importantly, <strong>the gameplay loop remains consistent</strong>. Players won&rsquo;t feel like they were &ldquo;inside a tutorial&rdquo; previously and are finally in the game starting from level 4.</p>
-<p>The <strong>micro loop</strong> in &ldquo;Guiding Light&rdquo; was built around <strong>guiding the ships to the port</strong> and the <strong>macro loop</strong> around <strong>guiding enough food ships to the port so all the penguins are fed</strong> – and the level is completed.</p>
+<p>In the rest of the levels (4-6), the players are on their own and need to utilize everything they learned during levels 1-3. Most importantly, <strong>the gameplay loop remains consistent</strong>. Playtests showed that players didn&rsquo;t feel like they were &ldquo;inside a tutorial&rdquo; previously and are finally in the game starting from level 4.</p>
+<p>The <strong>micro loop</strong> in &ldquo;Guiding Light&rdquo; was built around <strong>guiding the ships to the port</strong> and the <strong>macro loop</strong> around <strong>guiding enough food ships to the port so all the penguins are fed</strong>, and the level is completed.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>We wanted to ensure that each level mirrors the gameplay loop. Even in &ldquo;directed tutoring levels.&rdquo;</p>
+  </div>
+</div>
+<hr>
+<p>This is the same approach that <a href="https://store.steampowered.com/app/1967510/Railbound/">&ldquo;Railbound&rdquo;</a> takes. Even if the first levels are supposed to teach the players some basics, all the levels share the same goal. Always. The consistency is kept no matter how complex the levels are.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 24px; font-family: Signika;"><strong>The first level of &ldquo;Railbound&rdquo;. Each next level keeps its gameplay loop and the goal: connecting carriages to the engine.</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2538,26 +2829,346 @@ html {
 
 
 
-<div class="notice tip">
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+      
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid img-center"
+            width=""
+            height=""
+            src="/images/posts/post-1/railbound.gif"
+            alt=""
+            onerror="this.onerror='null';this.src=''" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<h4 id="prompts-vs-panels">Prompts vs Panels</h4>
+<p>Before we follow the tutoring process from the beginning, I&rsquo;d like to introduce two handy terms regarding showing information to player. <strong>A prompt, and a panel</strong>.</p>
+<center>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 24px; font-family: Signika;"><strong>Prompt, &ldquo;Call of Duty: Advanced Warfare&rdquo;</strong></span></th>
+<th style="text-align:center"><span style="font-size: 24px;  font-family: Signika;"><strong>Panel, &ldquo;#DRIVE&rdquo;</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="600"
+            height="300"
+            src="/images/posts/post-1/coffin_hu7e1a82fc47059604fed724e136963679_838026_600x0_resize_q100_h2_lanczos.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/coffin_hu7e1a82fc47059604fed724e136963679_838026_600x0_resize_q100_lanczos.jpg'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="600"
+            height="277"
+            src="/images/posts/post-1/drive_hue9a84b0653e0f36ed03e6ca71d3d16aa_236038_600x0_resize_q100_h2_lanczos.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/drive_hue9a84b0653e0f36ed03e6ca71d3d16aa_236038_600x0_resize_q100_lanczos.jpg'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<blockquote><b>Prompt</b> – either non-diegetic or geometric message to the player. It may contain text, icons, or both, with simple and&nbsp;short instructions for controls.</blockquote>
+<blockquote><b>Panel</b> – usually a non-diegetic (but sometimes geometric) overlay aimed at explaining more complex aspects of&nbsp;the&nbsp;game. It uses text, images, videos, animations, or a combination of these elements. Because a panel contains more content the player needs to acknowledge, showing it often pauses the game.</blockquote>
+<p><strong>The above definitions are my own</strong> (I will use them from now on). However, I have included two terms from the literature in these definitions:</p>
+<p>
+
+
+  
+
+
+
+<div class="notice info">
   <div class="notice-head"><svg
         width="20"
         height="20"
-        viewBox="0 0 24 24"
+        viewBox="0 0 18 20"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
         <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
+          d="M9.16109 0.993016C9.97971 1.03952 10.6611 1.42989 11.0721 2.22339L17.7981 15.8014C18.4502 17.1739 17.4403 19.0208 15.7832 19.0474H2.23859C0.730337 19.0234 -0.507163 17.3108 0.231587 15.7864L7.08321 2.20877C7.21146 1.96502 7.26996 1.89452 7.38059 1.76664C7.82534 1.25102 8.31171 0.975016 9.16109 0.993016ZM9.05046 2.49189C8.79284 2.50464 8.55696 2.64902 8.42834 2.87327C6.06134 7.36539 3.77946 11.9036 1.56546 16.4734C1.36071 16.9328 1.71209 17.5223 2.22621 17.547C6.74871 17.6201 11.2731 17.6201 15.7956 17.547C16.2925 17.523 16.666 16.953 16.459 16.4783C14.2866 11.9093 12.0471 7.37102 9.72171 2.87814C9.58446 2.63402 9.38309 2.48739 9.05046 2.49189Z"
           fill="currentColor" />
-      </svg><p>Tip</p>
+        <path
+          d="M9.61323 13.2153H8.35773L8.21973 7.04688H9.75723L9.61323 13.2153ZM8.17773 15.1015C8.17773 14.8731 8.25161 14.6841 8.39973 14.5338C8.54823 14.3838 8.75036 14.3084 9.00648 14.3084C9.26298 14.3084 9.46511 14.3838 9.61323 14.5338C9.76136 14.6841 9.83561 14.8731 9.83561 15.1015C9.83561 15.3216 9.76323 15.5057 9.61923 15.6539C9.47486 15.802 9.27086 15.8762 9.00648 15.8762C8.74211 15.8762 8.53811 15.802 8.39373 15.6539C8.24973 15.5057 8.17773 15.3216 8.17773 15.1015Z"
+          fill="currentColor" />
+      </svg><p>Info</p>
   </div>
-  <div class="notice-body"><p>Regardless of the &ldquo;tutorial&rdquo; form, ensure it somehow mirrors the gameplay loop.</p></div>
+  <div class="notice-body"><p><strong>Non-diegetic</strong> elements are UI elements residing in the <strong>non-fictional</strong>, <strong>non-spatial</strong> part of the design space. These are elements presented in an <strong>overlay manner</strong>.</p></div>
 </div>
 
-<p>Now let&rsquo;s follow the tutoring process from the beginning:</p>
-<h4 id="controls-goal-context">Controls, Goal, Context</h4>
-<p>The first thing you see in the game is an old lighthouse keeper who accompanies the player throughout. He communicates using dialogue boxes with subtitles and voiceover. This is better than an instruction panel because <strong>what the player is told matches the game lore</strong> and <strong>a speaking character is multisensory</strong> (text + audio).</p>
+
+
+
+  
+
+
+
+<div class="notice info">
+  <div class="notice-head"><svg
+        width="20"
+        height="20"
+        viewBox="0 0 18 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M9.16109 0.993016C9.97971 1.03952 10.6611 1.42989 11.0721 2.22339L17.7981 15.8014C18.4502 17.1739 17.4403 19.0208 15.7832 19.0474H2.23859C0.730337 19.0234 -0.507163 17.3108 0.231587 15.7864L7.08321 2.20877C7.21146 1.96502 7.26996 1.89452 7.38059 1.76664C7.82534 1.25102 8.31171 0.975016 9.16109 0.993016ZM9.05046 2.49189C8.79284 2.50464 8.55696 2.64902 8.42834 2.87327C6.06134 7.36539 3.77946 11.9036 1.56546 16.4734C1.36071 16.9328 1.71209 17.5223 2.22621 17.547C6.74871 17.6201 11.2731 17.6201 15.7956 17.547C16.2925 17.523 16.666 16.953 16.459 16.4783C14.2866 11.9093 12.0471 7.37102 9.72171 2.87814C9.58446 2.63402 9.38309 2.48739 9.05046 2.49189Z"
+          fill="currentColor" />
+        <path
+          d="M9.61323 13.2153H8.35773L8.21973 7.04688H9.75723L9.61323 13.2153ZM8.17773 15.1015C8.17773 14.8731 8.25161 14.6841 8.39973 14.5338C8.54823 14.3838 8.75036 14.3084 9.00648 14.3084C9.26298 14.3084 9.46511 14.3838 9.61323 14.5338C9.76136 14.6841 9.83561 14.8731 9.83561 15.1015C9.83561 15.3216 9.76323 15.5057 9.61923 15.6539C9.47486 15.802 9.27086 15.8762 9.00648 15.8762C8.74211 15.8762 8.53811 15.802 8.39373 15.6539C8.24973 15.5057 8.17773 15.3216 8.17773 15.1015Z"
+          fill="currentColor" />
+      </svg><p>Info</p>
+  </div>
+  <div class="notice-body"><p><strong>Geometric</strong> elements are UI elements presented in the 3D geometry without being an entity of the fictional game world.</p></div>
+</div>
+</p>
+<p>Source: <a href="https://publications.lib.chalmers.se/records/fulltext/111921.pdf">Beyond the HUD: User Interfaces for Increased Player Immersion in FPS Games: Master of Science Thesis</a></p>
+<p>I decided to include those terms in this post to <strong>highlight that prompts and panels can exist in different spaces</strong> – they can be presented in <strong>an overlay manner</strong> or can be <strong>hovering somewhere in the game world</strong>. You can also observe it in our game. The &ldquo;diegetic/non-diegetic&rdquo; terminology is widely used in gamedev, so those terms are worth knowing.</p>
+<p>In &ldquo;Guiding Light&rdquo; we prefer <strong>prompts</strong> over <strong>panels</strong>. This is, again, because we found prompts being the simplest solution to show aspects such as controls. However, panels do exist in the game, but they serve as credits or &ldquo;level completed&rdquo; screen.</p>
+<h4 id="controls-goal-and-context">Controls, Goal, and Context</h4>
+<p>The first thing you see in the game is an old lighthouse keeper who accompanies the player throughout. He communicates using dialogue boxes with <strong>subtitles</strong> and <strong>voiceover</strong>. We chose this over an instruction panel because <strong>what the player is told matches the game lore</strong> and <strong>a speaking character is multisensory</strong> (text + audio).</p>
 
 
 
@@ -2664,30 +3275,15 @@ html {
 
 
 
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>People absorb multisensory information better. A short call to action with text and voiceover will work better than a panel with raw text information.</p></div>
+  <div class="conclusion-body">
+    <p>Our playtesters absorbed multisensory information better. A short call to action with text and voiceover was more effective than a panel with raw text information.</p>
+  </div>
 </div>
-
 <p>There is also a floating prompt with mouse icon <strong>(left mouse button highlighted)</strong> to indicate that the player <strong>needs to press it</strong> for something to happen:</p>
 
 
@@ -2777,7 +3373,16 @@ html {
 
 
 
-<p>What the players learn from the voiceline: <strong>the goal and the context of the game.</strong>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>If a button prompt appeared out of nowhere and attracted attention, players pressed it.</p>
+  </div>
+</div>
+<p><em>&ldquo;Ahoy, lighthouse adept! The weather is awful, so we need to light the way for the ships. Let&rsquo;s guide them to the port!&quot;</em>  What do the players learn from this voiceline? <strong>The goal and the context of the game.</strong>
 <br>
 <br>
 <em>What do I need to do?</em>  I need to guide the ships.
@@ -2785,34 +3390,19 @@ html {
 <em>But why?</em>  Ah, because the weather is awful.
 <br>
 <br>
-The <strong>Left Mouse Button</strong> is always used to start the level by turning the light on. <strong>From the main menu, players already know that the mouse is used to move the beam</strong>. There are no direct instructions or mentions of illuminating the ship – everything is embedded in the game&rsquo;s lore. Our playtests showed that <strong>players easily figured out how to illuminate the way in front of the ships</strong>, and therefore, control them.</p>
+The <strong>Left Mouse Button</strong> is always used to start the level by turning the light on. <strong>From the main menu, players already know that the mouse is used to move the beam</strong>. There are no direct instructions or mentions of illuminating the ship – everything is embedded in the game&rsquo;s lore. Our playtests showed that <strong>players easily figured out how to illuminate the way in front of the ships</strong>, and therefore, control them.</p>
+<h4 id="stopping-progress-until-players-use-the-new-mechanic">Stopping Progress Until Players Use the New Mechanic</h4>
 <p>The next element of tutoring is <strong>embedded into the level design</strong>. It&rsquo;s crucial for players to &ldquo;feel&rdquo; the ships at this point. The most important things they need to learn are how to turn the ships, slow them down, and make them accelerate.</p>
-<p>The shape of the canal <strong>requires players to make a turn</strong>. Therefore, they need to successfully turn to reach the destination – the port. This leads to an important principle of introducing new gameplay mechanics:</p>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<p>The shape of the canal <strong>requires players to make a turn</strong>. Therefore, they need to successfully turn to reach the destination – the port. This leads to <strong>an idea we loved</strong> in terms of introducing new gameplay mechanics:</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>If you give the players something new, lock them with this new thing, and make them use it to get out.</p></div>
+  <div class="conclusion-body">
+    <p>If we gave the players something new, it was good to lock them with this new thing, and make them use it to get out.</p>
+  </div>
 </div>
-
-<p>I have seen it in many games. Let&rsquo;s take <a href="https://store.steampowered.com/app/1139900/Ghostrunner/?l=english">&ldquo;Ghostrunner&rdquo;</a>, a hardcore FPP platformer. This game typically requires you to successfully perform <strong>new moves you learn</strong> to progress further. In my opinion, &ldquo;Ghostrunner&rdquo; has excellent seamless tutoring (though not <a href="https://youtu.be/8FpigqfcvlM?t=403">the best</a>! Be sure to check <a href="#sources--additional-materials">Sources &amp; Additional Materials</a>).</p>
 <p>In &ldquo;Guiding Light&rdquo; we ensure that <strong>you learn how to control the ship when you pass the first canal</strong> – curved enough to require you to turn and wide enough to <strong>give you a peaceful space to learn</strong>. And even when the ship gets crashed, a new one flows in quickly.</p>
 
 
@@ -2902,7 +3492,99 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
-<p>When this ship arrives to the port, the old lighthouse keeper calls again:</p>
+<hr>
+<p>As a supplemental example of <strong>preventing progression until the players use a new &ldquo;toy&rdquo;</strong>, let&rsquo;s take <a href="https://store.steampowered.com/app/367520/Hollow_Knight/">&ldquo;Hollow Knight&rdquo;</a>, a challenging action-adventure metroidvania. At the beginning of the game the players can earn a &ldquo;Vengeful Spirit&rdquo; spell that launches a projectile hurting enemies. A little further in Ancestral Mound there is a passage guarded by Elder Baldur. This enemy cannot be hurt with a nail (melee) attack, so in order to progress <strong>(beating this particular enemy is mandatory)</strong> the players need to defeat the Elder Baldur with the &ldquo;Vengeful Spirit&rdquo;.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+      
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid img-center"
+            width=""
+            height=""
+            src="/images/posts/post-1/hollow.gif"
+            alt=""
+            onerror="this.onerror='null';this.src=''" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+
+<p>This way, developers made sure players know how to use this spell and will be able to utilize it later too.</p>
+<h4 id="dots-and-connections">Dots and Connections</h4>
+<p>Let&rsquo;s go back to our canal and the ship. When it arrives to the port, the old lighthouse keeper calls again:</p>
 
 
 
@@ -3034,13 +3716,13 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
           stroke-linejoin="round"></path>
       </svg><p>Note</p>
   </div>
-  <div class="notice-body"><p><p>After we press space, we leave the lighthouse and are able to control the hovercraft with WASD keys:</p>
+  <div class="notice-body"><p><p>By the way, after we press Space, we leave the lighthouse and are able to control the hovercraft with WASD keys:</p>
 <center>
   <img src="/images/posts/post-1/wsad.gif" position="center" height="400" width="400" command="fill" option="q100" class="img-fluid" webp="true">
 </center></p></div>
 </div>
 
-<p>Let&rsquo;s present these pieces of information as <strong>&ldquo;dots&rdquo;</strong> and let the players connect them. If this is delivered clearly, the players can discover the connections between pieces of information on their own easily.</p>
+<p>We presented these pieces of information as <strong>&ldquo;dots&rdquo;</strong> and let the players connect them.</p>
 
 
 
@@ -3144,7 +3826,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
-<p>Playtests showed that it wasn&rsquo;t hard for the players to come up with the connections:</p>
+<p>Turned out that in this level it was delivered clearly enough, so our playtesters managed to discover the connections between pieces of information easily:</p>
 
 
 
@@ -3248,40 +3930,25 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
-<p>If you <strong>build enough context</strong> and present what needs to be done clearly and in a peaceful environment, players will eventually do that. <strong>And you will preserve a minor &ldquo;Eureka!&rdquo; feeling.</strong></p>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<p>In this case, we <strong>built enough context</strong> and presented what needs to be done in a peaceful environment. Players did what we wanted and <strong>we preserved a minor &ldquo;Eureka!&rdquo; feeling</strong>.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>Instead of giving step-by-step instructions, show players what needs to be done with enough context. This way, they can quickly figure it out on their own.</p></div>
+  <div class="conclusion-body">
+    <p>Showing players what needs to be done with enough context, instead of giving them step-by-step instructions, worked for us.</p>
+  </div>
 </div>
-
 <p>And to achieve this we used:</p>
 <ul>
 <li>a voiceline with text and audio</li>
 <li>button prompts</li>
 <li>a blinking effect on a ship</li>
 </ul>
-<p>In case of &ldquo;Guiding Light&rdquo; <strong>it wasn&rsquo;t like &ldquo;solving a puzzle&rdquo;</strong>. Players didn&rsquo;t need to stop for a while to figure out what to do. It was <strong>natural</strong> and <strong>this was our desired experience</strong>. At the end of the level, you see <strong>a fish being thrown to the penguin</strong>, which then happily jumps into the water. This provides <strong>instant feedback</strong> and serves as a <strong>reward</strong>, indicating that we performed as the game intended.</p>
+<p>What&rsquo;s more, connecting dots <strong>wasn&rsquo;t like &ldquo;solving a puzzle&rdquo;</strong>. Players didn&rsquo;t need to stop for a while to figure out what to do. It was <strong>natural</strong> and <strong>this was our desired experience</strong>. At the end of the level, you see <strong>a fish being thrown to the penguin</strong>, which then happily jumps into the water. This provides <strong>instant feedback</strong> and serves as a <strong>reward</strong>, indicating that we performed as the game intended.</p>
 <h4 id="explaining-more-complex-systems">Explaining More Complex Systems</h4>
-<p>&ldquo;Guiding Light&rdquo; has also <strong>two more introductory levels</strong>. Now I&rsquo;ll show you that <strong>the player is taught with mostly what I&rsquo;ve already covered</strong> even in more complex cases! There are more gameplay aspects that need to be explained:</p>
+<p>&ldquo;Guiding Light&rdquo; has also <strong>two more introductory levels</strong>. <strong>The player is taught there with mostly what I&rsquo;ve already covered</strong>, even in more complex cases. Were we successful in those cases? I&rsquo;ll answer that at the end of the article. Now, there are more gameplay aspects that need to be explained:</p>
 <ul>
 <li><strong>a new type of ship: with fuel</strong> – this is a sort of a &ldquo;currency&rdquo; that players can collect an spend either on upgrading the lighthouse or buying the &ldquo;flash&rdquo; ability</li>
 <li><strong>upgrading the lighthouse</strong> – by spending the packages in the workshop, we can make the light beam brigther and wider to make the ships more responsive</li>
@@ -3753,7 +4420,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
-<p>We hear <em>&ldquo;Now go, take the package!&rdquo;</em>.  As this is accompanied by space button prompt, and the players have already taken one package in the previous level, it is easy for them to figure out what to do. After that we use another voiceline together with a blinking effect on the generator that is needed to obtain the &ldquo;flash&rdquo; ability:</p>
+<p>We hear <em>&ldquo;Now go, take the package!&rdquo;</em>.  As this is accompanied by space button prompt, and the players have already taken one package in the previous level, it is easy for them to figure out what to do. After that we use another voiceline together with a blinking effect on the generator that is needed to obtain the &ldquo;flash&rdquo; ability:</p>
 
 
 
@@ -3855,7 +4522,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 <p>To complete this level while maintaining the gameplay loop, we need to feed the penguins by guiding a food ship. This time, however, <strong>we face a huge ship</strong>! The flash ability is crucial here – it allows us to stop and turn the large ship. <strong>But how do we learn it?</strong></p>
-<p>We, the developers, again aim to <strong>&ldquo;lock the players with a new mechanic and make them use it to progress&rdquo;</strong>. The upper part of the canal is so narrow and curved that it <strong>forces</strong> players to use the new ability to stop the ship. <strong>To assist them, we provide a QTE-like prompt:</strong></p>
+<p>We, the developers, again aim to <strong>&ldquo;lock the players with a new mechanic and make them use it to progress.&rdquo;</strong> The upper part of the canal is so narrow and curved that it <strong>forces</strong> players to use the new ability to stop the ship. <strong>To assist them, we provide a QTE-like prompt:</strong></p>
 
 
 
@@ -4050,7 +4717,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 <p>The level is finished after we guide this ship to the port and feed the penguins (consistent gameplay loop).</p>
 <hr>
-<p>The same techniques are used in the third introductory level to explain <strong>upgrading the lighthouse</strong>. However, another gameplay aspect – pirates – provides an opportunity for a different tutoring technique. This technique is used not necessarily to teach, but to <strong>make tutoring more enjoyable:</strong></p>
+<p>The same techniques are used in the third introductory level to explain <strong>upgrading the lighthouse</strong>. However, another gameplay aspect – pirates – provides an opportunity for a different tutoring technique. We used the following technique not necessarily to teach, but to <strong>make tutoring more enjoyable:</strong></p>
 <h4 id="leaving-a-surprise-to-discover">Leaving A Surprise To Discover</h4>
 <p>When pirates appear in the third level, this is what the players are told:</p>
 
@@ -4336,11 +5003,44 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 <p><strong>Why we decided to keep it a secret:</strong></p>
 <ul>
-<li><strong>Not everyone will discover it:</strong> While some may see it as a drawback, this creates a slightly different experience for each player, which we can allow. It’s a minor detail that doesn’t impact victory. Watching someone else play and discovering this feature often leads to reactions like, <em>&ldquo;Woah! You can do that?!&rdquo;</em></li>
-<li><strong>It creates an &ldquo;Eureka!&rdquo; moment:</strong> Players might have an <em>&ldquo;Aha!&rdquo;</em> moment when they realize, <em>&ldquo;I can bump into ships too!&rdquo;</em></li>
-<li><strong>Unexpected and funny situations:</strong> While bumping into <strong>a friendly ship</strong> might not be ideal, it&rsquo;s <strong>fair</strong>. During playtests, one player left the lighthouse early in the second level and accidentally destroyed a food ship. He laughed and said, <em>&ldquo;I literally crashed into it, what did I expect?&quot;</em>  This is similar to players testing if fire causes damage in a game, and being surprised when it does (it does in 95% of cases 😉).</li>
+<li><strong>Not everyone will discover it:</strong> While some may see it as a drawback, this creates a slightly different experience for each player, which we can allow. It’s a minor detail that doesn’t impact victory. Watching someone else play and discover this feature leaded to several reactions like, <em>&ldquo;Woah! You can do that?!&rdquo;</em></li>
+<li><strong>It creates an &ldquo;Eureka!&rdquo; moment:</strong> Players had an <em>&ldquo;Aha!&rdquo;</em> moment when they realized, <em>&ldquo;I can bump into ships too!&rdquo;</em></li>
+<li><strong>Unexpected and funny situations:</strong> While bumping into <strong>a friendly ship</strong> might not be ideal, it&rsquo;s <strong>fair</strong>. During playtests, one player left the lighthouse early in the second level and accidentally destroyed a food ship. He laughed and said, <em>&ldquo;I literally crashed into it, what did I expect?&quot;</em>  This is similar to players testing if fire causes damage in a game, and being surprised when it does (it usually does 😉).</li>
 </ul>
-<p>However, <strong>never</strong> hide <strong>crucial</strong> information from players. For example, keeping secret which buttons to press to move would <strong>not</strong> be fun.</p>
+<p>However, we had to be careful with it. We knew that we shouldn&rsquo;t hide any <strong>crucial</strong> information from players. For example, keeping secret which buttons to press to move would probably <strong>not</strong> be fun.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>It was worth it to come up with &ldquo;a minor thing to discover&rdquo;. Optional for players to perform well, but satisfactory enough when they discovered it. It created a few hilarious emergent gameplay situations.</p>
+  </div>
+</div>
+<hr>
+<p>My favorite example of a game using this technique is <a href="https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-switch/">&ldquo;The Legend of Zelda: Breath of the Wild&rdquo;</a>. If you played this game you might know that warm air (heated by a burning grass) can make your paraglider elevate. <strong>Someone designed this and made it a secret intentionally.</strong> This is why discovering such things in &ldquo;Breath of the Wild&rdquo; makes so much fun!</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 24px; font-family: Signika;"><strong>Link&rsquo;s paraglider being elevated with warm air.</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4348,65 +5048,245 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 
 
 
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
-  </div>
-  <div class="notice-body"><p>Come up with a minor thing that can be a secret to discover. This thing should be optional for players to perform well, but satisfactory enough when they discover it.</p></div>
-</div>
 
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid img-center"
+            width="1400"
+            height="700"
+            src="/images/posts/post-1/zelda_hu826f51e934544eb1f7200bad806cf6bb_436359_1400x700_fill_q100_h2_lanczos_smart1.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/zelda_hu826f51e934544eb1f7200bad806cf6bb_436359_1400x700_fill_q100_lanczos_smart1.jpg'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-could-be-done-better">What Could Be Done Better</h2>
+<p>While our team is quite satisfied with how tutoring in &ldquo;Guiding Light&rdquo; fared, I&rsquo;d like to highlight <strong>one thing that really bothers me</strong>. The &ldquo;flash&rdquo; mechanic and upgrading lighthouse were supposed to be the main pillars of expanding gameplay and making it something more than just guiding ships. We feel that these elements <strong>could have been explained better</strong>. But a deeper analysis led us to a conclusion that it&rsquo;s not necessarily the problem of &ldquo;tutoring directing&rdquo; that misfits, but rather <strong>a general UX and (mostly) UI problem</strong>.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>We understood that tutoring needs to be followed with a well-thought out remainder of UX elements, and a clear and intuitive UI too.</p>
+  </div>
+</div>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 24px; font-family: Signika;"><strong>A main UI element presenting: time until the level ends, number of packages, remaining flashes, and lighthouse level.</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid img-center"
+            width="734"
+            height="284"
+            src="/images/posts/post-1/ui_hu361e7b837babf106ed7ebf826c67c857_58843_734x284_fill_q100_h2_lanczos_smart1_3.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-1\/ui_hu361e7b837babf106ed7ebf826c67c857_58843_734x284_fill_q100_lanczos_smart1_3.png'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>The main element of our interface is, indeed, functional and serves its purpose, but <strong>feedback we got indicated that it could be designer more clearly</strong>. For example, we could revamp the icon and text colors to make particular indicators easier to identify. We could, perhaps, transfer number of packages or lighthouse level to game world and locate the icons next to objects related to those UI elements. We also have suplemental diegetic indicators for lighthouse level, number of packages, and remaining flashes, but they were quite difficult to notice in dynamic gameplay. <strong>I&rsquo;ll leave it as an exercise for you to discover them yourself!</strong></p>
+<p>What&rsquo;s funny, <strong>we knew that design of our UI (especially its colors) can be better before presenting the game!</strong> Unfortunately, we didn&rsquo;t manage to rework our UI framework to deliver a more sophisticated design before the deadline. I&rsquo;d like to highlight here that <strong>&ldquo;Guiding Light&rdquo; uses its own, custom game engine</strong>, we had much more challenges to tackle, and we simply didn&rsquo;t have time left for polishing this aspect.</p>
 <h2 id="summary">Summary</h2>
-<p>I hope that now you can see a difference between in-your-face tutorials that overwhelm players and seamless tutorials that are fun, lore-accurate and more player-friendly. To make a cheat-sheet for designing a seamless tutorial in your next game, I gathered all the tips and they are presented below:</p>
-
-
-
-  
-
-
-
-<div class="notice tip Summary">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
-      </svg><p>Tip Summary</p>
+<p>A lot of effort went into designing and developing this game. That&rsquo;s a credit to our amazing team delivering high quality engine, tools, rendering, and art. Designing a game&rsquo;s tutorial was my job, although the whole team was engaged in the process. Shoutout to our lead designer, <a href="https://github.com/MiloszKawczynski">Miłosz</a> who helped me with the vision of guiding players, and then made it real, programming it. I want to thank my teachers: <a href="https://www.linkedin.com/in/jaroslawandrzejczak/">Jarosław Andrzejczak, PhD</a>, and <a href="https://ganszyniec.com">Artur Ganszyniec</a>, whose work has vastly influenced my approach to game production and design. I’m glad they appreciated the tutoring in &ldquo;Guiding Light&rdquo; too! 😊</p>
+<p>Here&rsquo;s a summary of our thoughts:</p>
+<div class="conclusionsum">
+  <div class="conclusionsum-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion summary</p>
   </div>
-  <div class="notice-body"><p><ul>
-<li>When introducing something new, use the simplest understandable explanation.</li>
-<li>If a button icon appears out of nowhere and attracts attention, players press it.</li>
-<li>You can teach the player subconsciously by designing the basics (such as main menu) in a gameplay-supportive way.</li>
-<li>Regardless of the &ldquo;tutorial&rdquo; form, ensure it somehow mirrors the gameplay loop.</li>
-<li>People absorb multisensory information better. A short call to action with text and voiceover will work better than a panel with raw text information.</li>
-<li>If you give the players something new, lock them with this new thing, and make them use it to get out.</li>
-<li>Instead of giving step-by-step instructions, show players what needs to be done with enough context. This way, they can quickly figure it out on their own.</li>
-<li>Come up with a minor thing that can be a secret to discover. This thing should be optional for players to perform well, but satisfactory enough when they discover it.</li>
+  <div class="conclusionsum-body">
+    <p><ul>
+<li>Without tutoring, &ldquo;Guiding Light&rdquo; would be unclear and frustrating. With a traditional tutorial, it could be less fun, immersion-breaking, or cluttered with too much text.</li>
+<li>In some simple cases we managed to teach players subconsciously by designing the basics (such as main menu) in a gameplay-supportive way.</li>
+<li>If some things could be explained without a single word, we didn&rsquo;t use any. We seeked the most simple solution for explaining our gameplay.</li>
+<li>We wanted to ensure that each level mirrors the gameplay loop. Even in &ldquo;directed tutoring levels.&rdquo;</li>
+<li>If a button prompt appeared out of nowhere and attracted attention, players pressed it.</li>
+<li>Our playtesters absorbed multisensory information better. A short call to action with text and voiceover was more effective than a panel with raw text information.</li>
+<li>If we gave the players something new, it was good to lock them with this new thing, and make them use it to get out.</li>
+<li>Showing players what needs to be done with enough context, instead of giving them step-by-step instructions, worked for us.</li>
+<li>It was worth it to come up with &ldquo;a minor thing to discover&rdquo;. Optional for players to perform well, but satisfactory enough when they discovered it. It created a few hilarious emergent gameplay situations.</li>
+<li>We understood that tutoring needs to be followed with a well-thought out remainder of UX elements, and a clear and intuitive UI too.</li>
 </ul>
-</p></div>
+</p>
+  </div>
 </div>
-
-<p><strong>Am I talking nonsense?</strong> While this post reflects my personal opinion, I believe I’ve explained many techniques that are <strong>good practices</strong>. If they weren’t, &ldquo;Guiding Light&rdquo; likely wouldn’t be playable or awarded. I want to thank my teachers: <a href="https://www.linkedin.com/in/jaroslawandrzejczak/">Jarosław Andrzejczak, PhD</a>, and <a href="https://ganszyniec.com">Artur Ganszyniec</a>, whose work has vastly influenced my approach to game production and design. I’m also glad they appreciated the tutoring in &ldquo;Guiding Light&rdquo; too! 😊</p>
 <h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
 <ul>
 <li><a href="https://youtu.be/8FpigqfcvlM?t=403">&ldquo;Sequelitis - Mega Man Classic vs. Mega Man X&rdquo;</a> – an analysis of &ldquo;Mega Man X&rdquo; tutoring – the most seamless tutorial you will ever see. <strong>Must watch!</strong></li>
-<li><a href="https://www.youtube.com/watch?v=s7dpDKRFim8">&ldquo;10 Terrible Tutorials That Almost Killed Video Games&rdquo;</a></li>
 <li><a href="https://publications.lib.chalmers.se/records/fulltext/111921.pdf">Beyond the HUD: User Interfaces for Increased Player Immersion in FPS Games: Master of Science Thesis</a></li>
 </ul>
 

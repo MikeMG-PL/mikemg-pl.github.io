@@ -3084,6 +3084,60 @@ input#nav-toggle:checked ~ #nav-menu {
 .dark .notice-head p {
   color: #d1d5db; }
 
+.conclusion {
+  margin-bottom: 1.5rem;
+  border: 1px solid #ffd47c;
+  padding: 1.5rem;
+  border-radius: 0.75rem; }
+
+.conclusion-head {
+  display: flex;
+  align-items: center; }
+
+.conclusion-head svg {
+  margin-right: 0.75rem;
+  color: #ffd47c; }
+
+.conclusion-head p {
+  color: #d1d5db;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1; }
+
+.conclusion-body {
+  margin-top: 0.75rem; }
+
+.conclusion-body p {
+  margin: 0; }
+
+.conclusionsum {
+  margin-bottom: 1.5rem;
+  border: 1px solid #ffd47c;
+  padding: 1.5rem;
+  border-radius: 0.75rem; }
+
+.conclusionsum-head {
+  display: flex;
+  align-items: center; }
+
+.conclusionsum-head svg {
+  margin-right: 0.75rem;
+  color: #ffd47c; }
+
+.conclusionsum-head p {
+  color: #d1d5db;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1; }
+
+.conclusionsum-body {
+  margin-top: 0.75rem; }
+
+.conclusionsum-body p {
+  margin: 0; }
+
 .table-of-content {
   overflow: hidden;
   border-radius: 0.25rem;
