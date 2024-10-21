@@ -36,7 +36,7 @@
             
 
             
-                <link href="/contact/" rel="self" type="text/html"/>
+                <link href="https://mikegalinski.com/contact/" rel="self" type="text/html"/>
             
         
             
@@ -44,7 +44,7 @@
             
 
             
-                <link href="/contact/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="https://mikegalinski.com/contact/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -60,7 +60,7 @@
 
         
 
-        <link>/contact/</link>
+        <link>https://mikegalinski.com/contact/</link>
 
         
 

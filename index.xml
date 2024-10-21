@@ -104,7 +104,7 @@
             
 
             
-                <link href="/" rel="self" type="text/html"/>
+                <link href="https://mikegalinski.com/" rel="self" type="text/html"/>
             
         
             
@@ -112,15 +112,7 @@
             
 
             
-                <link href="/index.xml" rel="alternate" type="application/rss+xml"/>
-            
-        
-            
-
-            
-
-            
-                <link href="/index.json" rel="alternate" type="application/json"/>
+                <link href="https://mikegalinski.com/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
             
@@ -134,7 +126,7 @@
             
 
             
-                <link href="/searchindex.json" rel="alternate" type="application/json"/>
+                <link href="https://mikegalinski.com/searchindex.json" rel="alternate" type="application/json"/>
             
         
 
@@ -152,7 +144,7 @@
             <lastBuildDate>2024-10-04 16:58:35 &#43;0200 CEST</lastBuildDate>
         
 
-        <link>/</link>
+        <link>https://mikegalinski.com/</link>
 
         
 
@@ -1035,10 +1027,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,2024-10-04:/blog/post-3/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,2024-10-04:/blog/post-3/</guid>
 
                 
-                    <link>/blog/post-3/</link>
+                    <link>https://mikegalinski.com/blog/post-3/</link>
                 
 
                 
@@ -2950,10 +2942,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,2024-10-01:/blog/post-2/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,2024-10-01:/blog/post-2/</guid>
 
                 
-                    <link>/blog/post-2/</link>
+                    <link>https://mikegalinski.com/blog/post-2/</link>
                 
 
                 
@@ -7235,10 +7227,10 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,2024-07-30:/blog/post-1/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,2024-07-30:/blog/post-1/</guid>
 
                 
-                    <link>/blog/post-1/</link>
+                    <link>https://mikegalinski.com/blog/post-1/</link>
                 
 
                 
@@ -7280,7 +7272,7 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
                     <description><![CDATA[Don&rsquo;t just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate.]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:</guid>
 
                 
 
@@ -7515,10 +7507,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/riese/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/riese/</guid>
 
                 
-                    <link>/portfolio/riese/</link>
+                    <link>https://mikegalinski.com/portfolio/riese/</link>
                 
 
                 
@@ -7568,10 +7560,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/authors/mike-galinski/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/authors/mike-galinski/</guid>
 
                 
-                    <link>/authors/mike-galinski/</link>
+                    <link>https://mikegalinski.com/authors/mike-galinski/</link>
                 
 
                 
@@ -7613,7 +7605,7 @@ html {
                     <description><![CDATA[Experience the future of web development with Hugoplate and Hugo. Build lightning-fast static sites with ease and flexibility.]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:</guid>
 
                 
 
@@ -8123,10 +8115,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/laughmaker/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/laughmaker/</guid>
 
                 
-                    <link>/portfolio/laughmaker/</link>
+                    <link>https://mikegalinski.com/portfolio/laughmaker/</link>
                 
 
                 
@@ -9604,10 +9596,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/heartbreaker/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/heartbreaker/</guid>
 
                 
-                    <link>/portfolio/heartbreaker/</link>
+                    <link>https://mikegalinski.com/portfolio/heartbreaker/</link>
                 
 
                 
@@ -10514,10 +10506,10 @@ html {
 <br>]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/guiding-light/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/guiding-light/</guid>
 
                 
-                    <link>/portfolio/guiding-light/</link>
+                    <link>https://mikegalinski.com/portfolio/guiding-light/</link>
                 
 
                 
@@ -10939,10 +10931,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:,0001-01-01:/portfolio/disco-sorter/</guid>
+                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/disco-sorter/</guid>
 
                 
-                    <link>/portfolio/disco-sorter/</link>
+                    <link>https://mikegalinski.com/portfolio/disco-sorter/</link>
                 
 
                 
