@@ -42,7 +42,7 @@
             
 
             
-                <link href="https://mikegalinski.com/authors/" rel="self" type="text/html"/>
+                <link href="http://localhost:1313/authors/" rel="self" type="text/html"/>
             
         
             
@@ -50,7 +50,7 @@
             
 
             
-                <link href="https://mikegalinski.com/authors/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:1313/authors/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -66,7 +66,7 @@
 
         
 
-        <link>https://mikegalinski.com/authors/</link>
+        <link>http://localhost:1313/authors/</link>
 
         
 
@@ -113,10 +113,10 @@
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/authors/mike-galinski/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/authors/mike-galinski/</guid>
 
                 
-                    <link>https://mikegalinski.com/authors/mike-galinski/</link>
+                    <link>http://localhost:1313/authors/mike-galinski/</link>
                 
 
                 

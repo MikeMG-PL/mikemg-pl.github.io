@@ -52,7 +52,7 @@
             
 
             
-                <link href="https://mikegalinski.com/categories/game-production/" rel="self" type="text/html"/>
+                <link href="http://localhost:1313/categories/game-production/" rel="self" type="text/html"/>
             
         
             
@@ -60,7 +60,7 @@
             
 
             
-                <link href="https://mikegalinski.com/categories/game-production/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:1313/categories/game-production/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -78,7 +78,7 @@
             <lastBuildDate>2024-10-01 16:58:35 &#43;0200 CEST</lastBuildDate>
         
 
-        <link>https://mikegalinski.com/categories/game-production/</link>
+        <link>http://localhost:1313/categories/game-production/</link>
 
         
 
@@ -1987,10 +1987,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,2024-10-01:/blog/post-2/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,2024-10-01:/blog/post-2/</guid>
 
                 
-                    <link>https://mikegalinski.com/blog/post-2/</link>
+                    <link>http://localhost:1313/blog/post-2/</link>
                 
 
                 
@@ -6272,10 +6272,10 @@ The <strong>Left Mouse Button</strong> is always used to start the level by turn
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,2024-07-30:/blog/post-1/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,2024-07-30:/blog/post-1/</guid>
 
                 
-                    <link>https://mikegalinski.com/blog/post-1/</link>
+                    <link>http://localhost:1313/blog/post-1/</link>
                 
 
                 

@@ -46,7 +46,7 @@
             
 
             
-                <link href="https://mikegalinski.com/tags/resource-management/" rel="self" type="text/html"/>
+                <link href="http://localhost:1313/tags/resource-management/" rel="self" type="text/html"/>
             
         
             
@@ -54,7 +54,7 @@
             
 
             
-                <link href="https://mikegalinski.com/tags/resource-management/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:1313/tags/resource-management/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -72,7 +72,7 @@
             <lastBuildDate>2024-10-04 16:58:35 &#43;0200 CEST</lastBuildDate>
         
 
-        <link>https://mikegalinski.com/tags/resource-management/</link>
+        <link>http://localhost:1313/tags/resource-management/</link>
 
         
 
@@ -955,10 +955,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,2024-10-04:/blog/post-3/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,2024-10-04:/blog/post-3/</guid>
 
                 
-                    <link>https://mikegalinski.com/blog/post-3/</link>
+                    <link>http://localhost:1313/blog/post-3/</link>
                 
 
                 

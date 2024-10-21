@@ -66,7 +66,7 @@
             
 
             
-                <link href="https://mikegalinski.com/portfolio/" rel="self" type="text/html"/>
+                <link href="http://localhost:1313/portfolio/" rel="self" type="text/html"/>
             
         
             
@@ -74,7 +74,7 @@
             
 
             
-                <link href="https://mikegalinski.com/portfolio/index.xml" rel="alternate" type="application/rss+xml"/>
+                <link href="http://localhost:1313/portfolio/index.xml" rel="alternate" type="application/rss+xml"/>
             
         
 
@@ -90,7 +90,7 @@
 
         
 
-        <link>https://mikegalinski.com/portfolio/</link>
+        <link>http://localhost:1313/portfolio/</link>
 
         
 
@@ -321,10 +321,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/riese/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/riese/</guid>
 
                 
-                    <link>https://mikegalinski.com/portfolio/riese/</link>
+                    <link>http://localhost:1313/portfolio/riese/</link>
                 
 
                 
@@ -833,10 +833,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/laughmaker/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/laughmaker/</guid>
 
                 
-                    <link>https://mikegalinski.com/portfolio/laughmaker/</link>
+                    <link>http://localhost:1313/portfolio/laughmaker/</link>
                 
 
                 
@@ -2314,10 +2314,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/heartbreaker/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/heartbreaker/</guid>
 
                 
-                    <link>https://mikegalinski.com/portfolio/heartbreaker/</link>
+                    <link>http://localhost:1313/portfolio/heartbreaker/</link>
                 
 
                 
@@ -3224,10 +3224,10 @@ html {
 <br>]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/guiding-light/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/guiding-light/</guid>
 
                 
-                    <link>https://mikegalinski.com/portfolio/guiding-light/</link>
+                    <link>http://localhost:1313/portfolio/guiding-light/</link>
                 
 
                 
@@ -3649,10 +3649,10 @@ html {
 ]]></description>
                 
 
-                <guid isPermaLink="false">tag:mikegalinski.com,0001-01-01:/portfolio/disco-sorter/</guid>
+                <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/portfolio/disco-sorter/</guid>
 
                 
-                    <link>https://mikegalinski.com/portfolio/disco-sorter/</link>
+                    <link>http://localhost:1313/portfolio/disco-sorter/</link>
                 
 
                 
