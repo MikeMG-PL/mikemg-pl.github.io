@@ -1600,7 +1600,7 @@ html {
 </tr>
 </tbody>
 </table>
-<p>This is <strong>one of the first thing you should pay attention to</strong> when transistioning your project from a small graphics programming application to a simple framework/engine. Such improvement is easy to implement and it will be <strong>good enough</strong> in terms of optimizing memory and CPU efficiency in your first game engine.</p>
+<p>This is <strong>one of the first thing we wanted to pay attention to</strong> when transistioning our project from a small graphics programming application to a simple framework/engine. Such improvement was easy to implement for us, and it can be <strong>good enough</strong> in terms of optimizing memory and CPU efficiency in your first game engine too.</p>
 <h2 id="implementation">Implementation</h2>
 <p>Firstly, let&rsquo;s create a <code>ResourceManager</code> class and make it a Meyers&rsquo; Singleton. It&rsquo;s not the devil here. Singletons are often used in game engines, and having a global access to this only instance is really helpful. You also probably don&rsquo;t bother about thread-safety in you first, single-threaded, game engine.</p>
 <p>In our case, we list the following types of resources: <strong>shaders, textures, and meshes</strong>.</p>
@@ -1867,17 +1867,15 @@ html {
 </div>
 
 <h2 id="what-you-need-to-be-aware-of">What You Need to Be Aware of</h2>
-<p>Some might say, <em><strong>&ldquo;This code could be written differently!&rdquo;</strong></em>  Yes, probably better too. But as mentioned earlier, this engine was developed in <strong>a single semester</strong> by <strong>4 students</strong>, using the tools and techniques we were familiar with, <strong>primarily modern C++</strong>. Our goal was to create something functional and <strong>beginner-friendly</strong>, working within the constraints of our time and experience. We had just <strong>4 months</strong> to build both the engine and <a href="/portfolio/guiding-light/"><strong>create a game on it</strong></a> with the rest of the team. We know that <strong>engine programming is a vast field</strong> and <strong>our approach might sometimes differ from what you&rsquo;d see in AAA studios</strong>. Nevertheless, this was a solid first step and we’re proud of it. Special thanks to:</p>
+<p>As mentioned earlier, this engine was developed in <strong>a single semester</strong> by <strong>4 students</strong>, using the tools and techniques we were familiar with, <strong>primarily modern C++</strong>. Our goal was to create something functional and <strong>beginner-friendly</strong>, working within the constraints of our time and experience. We had just <strong>4 months</strong> to build both the engine and <a href="/portfolio/guiding-light/"><strong>create a game on it</strong></a> with the rest of the team. We know that <strong>engine programming is a vast field</strong> and <strong>our approach might sometimes differ from what you&rsquo;d see in AAA studios</strong>. Nevertheless, this was a solid first step and we’re proud of it. Special thanks to:</p>
 <ul>
 <li><a href="https://www.linkedin.com/in/mariusz-sielicki/">Mariusz Sielicki</a>, an experienced developer who has guided me and my team through struggles with resource management and broadened my grasp of how vast this topic is.</li>
 <li>Activision, for <a href="https://youtu.be/e_SSo7u1r_w?t=17490">appreciating our project and awarding it</a> at ZTGK 2024 Gamedev Contest.</li>
 </ul>
 <h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
 <ul>
-<li><a href="https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459">Game Engine Architecture, 3rd Edition</a> – a Bible of engine programming, serving as a great introductory text. Has a solid chapter on resource management.</li>
-<li><a href="https://stackoverflow.com/questions/86582/singleton-how-should-it-be-used/92193#92193">Singleton, How It Should Be Used, a StackOverflow Thread</a></li>
-<li><a href="https://stackoverflow.com/questions/86582/singleton-how-should-it-be-used/92193#92193">Orthodox C++ Manifest</a> – this is mostly how AAA graphics &amp; low-level engine modules requiring high performance are done. Worth getting into, but please, <strong>don&rsquo;t attempt to apply this in your first engine, especially an educational project with tight deadlines</strong>.</li>
-<li><a href="https://www.dataorienteddesign.com/dodbook/">Data Oriented Design, Online Release</a> – another great source on how (not only) engines and games are structured around data. This is also a AAA professional case.</li>
+<li><a href="https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459">Game Engine Architecture, 3rd Edition</a> – a Bible of engine programming, serving as a great introductory text. Has a solid chapter on resource management. Great!</li>
+<li><a href="https://www.gamedev.net/tutorials/_/technical/game-programming/a-resource-manager-for-game-assets-r3807/">A Resource Manager for Game Assets</a> – a similar article on gamedev.net, showing a similar approach with a use of an unordered map.</li>
 </ul>
 
 			
@@ -2155,29 +2153,29 @@ html {
         <picture>
           <source
             
-              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_545x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_545x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_600x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_600x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_700x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_700x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_1110x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_1110x0_resize_q80_h2_lanczos_3.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_1110x0_resize_lanczos_3.png"
+              src="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_1110x0_resize_lanczos_3.png"
             class=" mb-6 w-full rounded img"
-            alt="Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;"
+            alt="Holistic Game Production. How We Made &#34;Heartbreaker&#34;"
             width="1096"
             height="480" />
         </picture>
@@ -2193,8 +2191,8 @@ html {
 
   
   <h4 class="mb-3">
-    <a href="/blog/post-1/">
-      Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;
+    <a href="/blog/post-2/">
+      Holistic Game Production. How We Made &#34;Heartbreaker&#34;
     </a>
   </h4>
   
@@ -2217,8 +2215,8 @@ html {
       </li>
     </ul>
   
-  <p class="mb-6">Games take different approaches to teaching players how to play. Some provide explicit tutorials before the game starts, some offer no guidance, leaving players to figure out the mechanics on their own (or check a wiki), and others teach players seamlessly as they play.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/blog/post-1/">
+  <p class="mb-6">&ldquo;Heartbreaker&rdquo; started as a job interview task I built in one weekend. 18 months later, my teammates and I won an award with &ldquo;Heartbreaker&rdquo; during a global gamedev conference, surpassing over a 100 professional indie teams.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/post-2/">
     Read More
   </a>
 </div>
@@ -2308,29 +2306,29 @@ html {
         <picture>
           <source
             
-              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_545x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_545x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 575px)" />
           <source
             
-              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_600x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_600x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 767px)" />
           <source
             
-              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_700x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_700x0_resize_q80_h2_lanczos_3.webp"
             
             media="(max-width: 991px)" />
           <source
             
-              srcset="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_1110x0_resize_q80_h2_lanczos_3.webp"
+              srcset="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_1110x0_resize_q80_h2_lanczos_3.webp"
              />
           <img
             
               loading="lazy" decoding="async"
-              src="/images/posts/post-2/post-2_hua625995cca95f282c1cea8a3710f9a78_582589_1110x0_resize_lanczos_3.png"
+              src="/images/posts/post-1/post-1_hu15aada9750093d492186d7bc841149c3_326162_1110x0_resize_lanczos_3.png"
             class=" mb-6 w-full rounded img"
-            alt="Holistic Game Production. How We Made &#34;Heartbreaker&#34;"
+            alt="Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;"
             width="1096"
             height="480" />
         </picture>
@@ -2346,8 +2344,8 @@ html {
 
   
   <h4 class="mb-3">
-    <a href="/blog/post-2/">
-      Holistic Game Production. How We Made &#34;Heartbreaker&#34;
+    <a href="/blog/post-1/">
+      Designing a Seamless Tutorial. Case Study of &#34;Guiding Light&#34;
     </a>
   </h4>
   
@@ -2370,8 +2368,8 @@ html {
       </li>
     </ul>
   
-  <p class="mb-6">&ldquo;Heartbreaker&rdquo; started as a job interview task I built in one weekend. 18 months later, my teammates and I won an award with &ldquo;Heartbreaker&rdquo; during a global gamedev conference, surpassing over a 100 professional indie teams.</p>
-  <a class="btn btn-outline-primary btn-sm" href="/blog/post-2/">
+  <p class="mb-6">Games take different approaches to teaching players how to play. Some provide explicit tutorials before the game starts, some offer no guidance, leaving players to figure out the mechanics on their own (or check a wiki), and others teach players seamlessly as they play.</p>
+  <a class="btn btn-outline-primary btn-sm" href="/blog/post-1/">
     Read More
   </a>
 </div>
