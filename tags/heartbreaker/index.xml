@@ -121,26 +121,141 @@ html {
 }
 
 </style>
-<p>&ldquo;Heartbreaker&rdquo; started as a job interview task I moulded in one weekend. 18 months later, my teammates and I won an award with &ldquo;Heartbreaker&rdquo; during a global gamedev conference, surpassing over a 100 professional indie teams. How did we achieve it?</p>
+<p>&ldquo;Heartbreaker&rdquo; started as a job interview task I built in one weekend. 18 months later, my teammates and I won an award with &ldquo;Heartbreaker&rdquo; during a global gamedev conference, surpassing over a 100 professional indie teams. How did we achieve it?</p>
 <h2 id="abstract">Abstract</h2>
-<p>This text reflects my experience as a team coordinator/producer/director for the game &ldquo;Heartbreaker.&rdquo; I present loosely gathered thoughts on our multielement, holistic approach to developing this game. I also add my two cents&rsquo; worth in terms of the role of a game producer/director, not only in reference to our game. I believe that the <strong>amazing interdisciplinary team I was pleased to work with</strong> along with the <strong>holistic approach to our project</strong> are the answer to the above question: <em>&ldquo;How did we achieve a success with our game that many gamedev students would dream of?&rdquo;</em>.</p>
-<p>Please, remember: opinions I present in this post are my own, they come from my personal experience, discussions with more experienced devs, or quoted sources I find valuable. And keep in mind that despite winning this and that (Best Gameplay at Game Access Conference 2024, Czechia, or Best Game Design at ZTGK Gamedev Contest, Poland), <strong>&ldquo;Heartbreaker&rdquo; also has its flaws</strong>. We do our best to reduce them or to remove some problems entirely, but you need to know that <strong>nothing is perfect</strong> and <strong>not everything was executed perfectly in our game</strong>.</p>
-<h2 id="the-challenge-of-becoming-a-producer">The Challenge of Becoming A Producer</h2>
-<p>Before sharing production/design tips from my experience with &ldquo;Heartbreaker&rdquo;, I want to highlight that there are two key challenges related to becoming a commercial producer. <strong>I spoke with two experienced game producers</strong> from AA/AA+ studios, and <strong>they confirmed that both of the challenges I present below are real</strong>.</p>
-<h3 id="heading"></h3>
-<h4 id="some-roles-get-mixed-in-many-studios">Some Roles Get Mixed in Many Studios</h4>
-<p>This post also applies to <strong>creative directing</strong> and <strong>game design</strong>. In many studios, <strong>especially indie ones</strong>, one person, often the CEO, handles production and directing. And sometimes even design. It&rsquo;s not a bad thing in every single case, but trust me, I&rsquo;ve seen some destructive examples of this. These overlapping roles make definitions murky, so let me clarify them (at least this is how I view them):</p>
-<blockquote><b>Creative director</b> – a supervisor of the overall (macro) vision behind the game. Defines artistic/creative vision and the message it conveys. Ensures that the theme and experience are consistent and the game eventually reaches the overall shape it intended to have.</blockquote>
-<blockquote><b>Game producer</b> – a supervisor of time and budget during the development. Ensures that the game is delivered in a&nbsp;realistic timeframe with all resources a studio has. Aims to remove obstacles in front of the developers, serves as a&nbsp;team coordinator and keeps the project on track resource-wise.</blockquote>
-<blockquote><b>Game designer</b> – a person responsible for the micro vision of the game, focused on its rules, gameplay, specific sections, systems, levels, and elements that piece by piece build the overall vision a director aims to keep.</blockquote>
-<p>Of course, in large studios, these roles can branch off significantly. While the <strong>creative director</strong> role might be relatively atomic, <strong>producers can specialize into many roles</strong> such as technical producers, UI producers, audio producers, and so on. The complexity increases further when seniority levels are applied to these positions. <strong>The same with designers</strong> – there can be narrative, open world, or combat designers. Not only does it depend on the scale of a studio, but also the profile of a game. A D&amp;D-based open world RPG will require different staff than a competitive online FPS.</p>
-<p>What&rsquo;s more, when a company wants to hire a producer or director, the terms they use might differ from those used by other studios. For example, in a huge company there might exist two different positions: a <strong>game director</strong> and <strong>creative director</strong>, with one leaning more towards management. In another, there could be no such distinction at all. But fear nothing. If they hire, responsibilities of these roles are often clearly described&hellip; <em><strong>IF they hire&hellip;</strong></em></p>
-<h4 id="entry-level-producer-positions-are-rare">Entry-Level Producer Positions Are Rare</h4>
-<p>Apart from the current game industry crisis, <strong>it&rsquo;s not easy to find a junior role for a producer</strong>. There&rsquo;s even not really much of a thing like a &ldquo;Junior Producer&rdquo;. It&rsquo;s often sort of a &ldquo;Production Assistant&rdquo; and there are <strong>not many studios that hire one</strong>. This is often because of the internal structure. A production assistant, or an assistant producer, helps with day-to-day production tasks like leading daily meetings, taking notes, setting up additional meetings or supervising less critical aspects of production.</p>
-<p>I&rsquo;ve seen cases where new projects began, and lead producers <strong>emerged organically</strong> from experienced designers or developers. Because they were still partially involved in the design/technical development process, they needed someone to assist them production-wise – a production assistant.</p>
-<p>I mentioned <strong>&ldquo;emerging organically&rdquo;</strong> and <strong>that&rsquo;s also why there are few entry-level production jobs</strong>. It often happens that someone from the development team, skilled in a particular area and with a knack for management, starts supervising production in that field. This is how roles like technical producers or animation producers often emerge naturally in many companies, even without hiring new staff. So as you can see, there is no direct route towards becoming a producer.</p>
-<h2 id="elements-of-production">Elements of Production</h2>
-<p>First, I encourage you to get to know <a href="/portfolio/heartbreaker/">“Heartbreaker.”</a> This will help you follow the text more easily. You can even download and try the game yourself.</p>
+<p>This text reflects my experience as <strong>a team coordinator</strong> for the game &ldquo;Heartbreaker.&rdquo; It is also <strong>a postmortem</strong> of the game. I present loosely gathered thoughts on our multielement, holistic approach to developing &ldquo;Heartbreaker&rdquo;. I believe that <strong>the amazing interdisciplinary team I&rsquo;ve had the pleasure of working with</strong>, along with this <strong>holistic approach to the project</strong>, have been key to creating a game we are so proud of.</p>
+<h2 id="murky-roles">Murky Roles</h2>
+<p>It is <strong>five of us</strong> in &ldquo;Disco Angels&rdquo; team and everyone was involved into giving the &ldquo;macro&rdquo; direction of the game, designing &ldquo;micro&rdquo; elements of gameplay, or production. But some roles are indeed visible, and the key to cooperation in our tiny team is&hellip; trust!</p>
+<center>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 30px; font-family: Signika;"><strong>Our team receiving &ldquo;Best Gameplay&rdquo; award at Game Access Conference 2024, Indie Showcase</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="900"
+            height="600"
+            src="/images/posts/post-2/gac_huab1f3f7612d9f8a95b1a50178f629149_659458_0x600_resize_q100_h2_lanczos.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-2\/gac_huab1f3f7612d9f8a95b1a50178f629149_659458_0x600_resize_q100_lanczos.jpg'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+  <script>
+    window.addEventListener("load", (e) => {
+      const lightbox = GLightbox();
+    });
+  </script>
+
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<p>When an important artistic decision needs to be made, <a href="https://www.artstation.com/agatagranosik">Agata</a>, our art lead, has the final word. When there&rsquo;s a critical bug that needs to be fixed immediately, I know I can always trust <a href="https://github.com/0GreenClover0">Mikołaj</a>. When we had to implement an emergency option as fast as possible, <a href="https://github.com/kilifux">Mateusz</a> programmed it in a flash. Want to capture the atmosphere of a location with sound and music? <a href="https://soundcloud.com/michal_swistak">Michał Świstak</a> for the rescue! And me, with responsibilities ranging from programming to supervising formalities around events or setting up tasks. A conclusion?</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>The key to identifying roles in our team is trust. Although I serve as a leader/coordinator/producer, we feel responsible for the vision behind the game <strong>as one</strong>.</p>
+  </div>
+</div>
+<h2 id="elements-of-holistic-production-in-heartbreaker">Elements of Holistic Production in &ldquo;Heartbreaker&rdquo;</h2>
+<p>Applying a holistic approach during the development of &ldquo;Heartbreaker&rdquo; was one of the aspects I loved most about my role as a leader. It involved <strong>acknowledging every part of our creative vision and bringing it to life within a realistic timeframe</strong>. Several factors contributed to the high-quality experience we aimed to deliver, which I refer to as <strong>&ldquo;elements&rdquo;</strong>. For instance, knowing we would showcase our game at a professional game development conference, we wanted to ensure that <strong>none of the elements misfit</strong> or were <strong>of lower quality than the rest</strong>. Additionally, we aimed for all elements to support one another!</p>
+<p>I encourage you to get to know <a href="/portfolio/heartbreaker/">“Heartbreaker.”</a> This will help you follow the text more easily. You can even download and try the game yourself.</p>
 
 
     
@@ -149,7 +264,7 @@ html {
       ></iframe>
     </div>
 
-<p>Applying the holistic approach I describe using &ldquo;Heartbreaker&rdquo; as an example depicts, I believe, the role of a game producer in a nutshell: <strong>to notice each part of the creative vision and make it real using the team&rsquo;s resources</strong>. Multiple aspects contribute to the high-quality experience we aim to deliver to players. Let&rsquo;s call these aspects <strong>elements</strong> from now on. For example, when showcasing your game at professional game development events, contests, or conferences, it is crucial that <strong>none of the elements of your game misfit or be of lower quality than the others</strong>. What&rsquo;s more, <strong>all the elements should support each other</strong>.</p>
+<br>
 
 
 
@@ -172,41 +287,25 @@ html {
           stroke-linejoin="round"></path>
       </svg><p>Note</p>
   </div>
-  <div class="notice-body"><p>This isn&rsquo;t a prioritized list. While some may debate on what&rsquo;s more important, e.g. story or art style, holistic approach requires considering all elements together so they support each other. <strong>But!</strong> Prioritization and resource allocation are separate issues. Note that it&rsquo;s also impossible to name all the elements and list them here.</p></div>
+  <div class="notice-body"><p>The elements presented here aren&rsquo;t prioritized in any way. Sure, prioritization and resource allocation were different in case of every element, but we wanted to <strong>consider all the elements together</strong> so they support each other. This is what we call &ldquo;the holistic approach&rdquo; in &ldquo;Heartbreaker.&rdquo;</p></div>
 </div>
 
-<h3 id="heading-1"></h3>
+<h3 id="heading"></h3>
 <h4 id="gameplay">Gameplay</h4>
-<p>Games are interactive and built around their mechanics and rules, which is why I believe development should start with gameplay. While a creative vision related to a specific theme, story, or art style might come first, <strong>gameplay should be the foundation</strong>. The holistic approach <strong>isn’t</strong> necessarily about treating every element equally, or assigning the same amount of resources to each element, but ensuring they all support each other and are considered together. Based on my experience and consultation with more experienced developers, it’s usually best to begin by focusing on gameplay (not lore, not these 10 pages of backstory you’ve started writing). Rapid prototyping and the <strong>&ldquo;fail fast&rdquo;</strong> approach to testing gameplay are key to this process.</p>
-<p><strong>That means</strong>, I encourage you to focus on gameplay as much as possible at the beginning. <strong>That does not mean</strong>, e.g. your artists shouldn&rsquo;t be working on art/story/music elements in that moment.</p>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
-  </div>
-  <div class="notice-body"><p>Start the development with gameplay – prototype it, iterate, playtest, enhance.</p></div>
-</div>
-
-<p>Let&rsquo;s focus on prototyping, as its value is often underestimated. During development, it&rsquo;s crucial to <strong>build a testable and playable version of the most important gameplay mechanics as quickly as possible</strong>. This should be done frequently, especially when you&rsquo;re uncertain about whether your gameplay is fun. Early playtests are crucial for this – if a particular mechanic you&rsquo;re testing &ldquo;clicks,&rdquo; you&rsquo;ll likely receive that feedback from players. If not, players will notice and <strong>offer hints</strong> on why that might be. However, it&rsquo;s important to filter every piece of feedback. You should listen to players and take note of what they mention, but remember that you know the game best. Playtesters may point you in the right direction, but their conclusions about certain aspects of gameplay might be off. <strong>But that’s a topic for another article&hellip;</strong></p>
-<hr>
 <p>&ldquo;Heartbreaker&rdquo; started as a job interview task but eventually evolved into something entirely different in terms of art and gameplay. I describe it further in section <a href="#the-art-of-defining-scope-and-cutting-things-out">The Art of Defining Scope And Cutting Things Out</a>.</p>
-<p>This is why I need to describe the &ldquo;Heartbreaker&rdquo; gameplay from when it crystalized. As an FPP platformer, it&rsquo;s built around the idea of <strong>crashing hearts of stone through dynamic movement</strong>. This works well on the <a href="#theme--story">Theme &amp; Story</a> element but is also a core gameplay mechanic. You use a <strong>dash skill</strong> to crash into opponents&rsquo; hearts in the environment. This concept evolves to later pair your movement with trampolines or new abilities, such as a grappling hook.</p>
+<p>As an FPP platformer, it&rsquo;s built around the idea of <strong>crashing hearts of stone through dynamic movement</strong>. This works well on the <a href="#theme--story">Theme &amp; Story</a> element but is also a core gameplay mechanic. You use a <strong>dash skill</strong> to crash into opponents&rsquo; hearts in the environment. This concept evolves to later pair your movement with trampolines or new abilities, such as a grappling hook.</p>
+<p>It was the easiest for us to <strong>begin the development with gameplay</strong>. While a creative vision related to a specific theme, story, or art style might come first in some projects, <strong>gameplay was the foundation in ours</strong>. We wanted to kick things off with something interactive (not lore or ten pages of backstory). Rapid prototyping and the <strong>&ldquo;fail fast&rdquo;</strong> approach to testing gameplay were key to this process.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>We started the development with gameplay – multiple prototypes, iterations, playtests, and enhancing the experience.</p>
+  </div>
+</div>
+<p>Of course <strong>that did not mean</strong>, for instance, our artists weren&rsquo;t working on art or music elements during that time. Pure gameplay mechanics were simply what we devoted the most time to at that stage.</p>
+<p>Let&rsquo;s focus on prototyping – at the beginning it was crucial to <strong>build a testable and playable version of the most important gameplay mechanics as quickly as possible</strong>. We built <strong>a few of them</strong> and tested with players (mostly students in our gamedev club), to see what worked and what didn&rsquo;t. We did this frequently, especially when we were uncertain about whether our gameplay was fun. Early playtests were essential for this. If a particular mechanic, like &ldquo;constant jumping&rdquo; (more on that later) disoriented our players, we tweaked it and tested again. If it remained confusing, we cut it out. <strong>When something &ldquo;clicked,&rdquo;</strong> even in its rough form, <strong>players confirmed that during the tests</strong>. However, it was also important to filter all feedback. We listened to our players carefully and took notes of everything they mentioned, but the final decisions were ours. We knew that playtesters often pointed us in the right direction, but their conclusions about certain aspects of gameplay might sometimes differ from the real cause of the trouble, or sometimes we might just stick to our vision.</p>
 <center>
 
 
@@ -289,12 +388,6 @@ html {
 
 
 
-
-  <script>
-    window.addEventListener("load", (e) => {
-      const lightbox = GLightbox();
-    });
-  </script>
 
 
          
@@ -382,7 +475,7 @@ html {
 
 
 </center>
-<p>When testing fundamental gameplay mechanics, it&rsquo;s important to <strong>prepare a space that serves your needs</strong>. Typically, this involves creating an extra scene (a level) that is mostly empty but allows for easy enemy spawning or testing other game systems. In &ldquo;Heartbreaker&rdquo;, we call these levels &ldquo;Labs,&rdquo; as they function like a lab for experimenting with gameplay. This approach allows you to <strong>&ldquo;fail fast&rdquo;</strong> and iterate quickly. Additionally, don&rsquo;t underestimate value of creating custom tools for your game.</p>
+<p>When building fundamental gameplay mechanics, we <strong>prepared a comfortable space that served our needs</strong>. It was an extra scene (a level) that was mostly empty but allowed for easy enemy spawning or testing other game systems. In &ldquo;Heartbreaker&rdquo;, we call these levels &ldquo;Labs,&rdquo; as they function like a lab for experimenting with gameplay. This approach allowed us to <strong>&ldquo;fail fast&rdquo;</strong> and iterate quickly.</p>
 <center>
 <table>
 <thead>
@@ -479,34 +572,19 @@ html {
 </tbody>
 </table>
 </center>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>Prepare a comfortable space for developers to prototype, test, and iterate crucial gameplay mechanics. Don&rsquo;t fear creating custom tools.</p></div>
+  <div class="conclusion-body">
+    <p>We prepared a comfortable space for prototyping, testing, and iterating crucial gameplay mechanics.</p>
+  </div>
 </div>
-
 <h4 id="art-style--graphics">Art Style &amp; Graphics</h4>
 <p>Initially, we had two ideas for the art style of &ldquo;Heartbreaker&rdquo;, but neither was connected to the other elements of the game. However, once the <strong>core gameplay</strong> and <strong>lore</strong> emerged, everything began to make a good match.</p>
-<p>Those ideas were: <strong>wild west high above the ground</strong> and <strong>geometric abstraction</strong>. We chose the second option, but what we selected isn’t as important as how we connected the art style to the other elements. A relaxing nature of the setting along with holiday and party atmosphere go well with the gameplay – crashing hearts of stone. Players seeing the luxury (but abstract) resort think of: the story that <strong>matches the location</strong>, and gameplay. Viewing the art making up this world reminds the relaxing, slightly unreal atmosphere of the game, parallel to those &ldquo;meta&rdquo; gameplay mechanics.</p>
-<p>Our art style is not just randomly placed low-poly figures. We aimed to build a world that resembles the real one using these figures. <a href="https://www.artstation.com/agatagranosik">Agata</a>, responsible for leading the art direction of &ldquo;Heartbreaker&rdquo;, gathered a lot of references and drew inspiration from postmodern Mediterranean architecture. We blend abstract figures, which build the environment, and emissive elements, that guide players where to go (neons or the wind).</p>
+<p>Those ideas were: <strong>wild west high above the ground</strong> and <strong>geometric abstraction</strong>. We chose the second option, but what we selected isn&rsquo;t as important as how we connected the art style to the other elements. A relaxing nature of the setting along with holiday and party atmosphere went well with the gameplay – crashing hearts of stone. Players having traversed the luxury (but abstract) resort thought of: the story that <strong>matched the location</strong>, and gameplay. Having seen the art making up this world reminded the relaxing, slightly unreal atmosphere of the game, parallel to those &ldquo;meta&rdquo; gameplay mechanics.</p>
+<p>Our art style was not just randomly placed low-poly figures. We aimed to build a world that resembled the real one using these figures. <a href="https://www.artstation.com/agatagranosik">Agata</a>, responsible for leading the art direction of &ldquo;Heartbreaker&rdquo;, gathered a lot of references and drew inspiration from postmodern Mediterranean architecture. We blended abstract figures to shape the environment, and emissive elements that guided players where to go (neons or the wind).</p>
 <table>
 <thead>
 <tr>
@@ -715,74 +793,432 @@ html {
 </tr>
 </tbody>
 </table>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>We wanted to make art style parallel with gameplay and story. We also aimed to make players think of our gameplay and lore when they looked at our game.</p>
+  </div>
+</div>
+<h4 id="theme--story">Theme &amp; Story</h4>
+<p><strong>I wish I had known how challenging it would be to create a heavily story-driven adventure</strong> when I started my gamedev journey. This is why we decided to begin the development with gameplay. <strong>It was also much easier to build a story around existing gameplay</strong> than to do the reverse.</p>
+<p>This is how we approached &ldquo;Heartbreaker:&rdquo;: we established a solid gameplay foundation, developed an emerging art style, and built on simple lore and microstory. Both we and the playtesters were happy with the results! This approach also left us plenty of room to expand the story and lore later on.</p>
+<p>We knew that this is the exact approach <a href="https://youtu.be/d9_Isp17KN0?t=590">Valve took during the development of &ldquo;Portal.&rdquo;</a> Valve was extremely impressed by the prototype developed by DigiPen students, and wanted them to finish &ldquo;the portal game&rdquo; on Source Engine as fast as possible. Later on playtests showed that 15-30 minutes into the game players got bored by the lack of purpose, theme, and story. This feedback led to the development of the entire concept of Aperture Science Laboratories.</p>
+<hr>
+<p>Our game is quite &ldquo;meta&rdquo; in its narrative. In &ldquo;Heartbreaker&rdquo; player takes on the role of an anonymous character guided by the voice of a young woman, while visiting <strong>Elcoro</strong> – a realm inhabited by extremely wealthy individuals who achieved everything they desired in their lifes. Player then quickly realizes that this whole resort, although looking happy, is full of decadence and coldheartedness. The female narrator tells our hero to <strong>crash those hearts of stone</strong> to make the land happy again.</p>
+<p>We weren&rsquo;t afraid to <strong>reach for the story to rescue our gameplay</strong>. This is <strong>why we decided to introduce the idea of crashing hearts</strong>. We wanted to inject more context and familiarity to the mechanics we created.</p>
+<p>Long ago, the main gameplay idea was still the same: <strong>using dash for combat</strong>. Initially, enemies had their &ldquo;weak spot,&rdquo; the line showing where to dash in order to defeat them. During playtests it turned out that such gameplay is fun, but understanding the idea takes too long, thus, it&rsquo;s unintuitive. <strong>Story for the rescue!</strong> We redesigned the enemies and decided that hearts of stone will be their weak spots. More about how our gameplay changed over the course of the development in section <a href="#the-art-of-defining-scope-and-cutting-things-out">The Art of Defining Scope and Cutting Things Out</a>. 😉</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 24px; font-family: Signika;"><strong>Dashing over the line to defeat enemies</strong></span></th>
+<th style="text-align:center"><span style="font-size: 24px;  font-family: Signika;"><strong>Crashing hearts of enemies in &ldquo;Heartbreaker&rdquo;</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+      
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="570"
+            height="323"
+            src="/images/posts/post-2/four.gif"
+            alt=""
+            onerror="this.onerror='null';this.src=''" />
+      
+    
+
+  
+  
 
 
 
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
-  </div>
-  <div class="notice-body"><p>Make art style parallel with gameplay and story. Aim to make players think of your gameplay and story when they look at your game and the reverse.</p></div>
-</div>
 
-<h4 id="theme--story">Theme &amp; Story</h4>
-<p>Remember my advice about gameplay being the first thing you focus during the development? This is my personal opinion and &ldquo;gameplay first&rdquo; may not apply to every genre. In terms of story, there are indeed titles where it is more important than gameplay, such as &ldquo;Everybody’s Gone to the Rapture&rdquo; or &ldquo;Gone Home&rdquo;. However, <strong>I wish I had known how challenging it would be to create a heavily story-driven adventure</strong> when I started my gamedev journey. This is why I typically recommend young developers, like the students in our university gamedev club, to begin with gameplay. <strong>It&rsquo;s also much easier to build a story around existing gameplay</strong> than to do the reverse.</p>
-<p>This is how we approached &ldquo;Heartbreaker&rdquo;: we established a solid gameplay foundation, developed an emerging art style, and built on simple lore and microstory. Both we and the playtesters were happy with the results! This approach also left us plenty of room to expand the story and lore later on.</p>
-<p>To support this point, it is the exact approach <a href="https://youtu.be/d9_Isp17KN0?t=590">Valve took during the development of &ldquo;Portal.&rdquo;</a> Valve was extremely impressed by the prototype developed by DigiPen students, and wanted them to finish &ldquo;the portal game&rdquo; on Source Engine as fast as possible. Later on playtests showed that 15-30 minutes into the game players got bored by the lack of purpose, theme, and story. This feedback led to the development of the entire concept of Aperture Science Laboratories.</p>
-<hr>
-<p>The game is quite &ldquo;meta&rdquo; in its narrative. In &ldquo;Heartbreaker&rdquo; player takes on the role of an anonymous character guided by the voice of a young woman, while visiting <strong>Elcoro</strong> – a realm inhabited by extremely wealthy individuals who achieved everything they desired in their lifes. We quickly realize that this whole resort, although looking happy, is full of decadence and coldheartedness. The female narrator tells our hero to <strong>crash those hearts of stone</strong> to make the land happy again.</p>
-<p>Jesse Schell in his book <a href="https://www.amazon.com/Art-Game-Design-Lenses-Third/dp/1138632058">&ldquo;The Art of Game Design: A Book of Lenses&rdquo;</a> mentions that story can often go for the rescue when suffering from some development headaches!</p>
-<blockquote>My initial design for the gameplay in "Mordak’s Revenge" board game required players to <b>collect five keys</b> to battle the evil wizard Mordak at his stronghold. However, I realized it would be better if Mordak <b>could come to the player instead</b>, making the experience more immediate. So, I changed the story: <b>what if Mordak's castle was hidden</b>, and players needed to <b>collect five summoning stones</b> instead of keys? Once all five were gathered, Mordak could be summoned to battle the player in any circumstances. This simple change made the desired gameplay possible.
+
+
+</td>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+      
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="570"
+            height="323"
+            src="/images/posts/post-2/crash.gif"
+            alt=""
+            onerror="this.onerror='null';this.src=''" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<p>I like a similar example that Jesse Schell presents in his book <a href="https://www.amazon.com/Art-Game-Design-Lenses-Third/dp/1138632058">&ldquo;The Art of Game Design: A Book of Lenses:&rdquo;</a></p>
+<blockquote>My initial design for the gameplay in "Mordak's Revenge" board game required players to <b>collect five keys</b> to battle the evil wizard Mordak at his stronghold. However, I realized it would be better if Mordak <b>could come to the player instead</b>, making the experience more immediate. So, I changed the story: <b>what if Mordak's castle was hidden</b>, and players needed to <b>collect five summoning stones</b> instead of keys? Once all five were gathered, Mordak could be summoned to battle the player in any circumstances. This simple change made the desired gameplay possible.
 <br>
 <br>
 <span style="font-size: 20px; font-family: Signika; float: right; margin-top: 8px;"><i>— Jesse Schell in his book</i></span><br>
 </blockquote>
-<p>The author also points out (and I agree with him) that:</p>
+<p>Jesse Schell also points out (and I agree with him) that:</p>
 <blockquote>Story elements can often be changed with just a few words, where changing elements of gameplay might take weeks of balancing, and changing elements of technology might take months of reprogramming.
 <br>
 <br>
 <span style="font-size: 20px; font-family: Signika; float: right; margin-top: 8px;"><i>— Jesse Schell in his book</i></span><br>
 </blockquote>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>Story for the rescue! We used it to support other elements better, especially gameplay and the clarity of it.</p>
+  </div>
+</div>
+<h4 id="level-design--level-art">Level Design &amp; Level Art</h4>
+<p>In a linear game where players just traverse content it is extremely crucial that they know where to go. This was the main focus during the process of designing levels in &ldquo;Heartbreaker&rdquo;. To achieve this, we iterated our levels and modified them according to how they fit the gameplay (like adjusting distances between platforms). Iterating required us to <strong>keep the levels at the stage of blockout</strong> as long as possible.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><span style="font-size: 24px; font-family: Signika;"><strong>Early blockout with minimal decor</strong></span></th>
+<th style="text-align:center"><span style="font-size: 24px;  font-family: Signika;"><strong>Final game with enemies and level art applied</strong></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="570"
+            height="323"
+            src="/images/posts/post-2/early_blockout_hu817faa3cb373ba82ab4f533a5608d859_197416_570x323_resize_q100_h2_lanczos.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-2\/early_blockout_hu817faa3cb373ba82ab4f533a5608d859_197416_570x323_resize_q100_lanczos.jpg'" />
+      
+    
+
+  
+  
 
 
 
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
-  </div>
-  <div class="notice-body"><p>Story for the rescue! Don&rsquo;t be afraid to change it to support other elements better, especially gameplay and the clarity of it.</p></div>
-</div>
 
-<h4 id="level-design--level-art">Level Design &amp; Level Art</h4>
-<p>In a linear game where players just traverse content it is extremely crucial that they know where to go. This was the main focus during the process of designing levels in &ldquo;Heartbreaker&rdquo;. But firstly, <strong>let&rsquo;s distinct level design from level/environment art</strong>.</p>
+
+
+</td>
+<td style="text-align:center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+  
+    
+    
+      
+    
+
+    
+
+
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+      
+      
+
+      
+
+
+      
+
+      
+      
+        
+        
+        
+      
+      
+      
+      
+
+    
+    
+
+    
+    
+      
+      
+          <img
+            title=""
+            loading="lazy"
+            decoding="async"
+            class="img img-fluid "
+            width="570"
+            height="323"
+            src="/images/posts/post-2/final_game_hu256c679da0c3e477c1854629ea82166c_386095_570x323_resize_q100_h2_lanczos.webp"
+            alt=""
+            onerror="this.onerror='null';this.src='\/images\/posts\/post-2\/final_game_hu256c679da0c3e477c1854629ea82166c_386095_570x323_resize_q100_lanczos.jpg'" />
+      
+    
+
+  
+  
+
+
+
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
 <p>On <a href="https://jeffhoral.artstation.com">his ArtStation</a>, Jeff Horal, Principal Environment Artist at Mountaintop, showcases many locations from &ldquo;Destiny 2&rdquo; as blockouts – representing the level design phase – and their final look after adding actual models, applying materials, and including decoration. <strong>The upper image depicts the level during design iterations, while the lower image shows the finished version:</strong></p>
 <center>
 <table>
@@ -895,12 +1331,11 @@ html {
 </tbody>
 </table>
 </center>
-<p>This image was firstly presented to me during a university lecture, ❤ so I wanted to reference it here too!</p>
-<p>During production, it&rsquo;s extremely important to <strong>keep your levels in the level design stage</strong> (the upper picture) <strong>when iterating</strong>. This is because reworking a blockout is like playing with building blocks, and reworking a decorated level is like destroying your freshly arranged house, moving all the walls, and furnishing it again. <strong>Don&rsquo;t waste time for redoing your level art job unnecessarily</strong> and enter the level art stage <strong>after</strong> deep iterations and feedback from playtesters.</p>
-<hr>
-<p>This was also our goal during the development of &ldquo;Heartbreaker&rdquo;. However, I must admit that &ldquo;the YOLO approach&rdquo; kicked in a few times in several tight corners of production. Welcome to gamedev! 🎉 I discuss this further in the <a href="#the-mess-of-game-production">&ldquo;The Mess of Game Production&rdquo;</a> section.</p>
-<p>The normal process looked like this: a part of the level was designed as a blockout and tested through multiple iterations. After making some pivots and adjustments, the location was ready for decoration. This has been usually handled by Agata, our art lead, though other developers often have contributed as well.</p>
-<p><strong>We wanted to make every location you visit in &ldquo;Heartbreaker&rdquo; distinct and memorable</strong>. There&rsquo;s a patio with a garden party, swimming baths, a nightclub, jungle, housing district, atrium, casino, bowling alley, library, rooftop pool, mini-golf course, and a shopping mall&hellip; and that&rsquo;s just the first 20 minutes of the game! (Yes, I&rsquo;m so excited about our locations).</p>
+<p>This image was firstly presented to me during a university lecture ❤ and I wanted to reference it here too!</p>
+<p>So during production, it was extremely important to <strong>keep our levels in the level design stage</strong> (the upper picture) <strong>when iterating</strong>. This was because reworking a blockout is generally like playing with building blocks, and reworking a decorated level is like destroying your freshly arranged house, moving all the walls, and furnishing it again. We knew that if we don&rsquo;t test out the levels early, we will <strong>waste plenty of time redoing level art job unnecessarily</strong>. So we aimed to enter the level art stage <strong>after</strong> deep iterations and feedback from playtesters.</p>
+<p>Unfortunately, &ldquo;the YOLO approach&rdquo; kicked in a few times in several tight corners of production. Welcome to gamedev! 🎉 I discuss this further in the <a href="#the-mess-of-game-production">&ldquo;The Mess of Game Production&rdquo;</a> section.</p>
+<p>The normal process looked like this: a part of the level was designed as a blockout and tested through multiple iterations. After making some pivots and adjustments, the location was ready for decoration. This was usually handled by Agata, our art lead, though other developers often contributed as well.</p>
+<p>We also wanted <strong>to make every location you visit in &ldquo;Heartbreaker&rdquo; distinct and memorable</strong>. There&rsquo;s a patio with a garden party, swimming baths, a nightclub, jungle, housing district, atrium, casino, bowling alley, library, rooftop pool, mini-golf course, and a shopping mall&hellip; and that&rsquo;s just the first 20 minutes of the game! (Yes, I&rsquo;m so excited about our locations).</p>
 
 
 
@@ -1281,99 +1716,54 @@ html {
 
   
 
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>Keep your levels at the stage of blockout during prototyping and tests. Finishing it, decorating, and filling with final assets <strong>too early</strong> might result in unnecessary work.</p></div>
+  <div class="conclusion-body">
+    <p>We keeped levels at the stage of blockout during prototyping and tests. Finishing it, decorating, and filling with final assets <strong>too early</strong> might have resulted in unnecessary work.</p>
+  </div>
 </div>
-
 <h4 id="music--sfx">Music &amp; SFX</h4>
-<p>Sound and music are also something that holds the game together and you shouldn&rsquo;t ignore it. They are important for many reasons. Some more obvious, like being an integral part of the antourage around the game&rsquo;s setting, just like visuals. Less obvious reasons include <strong>being a major UX component</strong> – sound can be (and should be!) used as <strong>something that gives players feedback</strong> just as user interface, particles, or other visuals.</p>
+<p>Sound and music are also something that holded our game together. They were important for many reasons. Some more obvious, like being an integral part of the antourage around the game&rsquo;s setting, just like visuals. Less obvious reasons include <strong>being a major UX component</strong> – sound can be (and should be!) used as <strong>something that gives players feedback</strong> just as user interface, particles, or other visuals.</p>
 <hr>
-<p>In &ldquo;Heartbreaker&rdquo;, sound effects are everywhere – they accompany every action players take, every piece of it, to fully notify the players about what is happening right now. The main goal our sound designer and composer, <a href="https://soundcloud.com/michal_swistak">Michał</a>, has had was delivering the feeling of being immersed into the world we have created.</p>
+<p>In &ldquo;Heartbreaker&rdquo;, sound effects are everywhere – they accompany every action players take, every piece of it, to fully notify the players about what is happening right now. The main goal our sound designer and composer, <a href="https://soundcloud.com/michal_swistak">Michał</a>, had was delivering the feeling of being immersed into the world we have created.</p>
 <p>Soundtrack is also built around the party and holiday theme with a nostalgic addition to it. Players traverse the levels listening to chill &amp; beach house music. What is more, the music reflects the atmosphere of the story we discover and locations we visit. When we arrive at the garden party at the very beginning of the game, we can hear a lively dance track. When we reach darker but much more magical jungle, <a href="https://youtu.be/9UdSVbAIhKI?t=204" target="_blank">the music changes to more nostalgic</a>. You can listen to the full soundtrack below:</p>
 <div style="width: 500px; height: 500px; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto;">
     <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1842737232&color=%2398bcdc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/michal_swistak" title="michal_swistak" target="_blank" style="color: #cccccc; text-decoration: none;">Michał Świstak</a> · <a href="https://soundcloud.com/michal_swistak/sets/heartbreaker_ost" title="heartbreaker_OST" target="_blank" style="color: #cccccc; text-decoration: none;">Heartbreaker OST</a></div>
 </div>
-<p>Please also note that our game contains <strong>full voice acting</strong>. This was extremely important in terms of delivering our simple story. I&rsquo;ve also had plenty of fun with the whole entourage of producing high-quality voiceover, as a game producer. <strong>We rented a recording studio and Michał, our sound designer, supervised the process of recording voicelines with Ola, our narrator</strong>. We could together analyze the voicelines on the fly and guide Ola what do say differently or with different emotions. I absolutely loved the process.</p>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<p>Please also note that our game contains <strong>full voice acting</strong>. This was extremely important in terms of delivering our simple story. I&rsquo;ve also had plenty of fun with the whole entourage around producing high-quality voiceover, as a team coordinator. <strong>We rented a recording studio and Michał, our sound designer, supervised the process of recording voicelines with Ola, our narrator</strong>. We could together analyze the voicelines on the fly and guide Ola what do say differently or with different emotions. I absolutely loved the process.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>Sound and music provide feedback to players (tell what&rsquo;s happening) and set the atmosphere and they&rsquo;re as important as visuals.</p></div>
+  <div class="conclusion-body">
+    <p>Sound and music provided feedback to players (told them what&rsquo;s happening) and set the atmosphere, as we believed that sound is as important as visuals.</p>
+  </div>
 </div>
-
 <h4 id="ui--ux">UI &amp; UX</h4>
-<p>Another consequential element of the multilayered approach is the general user experience (UX). This is the overall feeling a user has while interacting with the product (game) and there are countless ways to mess it up. You should of course strive to bring it to a higher level and that often happens by massive iterations, tests, and observing players while asking <em>&ldquo;What do the players do?&rdquo;</em>, <em>&ldquo;Why do they do it?&rdquo;</em>, or <em>&ldquo;How do they do it?&rdquo;</em>.</p>
-<p>There are also thousands of ways to show what&rsquo;s going on in your game, and to let players interact with the game – and that&rsquo;s where UI comes in. User interface. And interface is not only things you see on your screen in an overlay manner. It&rsquo;s the totality of things that communicate information to the players and let them interact with your game.</p>
+<p>Another consequential element of the holistic approach is the general user experience (UX). This is the overall feeling a user has while interacting with the product (game). We of course strived to bring it to a higher level and that, again, happened by massive iterations, tests, and observing players while asking <em>&ldquo;What do the players do?&rdquo;</em>, <em>&ldquo;Why do they do it?&rdquo;</em>, or <em>&ldquo;How do they do it?&rdquo;</em>.</p>
+<p>There were also thousands of ways to show what&rsquo;s going on in our game, and to let players interact with the game – and that&rsquo;s where UI comes in. User interface. We knew that interface is not only things you see on your screen in an overlay manner. It&rsquo;s the totality of things that communicate information to the players and let them interact with your game.</p>
 <p>And now I&rsquo;d like to throw a shout-out to my teacher, <a href="https://www.linkedin.com/in/jaroslawandrzejczak/">Jarosław Andrzejczak, PhD</a>, a UX researcher, who has vastly improved the general user experience and clarity of many systems and mechanics we have included in our game.</p>
 <p>The main conclusion I have in reference to working on UI/UX of &ldquo;Heartbreaker&rdquo; is:</p>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>You can show many things in a more natural, &ldquo;human-friendly&rdquo; way, rather than with standardized and abused (and not always perfect) video game patterns.</p></div>
+  <div class="conclusion-body">
+    <p>We were able to show many things in a more natural, &ldquo;human-friendly&rdquo; way, rather than with standardized and abused (and not always perfect) video game patterns.</p>
+  </div>
 </div>
-
-<p>Let&rsquo;s take this example: In the second level we introduce <strong>the grappling hook</strong>. During playtests it turned out that this skill is massively overpowered. Grappling could get us literally everywhere. We came to a conclusion that grappling needs nerfing, although in a way that doesn&rsquo;t make the players feel weakened. So we decided that <strong>there will be only one use of the grappling hook</strong> but <strong>the players will earn it back with each heartbreak</strong>. So how do we show that rule to the player?</p>
-<p>Well obviously we could come up with an on-screen icon depicting a grappling hook. If it&rsquo;s full, we can use the grappling, if it&rsquo;s empty – we can&rsquo;t. <strong>That&rsquo;s the most brute-force thing one can potentially come up with</strong>. It can be done in a more natural and understandable way for the player – take a look at this idea of our teacher:</p>
+<p>Let&rsquo;s take this example: In the second level we introduce <strong>the grappling hook</strong>. During playtests it turned out that this skill is massively overpowered. Grappling could get us literally everywhere. We came to a conclusion that grappling needs nerfing, although in a way that doesn&rsquo;t make the players feel weakened. So we decided that <strong>there will be only one use of the grappling hook</strong> but <strong>the players will earn it back with each heartbreak</strong>. So how did we show that rule to the player?</p>
+<p>Well obviously we could come up with an on-screen icon depicting a grappling hook. For instance, if it&rsquo;s full, we can use the grappling, if it&rsquo;s empty – we can&rsquo;t. <strong>That&rsquo;s the most brute-force thing one can potentially come up with</strong>. It can be done in a more natural and understandable way for the player – take a look at this idea of our teacher:</p>
 <center>
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><span style="font-size: 30px; font-family: Signika;"><strong>Grappling is a heart fragment – you take it by breaking the heart.</strong></span></th>
+<th style="text-align:center"><span style="font-size: 30px; font-family: Signika;"><strong>Grappling is a heart fragment – you take it by breaking a heart.</strong></span></th>
 </tr>
 </thead>
 <tbody>
@@ -1465,10 +1855,10 @@ html {
 </tbody>
 </table>
 </center>
-<p>Why clutter the interface with additional icons just because that’s the first idea that comes to mind? <strong>We have hand animations, so we decided to use them!</strong> It&rsquo;s as simple as that: <strong>grappling is a piece of a heart</strong>. If you have this piece in your hand, obvoiusly you can use it and you see your character throw it. It&rsquo;s logical. A &ldquo;side-effect&rdquo; of it is that it limits the use of grappling, so <strong>this is the exact nerf of this gameplay aspect we aimed to achieve</strong>.</p>
+<p>Why clutter the interface with additional icons just because that was the first idea that came to our minds? <strong>We had hand animations, so we decided to use them!</strong> It&rsquo;s as simple as that: <strong>grappling is a piece of a heart</strong>. If you have this piece in your hand, obvoiusly you can use it and you see your character throw it. It&rsquo;s logical. A &ldquo;side-effect&rdquo; of it is that it limits the use of grappling, so <strong>this is the exact nerf of this gameplay aspect we aimed to achieve</strong>.</p>
 <h4 id="tutoring">Tutoring</h4>
-<p>Players need to learn how to play your game. So how do you do teach them? A tutorial? Or maybe throw the players into deep water and let them figure out gameplay on their own? We decided to apply a <strong>seamless approach</strong>. This means that, instead of a &ldquo;traditional&rdquo; tutorial we embedded the process of teaching players how to play into main levels of the game. The main goal of this is to not let the players realize that they are being taught how to play.</p>
-<p>And much more. Now I want to convey that <strong>bad tutoring in your game can put off players</strong>. And I find this topic so important that I even <a href="/blog/post-1/" target="_blank">wrote a separate article about that</a>. Trust me. Designing tutoring is a complex topic. So I encourage you to visit this separate text about it. But to not leave you with nothing at this point, I would like to highlight a &ldquo;megaprotip&rdquo; here: Please, <strong>don&rsquo;t underestimate the process of teaching players how to play</strong>. Don&rsquo;t leave it at the last moment of production, don&rsquo;t think that a short brief of controls or gameplay will be enough. Even if it teaches the player how to play, there&rsquo;s likely a better solution that&rsquo;s fun, elegant and helpful. <strong>Make other elements, especially UI &amp; UX support this element</strong>.</p>
+<p>Players needed to learn how to play &ldquo;Heartbreaker&rdquo;. So how did we teach them rules and mechanics? A tutorial? Or maybe by throwing the players into deep water and letting them figure out gameplay on their own? We decided to apply a <strong>seamless approach</strong>. This means that, instead of a &ldquo;traditional&rdquo; tutorial we embedded the process of teaching players how to play into main levels of the game. The main goal of this was to not let the players realize that they are being taught how to play.</p>
+<p>And much more. Now I want to convey that <strong>bad tutoring in this game could put off players massively</strong>. And I found this topic so important that I even <a href="/blog/post-1/" target="_blank">wrote a separate article</a> about that. Designing tutoring was a complex topic in every game I coworked on. I encourage you to visit this separate text about it. But to not leave you with nothing at this point, I would like to highlight a &ldquo;megaconclusion&rdquo; here: <strong>Paying attention to teaching players how to play paid off</strong>. We didn&rsquo;t leave it at the last moment of production, we didn&rsquo;t go for a short brief of controls or gameplay, deciding it&rsquo;s enough. We decided that embedding tutoring in gameplay is the most elegant solution here. We also <strong>made other elements, especially UI &amp; UX support the tutoring</strong>.</p>
 <center>
 <table>
 <thead>
@@ -1580,58 +1970,37 @@ html {
 </tbody>
 </table>
 </center>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>Approach tutoring players as another important gameplay element which needs to be intentionally thought-out and designed.</p></div>
+  <div class="conclusion-body">
+    <p>We approached tutoring players as another important element that needed intentional planning and design. We went with &ldquo;a seamless approach&rdquo; to keep the players immersed, and we were happy with the results.</p>
+  </div>
 </div>
-
 <h2 id="the-mess-of-game-production">The Mess of Game Production</h2>
-<p>No matter how well production is managed, unpredictable issues may arise. This could be an unexpected engine bug that prevents crucial systems from functioning, problems with outsourcing, or even hardware malfunctions. This is why a reasonable amount of time should be allocated during production as a safety buffer. And when you&rsquo;re concerned that certain tasks may take longer than anticipated, remember:</p>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<p>No matter how well production is managed, unpredictable issues may arise. This could be an unexpected engine bug that prevents crucial systems from functioning, problems with outsourcing, or even hardware malfunctions. This is why we decided to allocate a reasonable amount of time as a safety buffer. And when you&rsquo;re concerned that certain tasks may take longer than anticipated, remember what happened to us:</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>Things always take longer than expected. Take this into account when planning your time budget.</p></div>
+  <div class="conclusion-body">
+    <p>Things usually took longer than expected.</p>
+  </div>
 </div>
-
 <p>An example from the production of &ldquo;Heartbreaker&rdquo; is fog. During the development of the second level, we began using a different type of fog to cover the depths of the level. It turned out that this fog caused a memory leak in the engine&rsquo;s rendering module, resulting in slower performance and eventually crashing the engine. We discovered that this bug was fixed in the next Unreal Engine hotfix. However, several factors prevented us from migrating to the new version. While this problem slowed us down to some extent, we came up with a temporary solution. We concluded that the memory leak did not occur in the built game, so we created a simple script that deactivated all the fog in the editor and reactivated it just before building the game. <strong>Emergencies like this happen</strong>.</p>
-<p>To address &ldquo;the YOLO approach&rdquo; I mentioned earlier, there were significant untested sections of the blockout. Unfortunately, due to time constraints in a few tight corners of production, we had to finish the levels with very little player feedback regarding some parts. So we polished those parts, decorated them, and didn&rsquo;t look back. In several cases we were lucky and the reception of those level sections was satisfactory. However, some parts turned out to be too frustrating or difficult. The same with a few UI &amp; UX aspects – they could have been better, but we couldn’t manage some obstacles that arised every time. And even Scrum, Trello, TO-DO lists, or feedback-based rapid prototyping fell short in a few cases because certain obstacles were simply not predicted. Even though, the above lean tools are powerful, albeit basic. Remember: <strong>the role of the producer is to remove the obstacles in front of the development team</strong>.</p>
+<p>To address &ldquo;the YOLO approach&rdquo; I mentioned earlier, there were significant untested sections of the blockout. Unfortunately, due to time constraints in a few tight corners of production, we had to finish the levels with very little player feedback regarding some parts. So we polished those parts, decorated them, and didn&rsquo;t look back. In several cases we were lucky and the reception of those level sections was satisfactory. However, some parts turned out to be too frustrating or difficult. The same with a few UI &amp; UX aspects – they could have been better, but we couldn&rsquo;t manage some obstacles that arised every time. And even Scrum, Trello, TO-DO lists, or feedback-based rapid prototyping fell short in a few cases because certain obstacles were simply not predicted.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
+  </div>
+  <div class="conclusion-body">
+    <p>Despite saving a part of our time budget as a safety buffer, we lacked time for testing some sections of our levels or realizing a few gameplay ideas. This is what we aim to enhance in the future.</p>
+  </div>
+</div>
 <h2 id="the-art-of-defining-scope-and-cutting-things-out">The Art of Defining Scope And Cutting Things Out</h2>
 <p>I mentioned that &ldquo;Heartbreaker&rdquo; went through a lot before its gameplay crystalized. It started with a simple recruitment task I finished in one weekend (built with Blueprints and Unreal&rsquo;s LearningKit assets). It was a completely different game which trick was <strong>jumping and moving forward constantly</strong>. This trick was blended with basic puzzles and arcade character of the game, shooting, in addition. It looked like this:</p>
 <center>
@@ -1721,7 +2090,7 @@ html {
 </center>
 <p>Of course it resembles more of a gamejam prototype than an actual game, but me and my team started to build upon this prototype, test other camera perspectives and the idea in general. But then, a real gamejam happened!</p>
 <p>In 48 hours we created a game called &ldquo;The Power of Four Leaves&rdquo;, in which you played as <strong>a black cat staging a heist on a four-leaf clover storage</strong>. Players could fight lepricorns and, as the players embodied a black cat, the combat was designed as <strong>dashing in front of the lepricorns</strong>, so they are unlucky and disappear. And this is when we introduced the idea of using your movement as combat. You had to use <strong>a dash skill</strong> to make the lepricorn disappear. Pretty similar to <strong>dashing into hearts of the enemies</strong>, isn&rsquo;t it? Well, it&rsquo;s almost the same!</p>
-<p>Gamejam projects often have twisted gameplay, so of course there are GIFs with explanation:</p>
+<p>Gamejam projects often have twisted gameplay, but GIFs <strong>you&rsquo;ve already seen</strong> explain it quite well:</p>
 <table>
 <thead>
 <tr>
@@ -1903,71 +2272,41 @@ html {
 <p>We decided to blend the &ldquo;constant jumping&rdquo; idea <strong>(the one from the recruitment task)</strong> with using dash for combat and the results were&hellip; <strong>disappointing</strong>. One day I showed a prototype to some experienced devs during a local gamedev beer meeting and their feedback made us realize that <strong>this gameplay needs cuts</strong>.</p>
 <p>The problem was that <strong>our gameplay consisted of too many dynamic, difficult to master mechanics</strong> that were just <strong>random things put together</strong>. Then we were standing in front of a difficult choice – what to remove?</p>
 <p>We removed the whole &ldquo;constant jumping&rdquo; stuff and decided to master the dash combat. And the rest of it is &ldquo;Heartbreaker&rdquo; you can play today. We focused on <em>this one thing</em>, the <strong>unique selling point</strong> and aimed to master it. Every next gameplay aspect that was in the game to serve this idea and make it deeper. And we are proud of how it developed.</p>
-<p>The main conclusion here is: <strong>you shouldn&rsquo;t be afraid to &ldquo;kill your child&rdquo;</strong>. That means, <strong>you shouldn&rsquo;t hesitate to cut out a thing you spent time working on if it doesn&rsquo;t fit, doesn&rsquo;t work, or doesn&rsquo;t serve any real purpose in your game</strong>. I know this is difficult, learned it the hard way. But the outcome might be indeed lifesaving, because often &ldquo;less&rdquo; means &ldquo;better&rdquo; because of clarity, consistency, simplicity, and elegance of gameplay.</p>
-
-
-
-  
-
-
-
-<div class="notice tip">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM12 2.4C6.69807 2.4 2.4 6.69807 2.4 12C2.4 17.3019 6.69807 21.6 12 21.6C17.3019 21.6 21.6 17.3019 21.6 12C21.6 6.69807 17.3019 2.4 12 2.4ZM15.9515 7.55147L9.6 13.9029L8.04853 12.3515C7.5799 11.8828 6.8201 11.8828 6.35147 12.3515C5.88284 12.8201 5.88284 13.5799 6.35147 14.0485L8.75147 16.4485C9.2201 16.9172 9.9799 16.9172 10.4485 16.4485L17.6485 9.24853C18.1172 8.7799 18.1172 8.0201 17.6485 7.55147C17.1799 7.08284 16.4201 7.08284 15.9515 7.55147Z"
-          fill="currentColor" />
-      </svg><p>Tip</p>
+<p>The main conclusion here is: <strong>we shouldn&rsquo;t have been afraid to &ldquo;kill our child&rdquo;</strong>. That means <strong>no hesitation to cut out a thing we spent time working on, if it doesn&rsquo;t work, or doesn&rsquo;t serve any real purpose in our game</strong>. We learned it the hard way, but the outcome of making such difficult decisions might be indeed lifesaving. In &ldquo;Heartbreaker&rdquo; often &ldquo;less&rdquo; meant &ldquo;better&rdquo; because of clarity, consistency, simplicity, and elegance of gameplay.</p>
+<div class="conclusion">
+  <div class="conclusion-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion</p>
   </div>
-  <div class="notice-body"><p>Don&rsquo;t fear to sacrifice something you&rsquo;ve been working on for some time if it doesn&rsquo;t help your game. The game will benefit from this cut and that&rsquo;s what matters.</p></div>
+  <div class="conclusion-body">
+    <p>We shouldn&rsquo;t have feared to sacrifice something we&rsquo;ve been working on for some time, if it didn&rsquo;t help our game. &ldquo;Heartbreaker&rdquo; got better after such cuts and that&rsquo;s what mattered.</p>
+  </div>
 </div>
-
 <h2 id="summary">Summary</h2>
-<p>Woah! That was a lot of insight into &ldquo;Heartbreaker&rdquo;. I hope that I managed to show what challenges we, as a team, needed to tackle during the development and <strong>how we tied the game together using the holistic approach</strong>. This article is also my personal point of view with this <strong>&ldquo;aspiring producer/director&rdquo; mindset</strong>. Elements uncover obstacles a producer needs to be aware of, and needs to remove, so the development team can finish the game. <strong>Are there things that we could (or still can) do better in &ldquo;Heartbreaker&rdquo;?</strong> Of course! So for now take this tip summary and I&rsquo;m going back to working on our game. To iterate, test, prototype, and enhance.</p>
-
-
-
-  
-
-
-
-<div class="notice tip Summary">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
-      </svg><p>Tip Summary</p>
+<p>Woah! That was a lot of insight into &ldquo;Heartbreaker&rdquo;. I hope that I managed to show what challenges we, as a team, needed to tackle during the development and <strong>how we tied the game together using the holistic approach</strong>. This article is also my personal point of view with this <strong>&ldquo;aspiring producer/director&rdquo; mindset</strong>. Elements uncover obstacles a producer needs to be aware of, and needs to remove, so the development team can finish the game. And I love working with obstacles and restrictions.</p>
+<div class="conclusionsum">
+  <div class="conclusionsum-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion summary</p>
   </div>
-  <div class="notice-body"><p><ul>
-<li>Start the development with gameplay – prototype it, iterate, playtest, enhance.</li>
-<li>Prepare a comfortable space for developers to prototype, test, and iterate crucial gameplay mechanics. Don&rsquo;t fear creating custom tools.</li>
-<li>Make art style parallel with gameplay and story. Aim to make players think of your gameplay and story when they look at your game and the reverse.</li>
-<li>Story for the rescue! Don&rsquo;t be afraid to change it to support other elements better, especially gameplay and the clarity of it.</li>
-<li>Keep your levels at the stage of blockout during prototyping and tests. Finishing it, decorating, and filling with final assets <strong>too early</strong> might result in unnecessary work.</li>
-<li>Sound and music provide feedback to players (tell what&rsquo;s happening) and set the atmosphere and they&rsquo;re as important as visuals.</li>
-<li>You can show many things in a more natural, &ldquo;human-friendly&rdquo; way, rather than with standardized and abused (and not always perfect) video game patterns.</li>
-<li>Approach tutoring players as another important gameplay element which needs to be intentionally thought-out and designed.</li>
-<li>Things always take longer than expected. Take this into account when planning your time budget.</li>
-<li>Don&rsquo;t fear to sacrifice something you&rsquo;ve been working on for some time if it doesn&rsquo;t help your game. The game will benefit from this cut and that&rsquo;s what matters.</li>
+  <div class="conclusionsum-body">
+    <p><ul>
+<li>The key to identifying roles in our team is trust. Although I serve as a leader/coordinator/producer, we feel responsible for the vision behind the game <strong>as one</strong>.</li>
+<li>We started the development with gameplay – multiple prototypes, iterations, playtests, and enhancing the experience.</li>
+<li>We prepared a comfortable space for prototyping, testing, and iterating crucial gameplay mechanics.</li>
+<li>We wanted to make art style parallel with gameplay and story. We also aimed to make players think of our gameplay and lore when they looked at our game.</li>
+<li>Story for the rescue! We used it to support other elements better, especially gameplay and the clarity of it.</li>
+<li>We keeped levels at the stage of blockout during prototyping and tests. Finishing it, decorating, and filling with final assets <strong>too early</strong> might have resulted in unnecessary work.</li>
+<li>Sound and music provided feedback to players (told them what&rsquo;s happening) and set the atmosphere, as we believed that sound is as important as visuals.</li>
+<li>We were able to show many things in a more natural, &ldquo;human-friendly&rdquo; way, rather than with standardized and abused (and not always perfect) video game patterns.</li>
+<li>We approached tutoring players as another important element that needed intentional planning and design. We went with &ldquo;a seamless approach&rdquo; to keep the players immersed, and we were happy with the results.</li>
+<li>Things usually took longer than expected.</li>
+<li>Despite saving a part of our time budget as a safety buffer, we lacked time for testing some sections of our levels or realizing a few gameplay ideas. This is what we aim to enhance in the future.</li>
+<li>We shouldn&rsquo;t have feared to sacrifice something we&rsquo;ve been working on for some time, if it didn&rsquo;t help our game. &ldquo;Heartbreaker&rdquo; got better after such cuts and that&rsquo;s what mattered.</li>
 </ul>
-</p></div>
+</p>
+  </div>
 </div>
-
-<p>Good luck in managing your gamedev projects and remember: <strong>When a game succeeds, the development team succeeds. When a game fails, the producer fails</strong>. Keep the morale high, work as a team, and finish the game. Fingers crossed! 🤞</p>
 <h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=R5lFhTYnSS0">&ldquo;How to become a Game Producer #1&rdquo;</a> – partly a promotion for the Futuregames game producer course, but this webinar offers valuable info about being a producer. Part #1.</li>
@@ -1976,7 +2315,7 @@ html {
 <li><a href="https://www.youtube.com/watch?v=UBfKcBxtYkI">&ldquo;Narbacular Drop&rdquo; gameplay</a> – a game made by DigiPen Institute of Technology students that became a foundation of the original &ldquo;Portal.&rdquo;</li>
 <li><a href="https://www.amazon.com/Art-Game-Design-Lenses-Third/dp/1138632058">&ldquo;The Art of Game Design: A Book of Lenses, Third Edition&rdquo;</a> – the bible of game design by Jesse Schell.</li>
 <li><a href="https://jeffhoral.artstation.com">Jeff Horal ArtStation</a></li>
-<li><a href="/blog/post-1/">&ldquo;Why Tutorial in Your Game Sucks (And What To Do About It)&rdquo;</a> – my another article about seamless tutorials.</li>
+<li><a href="/blog/post-1/">&ldquo;Designing a Seamless Tutorial. Case Study of &ldquo;Guiding Light&rdquo;</a> – my another article about seamless tutorials.</li>
 </ul>
 ]]></description>
                 
