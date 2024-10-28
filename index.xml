@@ -195,7 +195,7 @@ html {
 </style>
 <p>Resource management in game engines is a wide term. It ranges from handling freshly exported assets to managing assets loaded into memory, in a specific form for particular engine modules. In this article I describe the most basic form of <strong>runtime resource management</strong> – based on sharing a resource loaded only once into memory.</p>
 <h2 id="background">Background</h2>
-<p>I present this topic in the context of a <a href="/portfolio/guiding-light/"><strong>simple game engine I coworked on</strong></a>, written in <strong>4 months</strong>, in modern C++ and DirectX 11 for courses conducted by <a href="https://p.lodz.pl/en">Lodz University of Technology</a>. In this post I want to guide <strong>students and beginners in engine programming</strong> trying to create their first game engine, drawing from my experience with this project.</p>
+<p>I present this topic in the context of a <a href="/portfolio/guiding-light/"><strong>simple game engine I coworked on</strong></a>, written in <strong>4 months</strong>, in modern C++ and DirectX 11 for courses conducted by <a href="https://p.lodz.pl/en">Lodz University of Technology</a>. Aimed <strong>at students and beginners</strong>, it&rsquo;s a guide based on our approach, working within limited time and resources to create a simple, yet fully functional engine. I don&rsquo;t claim to be an expert, and my coding style may differ from what you&rsquo;d find in AAA studios, but I hope our experience helps those taking their first steps in engine programming. And my team and I are very proud of that.</p>
 <h2 id="why-basic-resource-management-is-important">Why Basic Resource Management Is Important</h2>
 <p><strong>It&rsquo;s the memory cost, CPU efficiency, and loading times</strong>. Let&rsquo;s recall your first graphics programming project. Maybe it was a graphics programming course at your university or you were just playing with <a href="https://learnopengl.com">learnopengl.com</a>, or something else. <strong>Did you pay much attention to how often are the assets loaded?</strong></p>
 <p>Let&rsquo;s investigate a scene having <strong>20 identical models (with multiple meshes)</strong> and <strong>20 identical textures</strong> of the &ldquo;level completed&rdquo; panel. <strong>How many times are these assets loaded?</strong></p>
@@ -747,7 +747,7 @@ html {
 </table>
 <p>This is <strong>one of the first thing we wanted to pay attention to</strong> when transistioning our project from a small graphics programming application to a simple framework/engine. Such improvement was easy to implement for us, and it can be <strong>good enough</strong> in terms of optimizing memory and CPU efficiency in your first game engine too.</p>
 <h2 id="implementation">Implementation</h2>
-<p>Firstly, let&rsquo;s create a <code>ResourceManager</code> class and make it a Meyers&rsquo; Singleton. It&rsquo;s not the devil here. Singletons are often used in game engines, and having a global access to this only instance is really helpful. You also probably don&rsquo;t bother about thread-safety in you first, single-threaded, game engine.</p>
+<p>Firstly, let&rsquo;s create a <code>ResourceManager</code> class and make it a Meyers&rsquo; Singleton. It&rsquo;s not the devil here. Singletons are often used in game engines, and having a global access to this only instance is really helpful. You also probably don&rsquo;t bother about thread-safety in you first, single-threaded, game engine. But keep in mind that you should know implications of using particular patterns if you want to use them.</p>
 <p>In our case, we list the following types of resources: <strong>shaders, textures, and meshes</strong>.</p>
 
 
@@ -825,10 +825,10 @@ html {
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>std<span style="color:#f92672">::</span>unordered_map<span style="color:#f92672">&lt;</span>std<span style="color:#f92672">::</span>string, u16<span style="color:#f92672">&gt;</span> names_to_textures <span style="color:#f92672">=</span> {};
 </span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>unordered_map<span style="color:#f92672">&lt;</span>std<span style="color:#f92672">::</span>string, u16<span style="color:#f92672">&gt;</span> names_to_meshes <span style="color:#f92672">=</span> {};
 </span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>unordered_map<span style="color:#f92672">&lt;</span>std<span style="color:#f92672">::</span>string, u16<span style="color:#f92672">&gt;</span> names_to_shaders <span style="color:#f92672">=</span> {};
-</span></span></code></pre></div><p><code>std::unordered_map</code> here is perfect, because generating keys for a resource manager is convenient when using strings, and <code>std::unordered_map</code> hashes the strings. It&rsquo;s good to remember for the future that comparing hashed strings is <strong>much faster</strong> than actual strings!</p>
+</span></span></code></pre></div><p>Generating keys for a resource manager is convenient when using strings, and <code>std::unordered_map</code> is a hashmap, actually. Because of working with hashes, complexity of hashmap operations (inserting, deletions, lookup&hellip;) is O(1). So <code>std::unordered_map</code> fits well here.</p>
 <p>Let&rsquo;s also declare a simple method that just converts a stringstream to string, this is for convenience, and this is, in fact, generating a string key:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#a6e22e">[[nodiscard]]</span> std<span style="color:#f92672">::</span>string generate_key(std<span style="color:#f92672">::</span>stringstream <span style="color:#66d9ef">const</span><span style="color:#f92672">&amp;</span> stream) <span style="color:#66d9ef">const</span>;
-</span></span></code></pre></div><p>&hellip;and a method for retrieving an element from a vector. <strong>This is a template method</strong> <em>(compile time goes brrr!)</em>  but in this simple case it could be just three similar methods for each type of resource. It might look a bit ugly for you, but handling it like that is not necessarily bad. The resources are vastly different, and the more types of them you have, the harder it gets to prepare a unified approach. The nature of a resource manager itself often results in methods like this:</p>
+</span></span></code></pre></div><p>&hellip;and a method for retrieving an element from a vector. <strong>This is a template method</strong> <em>(compile time goes brrr!)</em>  but in this simple case it could be just three similar methods for each type of resource. It might look a bit ugly for you, but handling it like that is not necessarily bad. The resources are vastly different, and the more types of them you have, the harder it gets to prepare a unified approach. The nature of a resource manager itself often results in methods like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">template</span><span style="color:#f92672">&lt;</span><span style="color:#66d9ef">typename</span> T<span style="color:#f92672">&gt;</span>
 </span></span><span style="display:flex;"><span>std<span style="color:#f92672">::</span>shared_ptr<span style="color:#f92672">&lt;</span>T<span style="color:#f92672">&gt;</span> get_from_vector(std<span style="color:#f92672">::</span>string <span style="color:#66d9ef">const</span><span style="color:#f92672">&amp;</span> key)
 </span></span><span style="display:flex;"><span>{
@@ -977,29 +977,13 @@ html {
 <p>In more complex cases you might need to come up with more sophisticated ways of generating keys to identify the assets.</p>
 <h2 id="summary">Summary</h2>
 <p>That&rsquo;s it! I hope now you can be happy with your saved memory, smaller CPU usage, and shorter loading times. 😄 Even if the performance of your engine was improved just by a little, this was <strong>an important step in building a sensible engine architecture.</strong> And <strong>you will thank yourself for writing runtime resource manager</strong> when you will approach programming systems that <strong>load plenty of entities</strong>, such as <strong>particle systems</strong>. Here&rsquo;s a recap of the post:</p>
-
-
-
-  
-
-
-
-<div class="notice tip summary">
-  <div class="notice-head"><svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M10 9V14M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19ZM10.0498 6V6.1L9.9502 6.1002V6H10.0498Z"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"></path>
-      </svg><p>Tip Summary</p>
+<div class="conclusionsum">
+  <div class="conclusionsum-head">
+    <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+    <p style="color: #d1d5db;">Conclusion summary</p>
   </div>
-  <div class="notice-body"><p><p>How basic runtime resource manager works when you request (load) a resource:</p>
+  <div class="conclusionsum-body">
+    <p><p>How basic runtime resource manager works when you request (load) a resource:</p>
 <ul>
 <li><strong>it generates a key</strong> (each loading function may have slightly different implementation).</li>
 <li><strong>calls a template method <code>get_from_vector()</code></strong> specifying desired resource type and providing the key. It will return either <code>nullptr</code> or a valid resource.
@@ -1008,11 +992,10 @@ html {
 <li>if a <code>nullptr</code> is returned by <code>get_from_vector()</code>, a custom loading function (e.g. from a <code>ShaderLoader</code>) is called and the <strong>returned value is added to a vector</strong>. A <strong>key and ID</strong> pair is added to an unordered map. The freshly loaded resource is returned.</li>
 </ul>
 </li>
-</ul></p></div>
+</ul></p>
+  </div>
 </div>
-
-<h2 id="what-you-need-to-be-aware-of">What You Need to Be Aware of</h2>
-<p>As mentioned earlier, this engine was developed in <strong>a single semester</strong> by <strong>4 students</strong>, using the tools and techniques we were familiar with, <strong>primarily modern C++</strong>. Our goal was to create something functional and <strong>beginner-friendly</strong>, working within the constraints of our time and experience. We had just <strong>4 months</strong> to build both the engine and <a href="/portfolio/guiding-light/"><strong>create a game on it</strong></a> with the rest of the team. We know that <strong>engine programming is a vast field</strong> and <strong>our approach might sometimes differ from what you&rsquo;d see in AAA studios</strong>. Nevertheless, this was a solid first step and we’re proud of it. Special thanks to:</p>
+<p>Special thanks to:</p>
 <ul>
 <li><a href="https://www.linkedin.com/in/mariusz-sielicki/">Mariusz Sielicki</a>, an experienced developer who has guided me and my team through struggles with resource management and broadened my grasp of how vast this topic is.</li>
 <li>Activision, for <a href="https://youtu.be/e_SSo7u1r_w?t=17490">appreciating our project and awarding it</a> at ZTGK 2024 Gamedev Contest.</li>
@@ -1020,7 +1003,7 @@ html {
 <h2 id="sources--additional-materials">Sources &amp; Additional Materials</h2>
 <ul>
 <li><a href="https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459">Game Engine Architecture, 3rd Edition</a> – a Bible of engine programming, serving as a great introductory text. Has a solid chapter on resource management. Great!</li>
-<li><a href="https://www.gamedev.net/tutorials/_/technical/game-programming/a-resource-manager-for-game-assets-r3807/">A Resource Manager for Game Assets</a> – a similar article on gamedev.net, showing a similar approach with a use of an unordered map.</li>
+<li><a href="https://www.gamedev.net/tutorials/_/technical/game-programming/a-resource-manager-for-game-assets-r3807/">A Resource Manager for Game Assets</a> – an article on gamedev.net showing a similar approach with a use of an unordered map.</li>
 </ul>
 ]]></description>
                 
@@ -1209,11 +1192,11 @@ html {
     <p style="color: #d1d5db;">Conclusion</p>
   </div>
   <div class="conclusion-body">
-    <p>The key to identifying roles in our team is trust. Although I serve as a leader/coordinator/producer, we feel responsible for the vision behind the game <strong>as one</strong>.</p>
+    <p>The key to identifying roles in our team is trust. We feel responsible for the vision behind the game <strong>as one</strong>.</p>
   </div>
 </div>
 <h2 id="elements-of-holistic-production-in-heartbreaker">Elements of Holistic Production in &ldquo;Heartbreaker&rdquo;</h2>
-<p>Applying a holistic approach during the development of &ldquo;Heartbreaker&rdquo; was one of the aspects I loved most about my role as a leader. It involved <strong>acknowledging every part of our creative vision and bringing it to life within a realistic timeframe</strong>. Several factors contributed to the high-quality experience we aimed to deliver, which I refer to as <strong>&ldquo;elements&rdquo;</strong>. For instance, knowing we would showcase our game at a professional game development conference, we wanted to ensure that <strong>none of the elements misfit</strong> or were <strong>of lower quality than the rest</strong>. Additionally, we aimed for all elements to support one another!</p>
+<p>Applying a holistic approach during the development of &ldquo;Heartbreaker&rdquo; was one of the aspects I loved the most about my role as a leader. It involved <strong>acknowledging every part of our creative vision and bringing it to life within a realistic timeframe</strong>. Several factors contributed to the high-quality experience we aimed to deliver, which I refer to as <strong>&ldquo;elements&rdquo;</strong>. For instance, knowing we would showcase our game at a professional game development conference, we wanted to ensure that <strong>none of the elements misfit</strong> or were <strong>of lower quality than the rest</strong>. Additionally, we aimed for all elements to support one another!</p>
 <p>I encourage you to get to know <a href="/portfolio/heartbreaker/">“Heartbreaker.”</a> This will help you follow the text more easily. You can even download and try the game yourself.</p>
 
 
@@ -1252,8 +1235,8 @@ html {
 <h3 id="heading"></h3>
 <h4 id="gameplay">Gameplay</h4>
 <p>&ldquo;Heartbreaker&rdquo; started as a job interview task but eventually evolved into something entirely different in terms of art and gameplay. I describe it further in section <a href="#the-art-of-defining-scope-and-cutting-things-out">The Art of Defining Scope And Cutting Things Out</a>.</p>
-<p>As an FPP platformer, it&rsquo;s built around the idea of <strong>crashing hearts of stone through dynamic movement</strong>. This works well on the <a href="#theme--story">Theme &amp; Story</a> element but is also a core gameplay mechanic. You use a <strong>dash skill</strong> to crash into opponents&rsquo; hearts in the environment. This concept evolves to later pair your movement with trampolines or new abilities, such as a grappling hook.</p>
-<p>It was the easiest for us to <strong>begin the development with gameplay</strong>. While a creative vision related to a specific theme, story, or art style might come first in some projects, <strong>gameplay was the foundation in ours</strong>. We wanted to kick things off with something interactive (not lore or ten pages of backstory). Rapid prototyping and the <strong>&ldquo;fail fast&rdquo;</strong> approach to testing gameplay were key to this process.</p>
+<p>As an FPP platformer, it&rsquo;s built around the idea of <strong>crashing hearts of stone through dynamic movement</strong>. This works well on the <a href="#theme--story">Theme &amp; Story</a> element but is also a core gameplay mechanic. You use a <strong>dash skill</strong> to crash into opponents&rsquo; hearts in the environment. This concept evolves to later pair your movement with trampolines or new abilities, such as a grappling hook.</p>
+<p>It was the easiest for us to <strong>begin the development with gameplay</strong>. While a creative vision related to a specific theme, story, or art style might come first in some projects, <strong>gameplay was the foundation in ours</strong>. We wanted to kick things off with something interactive (not lore or ten pages of backstory). Rapid prototyping and the <strong>&ldquo;fail fast&rdquo;</strong> approach to testing gameplay were key in this process.</p>
 <div class="conclusion">
   <div class="conclusion-head">
     <svg width="25px" height="25px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.0006 9.03002C19.0007 8.10058 18.8158 7.18037 18.4565 6.32317C18.0972 5.46598 17.5709 4.68895 16.9081 4.03734C16.2453 3.38574 15.4594 2.87265 14.5962 2.52801C13.7331 2.18336 12.8099 2.01409 11.8806 2.03002C10.0966 2.08307 8.39798 2.80604 7.12302 4.05504C5.84807 5.30405 5.0903 6.98746 5.00059 8.77001C4.95795 9.9595 5.21931 11.1402 5.75999 12.2006C6.30067 13.2609 7.10281 14.1659 8.09058 14.83C8.36897 15.011 8.59791 15.2584 8.75678 15.5499C8.91565 15.8415 8.99945 16.168 9.00059 16.5V18.03H15.0006V16.5C15.0006 16.1689 15.0829 15.843 15.24 15.5515C15.3971 15.26 15.6241 15.0121 15.9006 14.83C16.8528 14.1911 17.6336 13.328 18.1741 12.3167C18.7147 11.3054 18.9985 10.1767 19.0006 9.03002V9.03002Z" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15 21.04C14.1345 21.6891 13.0819 22.04 12 22.04C10.9181 22.04 9.86548 21.6891 9 21.04" stroke="#ffd47c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
@@ -1264,7 +1247,7 @@ html {
   </div>
 </div>
 <p>Of course <strong>that did not mean</strong>, for instance, our artists weren&rsquo;t working on art or music elements during that time. Pure gameplay mechanics were simply what we devoted the most time to at that stage.</p>
-<p>Let&rsquo;s focus on prototyping – at the beginning it was crucial to <strong>build a testable and playable version of the most important gameplay mechanics as quickly as possible</strong>. We built <strong>a few of them</strong> and tested with players (mostly students in our gamedev club), to see what worked and what didn&rsquo;t. We did this frequently, especially when we were uncertain about whether our gameplay was fun. Early playtests were essential for this. If a particular mechanic, like &ldquo;constant jumping&rdquo; (more on that later) disoriented our players, we tweaked it and tested again. If it remained confusing, we cut it out. <strong>When something &ldquo;clicked,&rdquo;</strong> even in its rough form, <strong>players confirmed that during the tests</strong>. However, it was also important to filter all feedback. We listened to our players carefully and took notes of everything they mentioned, but the final decisions were ours. We knew that playtesters often pointed us in the right direction, but their conclusions about certain aspects of gameplay might sometimes differ from the real cause of the trouble, or sometimes we might just stick to our vision.</p>
+<p>Let&rsquo;s focus on prototyping – at the beginning it was crucial to <strong>build a testable and playable version of the most important gameplay mechanics as quickly as possible</strong>. We built <strong>a few of them</strong> and tested with players (mostly students in our gamedev club) to see what worked and what didn&rsquo;t. We did this frequently, especially when we were uncertain about whether our gameplay was fun. Early playtests were essential for this. If a particular mechanic, like &ldquo;constant jumping&rdquo; (more on that later) disoriented our players, we tweaked it and tested again. If it remained confusing, we cut it out. <strong>When something &ldquo;clicked,&rdquo;</strong> even in its rough form, <strong>players confirmed that during the tests</strong>. However, it was also important to filter all feedback. We listened to our players carefully and took notes of everything they mentioned, but the final decisions were ours. We knew that playtesters often pointed us in the right direction, but their conclusions about certain aspects of gameplay might sometimes differ from the real cause of the trouble, or sometimes we might just stick to our vision.</p>
 <center>
 
 
@@ -1763,7 +1746,7 @@ html {
 </div>
 <h4 id="theme--story">Theme &amp; Story</h4>
 <p><strong>I wish I had known how challenging it would be to create a heavily story-driven adventure</strong> when I started my gamedev journey. This is why we decided to begin the development with gameplay. <strong>It was also much easier to build a story around existing gameplay</strong> than to do the reverse.</p>
-<p>This is how we approached &ldquo;Heartbreaker:&rdquo;: we established a solid gameplay foundation, developed an emerging art style, and built on simple lore and microstory. Both we and the playtesters were happy with the results! This approach also left us plenty of room to expand the story and lore later on.</p>
+<p>This is how we approached &ldquo;Heartbreaker:&rdquo; we established a solid gameplay foundation, developed an emerging art style, and built on simple lore and microstory. Both we and the playtesters were happy with the results! This approach also left us plenty of room to expand the story and lore later on.</p>
 <p>We knew that this is the exact approach <a href="https://youtu.be/d9_Isp17KN0?t=590">Valve took during the development of &ldquo;Portal.&rdquo;</a> Valve was extremely impressed by the prototype developed by DigiPen students, and wanted them to finish &ldquo;the portal game&rdquo; on Source Engine as fast as possible. Later on playtests showed that 15-30 minutes into the game players got bored by the lack of purpose, theme, and story. This feedback led to the development of the entire concept of Aperture Science Laboratories.</p>
 <hr>
 <p>Our game is quite &ldquo;meta&rdquo; in its narrative. In &ldquo;Heartbreaker&rdquo; player takes on the role of an anonymous character guided by the voice of a young woman, while visiting <strong>Elcoro</strong> – a realm inhabited by extremely wealthy individuals who achieved everything they desired in their lifes. Player then quickly realizes that this whole resort, although looking happy, is full of decadence and coldheartedness. The female narrator tells our hero to <strong>crash those hearts of stone</strong> to make the land happy again.</p>
@@ -3250,7 +3233,7 @@ html {
   </div>
   <div class="conclusionsum-body">
     <p><ul>
-<li>The key to identifying roles in our team is trust. Although I serve as a leader/coordinator/producer, we feel responsible for the vision behind the game <strong>as one</strong>.</li>
+<li>The key to identifying roles in our team is trust. We feel responsible for the vision behind the game <strong>as one</strong>.</li>
 <li>We started the development with gameplay – multiple prototypes, iterations, playtests, and enhancing the experience.</li>
 <li>We prepared a comfortable space for prototyping, testing, and iterating crucial gameplay mechanics.</li>
 <li>We wanted to make art style parallel with gameplay and story. We also aimed to make players think of our gameplay and lore when they looked at our game.</li>
