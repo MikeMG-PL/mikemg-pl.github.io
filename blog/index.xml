@@ -683,7 +683,7 @@ html {
 </tr>
 </tbody>
 </table>
-<p>This is <strong>one of the first thing we wanted to pay attention to</strong> when transistioning our project from a small graphics programming application to a simple framework/engine. Such improvement was easy to implement for us, and it can be <strong>good enough</strong> in terms of optimizing memory and CPU efficiency in your first game engine too.</p>
+<p>This is <strong>one of the first things we wanted to pay attention to</strong> when transistioning our project from a small graphics programming application to a simple framework/engine. Such improvement was easy to implement for us, and it can be <strong>good enough</strong> in terms of optimizing memory and CPU efficiency in your first game engine too.</p>
 <h2 id="implementation">Implementation</h2>
 <p>Firstly, let&rsquo;s create a <code>ResourceManager</code> class and make it a Meyers&rsquo; Singleton. It&rsquo;s not the devil here. Singletons are often used in game engines, and having a global access to this only instance is really helpful. You also probably don&rsquo;t bother about thread-safety in you first, single-threaded, game engine. But keep in mind that you should know implications of using particular patterns if you want to use them.</p>
 <p>In our case, we list the following types of resources: <strong>shaders, textures, and meshes</strong>.</p>
